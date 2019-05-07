@@ -1,0 +1,27 @@
+{
+  "name": "axiom.org",
+  "private": true,
+  "description": "The axiom.org website",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop -p 8080",
+    "serve": "gatsby serve",
+    "test": "echo All zero tests passed successfully.",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "gatsby": "^2.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axiom-org/axiom-org.github.io"
+  }
+}
