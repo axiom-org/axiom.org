@@ -4,25 +4,25 @@ import Layout from "../components/layout";
 
 export default () => (
   <Layout>
-    <div id="wrapper" class="clearfix">
+    <div id="wrapper" className="clearfix">
       <header id="header">
         <div id="header-wrap">
-          <div class="container clearfix">
+          <div className="container clearfix">
             <div id="primary-menu-trigger">
-              <i class="icon-reorder" />
+              <i className="icon-reorder" />
             </div>
 
             <div id="logo">
               <a
                 href="index.html"
-                class="standard-logo"
+                className="standard-logo"
                 data-dark-logo="images/logo-dark.png"
               >
                 <img src="images/logo.png" alt="Canvas Logo" />
               </a>
               <a
                 href="index.html"
-                class="retina-logo"
+                className="retina-logo"
                 data-dark-logo="images/logo-dark@2x.png"
               >
                 <img src="images/logo@2x.png" alt="Canvas Logo" />
@@ -30,8 +30,8 @@ export default () => (
             </div>
 
             <nav id="primary-menu">
-              <ul class="one-page-menu">
-                <li class="current">
+              <ul className="one-page-menu">
+                <li className="current">
                   <a href="#" data-href="#section-home">
                     <div>Home</div>
                   </a>
@@ -68,57 +68,60 @@ export default () => (
       </header>
 
       <section id="content">
-        <div class="content-wrap">
-          <div class="container clearfix">
+        <div className="content-wrap">
+          <div className="container clearfix">
             <div
               id="section-home"
-              class="heading-block title-center nobottomborder page-section"
+              className="heading-block title-center nobottomborder page-section"
             >
               <h1>Starter's Guide to create Landing Pages</h1>
               <span>
                 Building a Landing Page was never so{" "}
-                <span class="color">Easy</span> &amp; Interactive
+                <span className="color">Easy</span> &amp; Interactive
               </span>
             </div>
 
-            <div class="center bottommargin d-none d-sm-block">
+            <div className="center bottommargin d-none d-sm-block">
               <a
                 href="#"
-                class="button button-3d button-teal button-xlarge nobottommargin"
+                className="button button-3d button-teal button-xlarge nobottommargin"
               >
-                <i class="icon-star3" />
+                <i className="icon-star3" />
                 Start your FREE Trial
               </a>
-              <span class="d-block d-lg-inline-block my-2"> - OR -</span>{" "}
+              <span className="d-block d-lg-inline-block my-2">
+                {" "}
+                - OR -
+              </span>{" "}
               <a
                 href="#"
                 data-scrollto="#section-pricing"
-                class="button button-3d button-red button-xlarge nobottommargin"
+                className="button button-3d button-red button-xlarge nobottommargin"
               >
-                <i class="icon-user2" />
+                <i className="icon-user2" />
                 Sign Up for a Subscription
               </a>
             </div>
 
-            <div class="center bottommargin d-sm-none">
-              <a href="#" class="button button-3d button-teal m-0">
-                <i class="icon-star3" />
+            <div className="center bottommargin d-sm-none">
+              <a href="#" className="button button-3d button-teal m-0">
+                <i className="icon-star3" />
                 Start your FREE Trial
               </a>
-              <span class="d-block my-2"> - OR -</span>{" "}
+              <span className="d-block my-2"> - OR -</span>{" "}
               <a
                 href="#"
                 data-scrollto="#section-pricing"
-                class="button button-3d button-red m-0"
+                className="button button-3d button-red m-0"
               >
-                <i class="icon-user2" />
+                <i className="icon-user2" />
                 Sign Up for a Subscription
               </a>
             </div>
 
-            <div class="clear" />
+            <div className="clear" />
 
-            <div class="col_one_third topmargin nobottommargin">
+            <div className="col_one_third topmargin nobottommargin">
               <h3>Short Overview.</h3>
 
               <p>
@@ -127,64 +130,66 @@ export default () => (
                 sapiente ipsam iure vel deserunt.
               </p>
 
-              <div class="divider divider-short">
-                <i class="icon-circle" />
+              <div className="divider divider-short">
+                <i className="icon-circle" />
               </div>
 
-              <ul class="iconlist iconlist-large iconlist-color">
+              <ul className="iconlist iconlist-large iconlist-color">
                 <li>
-                  <i class="icon-ok-sign" /> Interactive Live Builder
+                  <i className="icon-ok-sign" /> Interactive Live Builder
                 </li>
                 <li>
-                  <i class="icon-ok-sign" /> Valid HTML5 &amp; CSS3 Semantics
+                  <i className="icon-ok-sign" /> Valid HTML5 &amp; CSS3
+                  Semantics
                 </li>
                 <li>
-                  <i class="icon-ok-sign" /> 100% Open Source &amp; Customizable
+                  <i className="icon-ok-sign" /> 100% Open Source &amp;
+                  Customizable
                 </li>
                 <li>
-                  <i class="icon-ok-sign" /> Responsive &amp; Retina Devices
+                  <i className="icon-ok-sign" /> Responsive &amp; Retina Devices
                   Support
                 </li>
                 <li>
-                  <i class="icon-ok-sign" /> Easy Embeddable Media &amp;
+                  <i className="icon-ok-sign" /> Easy Embeddable Media &amp;
                   Graphics
                 </li>
                 <li>
-                  <i class="icon-ok-sign" /> Lifetime <strong>FREE</strong>{" "}
+                  <i className="icon-ok-sign" /> Lifetime <strong>FREE</strong>{" "}
                   Updates
                 </li>
               </ul>
             </div>
 
-            <div class="col_two_third topmargin nobottommargin col_last">
+            <div className="col_two_third topmargin nobottommargin col_last">
               <img
                 src="images/icons/macbook.png"
                 alt="Macbook Video Underlay"
                 style={{ position: "absolute", top: 0, left: 0 }}
               />
 
-              <div class="landing-video">
+              <div className="landing-video">
                 <iframe
                   src="http://player.vimeo.com/video/87701971"
                   width="560"
                   height="315"
-                  frameborder="0"
-                  webkitallowfullscreen
-                  mozallowfullscreen
-                  allowfullscreen
+                  frameBorder="0"
+                  webkitallowfullscreen="true"
+                  mozallowfullscreen="true"
+                  allowfullscreen="true"
                 />
               </div>
             </div>
 
-            <div class="clear" />
+            <div className="clear" />
 
-            <div class="divider divider-short divider-center">
-              <i class="icon-circle" />
+            <div className="divider divider-short divider-center">
+              <i className="icon-circle" />
             </div>
 
             <div
               id="section-features"
-              class="heading-block title-center page-section"
+              className="heading-block title-center page-section"
             >
               <h2>Features Overview</h2>
               <span>
@@ -192,9 +197,9 @@ export default () => (
               </span>
             </div>
 
-            <div class="col_one_third">
-              <div class="feature-box fbox-plain">
-                <div class="fbox-icon" data-animate="bounceIn">
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
+                <div className="fbox-icon" data-animate="bounceIn">
                   <a href="#">
                     <img
                       src="images/icons/features/responsive.png"
@@ -210,9 +215,13 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third">
-              <div class="feature-box fbox-plain">
-                <div class="fbox-icon" data-animate="bounceIn" data-delay="200">
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
+                <div
+                  className="fbox-icon"
+                  data-animate="bounceIn"
+                  data-delay="200"
+                >
                   <a href="#">
                     <img
                       src="images/icons/features/retina.png"
@@ -228,9 +237,13 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third col_last">
-              <div class="feature-box fbox-plain">
-                <div class="fbox-icon" data-animate="bounceIn" data-delay="400">
+            <div className="col_one_third col_last">
+              <div className="feature-box fbox-plain">
+                <div
+                  className="fbox-icon"
+                  data-animate="bounceIn"
+                  data-delay="400"
+                >
                   <a href="#">
                     <img
                       src="images/icons/features/performance.png"
@@ -246,11 +259,15 @@ export default () => (
               </div>
             </div>
 
-            <div class="clear" />
+            <div className="clear" />
 
-            <div class="col_one_third">
-              <div class="feature-box fbox-plain">
-                <div class="fbox-icon" data-animate="bounceIn" data-delay="600">
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
+                <div
+                  className="fbox-icon"
+                  data-animate="bounceIn"
+                  data-delay="600"
+                >
                   <a href="#">
                     <img
                       src="images/icons/features/flag.png"
@@ -266,9 +283,13 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third">
-              <div class="feature-box fbox-plain">
-                <div class="fbox-icon" data-animate="bounceIn" data-delay="800">
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
+                <div
+                  className="fbox-icon"
+                  data-animate="bounceIn"
+                  data-delay="800"
+                >
                   <a href="#">
                     <img
                       src="images/icons/features/tick.png"
@@ -284,10 +305,10 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third col_last">
-              <div class="feature-box fbox-plain">
+            <div className="col_one_third col_last">
+              <div className="feature-box fbox-plain">
                 <div
-                  class="fbox-icon"
+                  className="fbox-icon"
                   data-animate="bounceIn"
                   data-delay="1000"
                 >
@@ -306,12 +327,12 @@ export default () => (
               </div>
             </div>
 
-            <div class="clear" />
+            <div className="clear" />
 
-            <div class="col_one_third">
-              <div class="feature-box fbox-plain">
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
                 <div
-                  class="fbox-icon"
+                  className="fbox-icon"
                   data-animate="bounceIn"
                   data-delay="1200"
                 >
@@ -330,10 +351,10 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third">
-              <div class="feature-box fbox-plain">
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
                 <div
-                  class="fbox-icon"
+                  className="fbox-icon"
                   data-animate="bounceIn"
                   data-delay="1400"
                 >
@@ -352,10 +373,10 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third col_last">
-              <div class="feature-box fbox-plain">
+            <div className="col_one_third col_last">
+              <div className="feature-box fbox-plain">
                 <div
-                  class="fbox-icon"
+                  className="fbox-icon"
                   data-animate="bounceIn"
                   data-delay="1600"
                 >
@@ -374,37 +395,37 @@ export default () => (
               </div>
             </div>
 
-            <div class="clear" />
+            <div className="clear" />
 
-            <div class="divider divider-short divider-center">
-              <i class="icon-circle" />
+            <div className="divider divider-short divider-center">
+              <i className="icon-circle" />
             </div>
 
             <div
               id="section-pricing"
-              class="heading-block title-center page-section"
+              className="heading-block title-center page-section"
             >
               <h2>Smart Pricing</h2>
               <span>Flexible &amp; Easy Pricing for wide Audience Groups</span>
             </div>
 
-            <div class="row pricing bottommargin clearfix">
-              <div class="col-lg-3" data-animate="fadeInLeft">
-                <div class="pricing-box">
-                  <div class="pricing-title">
+            <div className="row pricing bottommargin clearfix">
+              <div className="col-lg-3" data-animate="fadeInLeft">
+                <div className="pricing-box">
+                  <div className="pricing-title">
                     <h3>Starter</h3>
                   </div>
-                  <div class="pricing-price">
-                    <span class="price-unit">&euro;</span>7
-                    <span class="price-tenure">/mo</span>
+                  <div className="pricing-price">
+                    <span className="price-unit">&euro;</span>7
+                    <span className="price-tenure">/mo</span>
                   </div>
-                  <div class="pricing-features">
+                  <div className="pricing-features">
                     <ul>
                       <li>
                         <strong>Full</strong> Access
                       </li>
                       <li>
-                        <i class="icon-code" /> Source Files
+                        <i className="icon-code" /> Source Files
                       </li>
                       <li>
                         <strong>100</strong> User Accounts
@@ -415,32 +436,36 @@ export default () => (
                       <li>Phone &amp; Email Support</li>
                     </ul>
                   </div>
-                  <div class="pricing-action">
-                    <a href="#" class="btn btn-danger btn-block btn-lg">
+                  <div className="pricing-action">
+                    <a href="#" className="btn btn-danger btn-block btn-lg">
                       Sign Up
                     </a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-3" data-animate="fadeInDown" data-delay="250">
-                <div class="pricing-box best-price">
-                  <div class="pricing-title">
+              <div
+                className="col-lg-3"
+                data-animate="fadeInDown"
+                data-delay="250"
+              >
+                <div className="pricing-box best-price">
+                  <div className="pricing-title">
                     <h3>Professional</h3>
                     <span>Most Popular</span>
                   </div>
-                  <div class="pricing-price">
-                    <span class="price-unit">&euro;</span>
+                  <div className="pricing-price">
+                    <span className="price-unit">&euro;</span>
                     12
-                    <span class="price-tenure">/mo</span>
+                    <span className="price-tenure">/mo</span>
                   </div>
-                  <div class="pricing-features">
+                  <div className="pricing-features">
                     <ul>
                       <li>
                         <strong>Full</strong> Access
                       </li>
                       <li>
-                        <i class="icon-code" /> Source Files
+                        <i className="icon-code" /> Source Files
                       </li>
                       <li>
                         <strong>1000</strong> User Accounts
@@ -449,18 +474,18 @@ export default () => (
                         <strong>2 Years</strong> License
                       </li>
                       <li>
-                        <i class="icon-star3" />
-                        <i class="icon-star3" />
-                        <i class="icon-star3" />
-                        <i class="icon-star3" />
-                        <i class="icon-star3" />
+                        <i className="icon-star3" />
+                        <i className="icon-star3" />
+                        <i className="icon-star3" />
+                        <i className="icon-star3" />
+                        <i className="icon-star3" />
                       </li>
                     </ul>
                   </div>
-                  <div class="pricing-action">
+                  <div className="pricing-action">
                     <a
                       href="#"
-                      class="btn btn-danger btn-block btn-lg bgcolor border-color"
+                      className="btn btn-danger btn-block btn-lg bgcolor border-color"
                     >
                       Sign Up
                     </a>
@@ -468,23 +493,27 @@ export default () => (
                 </div>
               </div>
 
-              <div class="col-lg-3" data-animate="fadeInUp" data-delay="500">
-                <div class="pricing-box">
-                  <div class="pricing-title">
+              <div
+                className="col-lg-3"
+                data-animate="fadeInUp"
+                data-delay="500"
+              >
+                <div className="pricing-box">
+                  <div className="pricing-title">
                     <h3>Business</h3>
                   </div>
-                  <div class="pricing-price">
-                    <span class="price-unit">&euro;</span>
+                  <div className="pricing-price">
+                    <span className="price-unit">&euro;</span>
                     19
-                    <span class="price-tenure">/mo</span>
+                    <span className="price-tenure">/mo</span>
                   </div>
-                  <div class="pricing-features">
+                  <div className="pricing-features">
                     <ul>
                       <li>
                         <strong>Full</strong> Access
                       </li>
                       <li>
-                        <i class="icon-code" /> Source Files
+                        <i className="icon-code" /> Source Files
                       </li>
                       <li>
                         <strong>500</strong> User Accounts
@@ -495,31 +524,35 @@ export default () => (
                       <li>Phone &amp; Email Support</li>
                     </ul>
                   </div>
-                  <div class="pricing-action">
-                    <a href="#" class="btn btn-danger btn-block btn-lg">
+                  <div className="pricing-action">
+                    <a href="#" className="btn btn-danger btn-block btn-lg">
                       Sign Up
                     </a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-3" data-animate="fadeInRight" data-delay="250">
-                <div class="pricing-box">
-                  <div class="pricing-title">
+              <div
+                className="col-lg-3"
+                data-animate="fadeInRight"
+                data-delay="250"
+              >
+                <div className="pricing-box">
+                  <div className="pricing-title">
                     <h3>Enterprise</h3>
                   </div>
-                  <div class="pricing-price">
-                    <span class="price-unit">&euro;</span>
+                  <div className="pricing-price">
+                    <span className="price-unit">&euro;</span>
                     29
-                    <span class="price-tenure">/mo</span>
+                    <span className="price-tenure">/mo</span>
                   </div>
-                  <div class="pricing-features">
+                  <div className="pricing-features">
                     <ul>
                       <li>
                         <strong>Full</strong> Access
                       </li>
                       <li>
-                        <i class="icon-code" /> Source Files
+                        <i className="icon-code" /> Source Files
                       </li>
                       <li>
                         <strong>1000</strong> User Accounts
@@ -530,8 +563,8 @@ export default () => (
                       <li>Phone &amp; Email Support</li>
                     </ul>
                   </div>
-                  <div class="pricing-action">
-                    <a href="#" class="btn btn-danger btn-block btn-lg">
+                  <div className="pricing-action">
+                    <a href="#" className="btn btn-danger btn-block btn-lg">
                       Sign Up
                     </a>
                   </div>
@@ -539,13 +572,13 @@ export default () => (
               </div>
             </div>
 
-            <div class="divider divider-short divider-center">
-              <i class="icon-circle" />
+            <div className="divider divider-short divider-center">
+              <i className="icon-circle" />
             </div>
 
             <div
               id="section-faqs"
-              class="heading-block title-center page-section"
+              className="heading-block title-center page-section"
             >
               <h2>Frequently Asked Questions</h2>
               <span>
@@ -553,7 +586,7 @@ export default () => (
               </span>
             </div>
 
-            <div class="col_half nobottommargin">
+            <div className="col_half nobottommargin">
               <h4 id="faq-1">
                 <strong>Q.</strong> How do I become an author?
               </h4>
@@ -567,7 +600,7 @@ export default () => (
                 nulla.
               </p>
 
-              <div class="line" />
+              <div className="line" />
 
               <h4 id="faq-2">
                 <strong>Q.</strong> Helpful Resources for Authors
@@ -584,7 +617,7 @@ export default () => (
                 dolor.
               </p>
 
-              <div class="line" />
+              <div className="line" />
 
               <h4 id="faq-3">
                 <strong>Q.</strong> How much money can I make?
@@ -601,7 +634,7 @@ export default () => (
                 exercitationem nisi et placeat excepturi velit!
               </p>
 
-              <div class="line" />
+              <div className="line" />
 
               <h4 id="faq-5">
                 <strong>Q.</strong> An Introduction to the Marketplaces for
@@ -616,7 +649,7 @@ export default () => (
               </p>
             </div>
 
-            <div class="col_half nobottommargin col_last">
+            <div className="col_half nobottommargin col_last">
               <h4 id="faq-7">
                 <strong>Q.</strong> What Images, Videos, Code or Music Can I Use
                 in my Items?
@@ -634,7 +667,7 @@ export default () => (
                 aliquam impedit.
               </p>
 
-              <div class="line" />
+              <div className="line" />
 
               <h4 id="faq-8">
                 <strong>Q.</strong> Can I use trademarked names in my items?
@@ -659,7 +692,7 @@ export default () => (
                 minus rem deleniti!
               </p>
 
-              <div class="line" />
+              <div className="line" />
 
               <h4 id="faq-9">
                 <strong>Q.</strong> Tips for Increasing Your Referral Income
@@ -678,39 +711,39 @@ export default () => (
               </p>
             </div>
 
-            <div class="clear" />
+            <div className="clear" />
 
-            <div class="divider divider-short divider-center">
-              <i class="icon-circle" />
+            <div className="divider divider-short divider-center">
+              <i className="icon-circle" />
             </div>
 
             <div
               id="section-contact"
-              class="heading-block title-center page-section"
+              className="heading-block title-center page-section"
             >
               <h2>Get in Touch with us</h2>
               <span>Still have Questions? Contact Us using the Form below</span>
             </div>
 
-            <div class="col_half">
-              <div class="fancy-title title-dotted-border">
+            <div className="col_half">
+              <div className="fancy-title title-dotted-border">
                 <h3>Send us an Email</h3>
               </div>
 
-              <div class="form-widget">
-                <div class="form-result" />
+              <div className="form-widget">
+                <div className="form-result" />
 
                 <form
-                  class="nobottommargin"
+                  className="nobottommargin"
                   id="template-contactform"
                   name="template-contactform"
                   action="include/form.php"
                   method="post"
                 >
-                  <div class="form-process" />
+                  <div className="form-process" />
 
-                  <div class="col_one_third">
-                    <label for="template-contactform-name">
+                  <div className="col_one_third">
+                    <label htmlFor="template-contactform-name">
                       Name <small>*</small>
                     </label>
                     <input
@@ -718,12 +751,12 @@ export default () => (
                       id="template-contactform-name"
                       name="template-contactform-name"
                       value=""
-                      class="sm-form-control required"
+                      className="sm-form-control required"
                     />
                   </div>
 
-                  <div class="col_one_third">
-                    <label for="template-contactform-email">
+                  <div className="col_one_third">
+                    <label htmlFor="template-contactform-email">
                       Email <small>*</small>
                     </label>
                     <input
@@ -731,25 +764,25 @@ export default () => (
                       id="template-contactform-email"
                       name="template-contactform-email"
                       value=""
-                      class="required email sm-form-control"
+                      className="required email sm-form-control"
                     />
                   </div>
 
-                  <div class="col_one_third col_last">
-                    <label for="template-contactform-phone">Phone</label>
+                  <div className="col_one_third col_last">
+                    <label htmlFor="template-contactform-phone">Phone</label>
                     <input
                       type="text"
                       id="template-contactform-phone"
                       name="template-contactform-phone"
                       value=""
-                      class="sm-form-control"
+                      className="sm-form-control"
                     />
                   </div>
 
-                  <div class="clear" />
+                  <div className="clear" />
 
-                  <div class="col_two_third">
-                    <label for="template-contactform-subject">
+                  <div className="col_two_third">
+                    <label htmlFor="template-contactform-subject">
                       Subject <small>*</small>
                     </label>
                     <input
@@ -757,16 +790,18 @@ export default () => (
                       id="template-contactform-subject"
                       name="subject"
                       value=""
-                      class="required sm-form-control"
+                      className="required sm-form-control"
                     />
                   </div>
 
-                  <div class="col_one_third col_last">
-                    <label for="template-contactform-service">Services</label>
+                  <div className="col_one_third col_last">
+                    <label htmlFor="template-contactform-service">
+                      Services
+                    </label>
                     <select
                       id="template-contactform-service"
                       name="template-contactform-service"
-                      class="sm-form-control"
+                      className="sm-form-control"
                     >
                       <option value="">-- Select One --</option>
                       <option value="Wordpress">Wordpress</option>
@@ -776,14 +811,14 @@ export default () => (
                     </select>
                   </div>
 
-                  <div class="clear" />
+                  <div className="clear" />
 
-                  <div class="col_full">
-                    <label for="template-contactform-message">
+                  <div className="col_full">
+                    <label htmlFor="template-contactform-message">
                       Message <small>*</small>
                     </label>
                     <textarea
-                      class="required sm-form-control"
+                      className="required sm-form-control"
                       id="template-contactform-message"
                       name="template-contactform-message"
                       rows="6"
@@ -791,19 +826,19 @@ export default () => (
                     />
                   </div>
 
-                  <div class="col_full hidden">
+                  <div className="col_full hidden">
                     <input
                       type="text"
                       id="template-contactform-botcheck"
                       name="template-contactform-botcheck"
                       value=""
-                      class="sm-form-control"
+                      className="sm-form-control"
                     />
                   </div>
 
-                  <div class="col_full">
+                  <div className="col_full">
                     <button
-                      class="button button-3d nomargin"
+                      className="button button-3d nomargin"
                       type="submit"
                       id="template-contactform-submit"
                       name="template-contactform-submit"
@@ -822,98 +857,98 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_half col_last">
+            <div className="col_half col_last">
               <section
                 id="google-map"
-                class="gmap"
+                className="gmap"
                 style={{ height: "410px" }}
               />
             </div>
 
-            <div class="col_full nobottommargin clearfix">
-              <div class="col_one_fourth">
-                <div class="feature-box fbox-center fbox-bg fbox-plain">
-                  <div class="fbox-icon">
+            <div className="col_full nobottommargin clearfix">
+              <div className="col_one_fourth">
+                <div className="feature-box fbox-center fbox-bg fbox-plain">
+                  <div className="fbox-icon">
                     <a href="#">
-                      <i class="icon-map-marker2" />
+                      <i className="icon-map-marker2" />
                     </a>
                   </div>
                   <h3>
                     Our Headquarters
-                    <span class="subtitle">Melbourne, Australia</span>
+                    <span className="subtitle">Melbourne, Australia</span>
                   </h3>
                 </div>
               </div>
 
-              <div class="col_one_fourth">
-                <div class="feature-box fbox-center fbox-bg fbox-plain">
-                  <div class="fbox-icon">
+              <div className="col_one_fourth">
+                <div className="feature-box fbox-center fbox-bg fbox-plain">
+                  <div className="fbox-icon">
                     <a href="#">
-                      <i class="icon-phone3" />
+                      <i className="icon-phone3" />
                     </a>
                   </div>
                   <h3>
                     Speak to Us
-                    <span class="subtitle">(123) 456 7890</span>
+                    <span className="subtitle">(123) 456 7890</span>
                   </h3>
                 </div>
               </div>
 
-              <div class="col_one_fourth">
-                <div class="feature-box fbox-center fbox-bg fbox-plain">
-                  <div class="fbox-icon">
+              <div className="col_one_fourth">
+                <div className="feature-box fbox-center fbox-bg fbox-plain">
+                  <div className="fbox-icon">
                     <a href="#">
-                      <i class="icon-skype2" />
+                      <i className="icon-skype2" />
                     </a>
                   </div>
                   <h3>
                     Make a Video Call
-                    <span class="subtitle">CanvasOnSkype</span>
+                    <span className="subtitle">CanvasOnSkype</span>
                   </h3>
                 </div>
               </div>
 
-              <div class="col_one_fourth col_last">
-                <div class="feature-box fbox-center fbox-bg fbox-plain">
-                  <div class="fbox-icon">
+              <div className="col_one_fourth col_last">
+                <div className="feature-box fbox-center fbox-bg fbox-plain">
+                  <div className="fbox-icon">
                     <a href="#">
-                      <i class="icon-twitter2" />
+                      <i className="icon-twitter2" />
                     </a>
                   </div>
                   <h3>
                     Follow on Twitter
-                    <span class="subtitle">2.3M Followers</span>
+                    <span className="subtitle">2.3M Followers</span>
                   </h3>
                 </div>
               </div>
             </div>
           </div>
 
-          <div id="section-buy" class="section page-section footer-stick">
-            <div class="container clearfix">
-              <div class="heading-block title-center nobottomborder">
+          <div id="section-buy" className="section page-section footer-stick">
+            <div className="container clearfix">
+              <div className="heading-block title-center nobottomborder">
                 <h2>Enough? Start Building!</h2>
                 <span>
                   Now that you have read all the Tid-Bits, so start with a plan
                 </span>
               </div>
 
-              <div class="center">
+              <div className="center">
                 <a
                   href="#"
                   data-animate="tada"
-                  class="button button-3d button-teal button-xlarge nobottommargin"
+                  className="button button-3d button-teal button-xlarge nobottommargin"
                 >
-                  <i class="icon-star3" />
+                  <i className="icon-star3" />
                   Start your FREE Trial
                 </a>{" "}
                 - OR -{" "}
                 <a
                   href="#"
                   data-scrollto="#section-pricing"
-                  class="button button-3d button-red button-xlarge nobottommargin"
+                  className="button button-3d button-red button-xlarge nobottommargin"
                 >
-                  <i class="icon-user2" />
+                  <i className="icon-user2" />
                   Sign Up for a Subscription
                 </a>
               </div>
@@ -922,16 +957,16 @@ export default () => (
         </div>
       </section>
 
-      <footer id="footer" class="dark">
-        <div class="container">
-          <div class="footer-widgets-wrap clearfix">
-            <div class="col_two_third">
-              <div class="col_one_third">
-                <div class="widget clearfix">
+      <footer id="footer" className="dark">
+        <div className="container">
+          <div className="footer-widgets-wrap clearfix">
+            <div className="col_two_third">
+              <div className="col_one_third">
+                <div className="widget clearfix">
                   <img
                     src="images/footer-widget-logo.png"
                     alt=""
-                    class="footer-logo"
+                    className="footer-logo"
                   />
 
                   <p>
@@ -973,8 +1008,8 @@ export default () => (
                 </div>
               </div>
 
-              <div class="col_one_third">
-                <div class="widget widget_links clearfix">
+              <div className="col_one_third">
+                <div className="widget widget_links clearfix">
                   <h4>Blogroll</h4>
 
                   <ul>
@@ -1007,51 +1042,51 @@ export default () => (
                 </div>
               </div>
 
-              <div class="col_one_third col_last">
-                <div class="widget clearfix">
+              <div className="col_one_third col_last">
+                <div className="widget clearfix">
                   <h4>Recent Posts</h4>
 
                   <div id="post-list-footer">
-                    <div class="spost clearfix">
-                      <div class="entry-c">
-                        <div class="entry-title">
+                    <div className="spost clearfix">
+                      <div className="entry-c">
+                        <div className="entry-title">
                           <h4>
                             <a href="#">
                               Lorem ipsum dolor sit amet, consectetur
                             </a>
                           </h4>
                         </div>
-                        <ul class="entry-meta">
+                        <ul className="entry-meta">
                           <li>10th July 2014</li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="spost clearfix">
-                      <div class="entry-c">
-                        <div class="entry-title">
+                    <div className="spost clearfix">
+                      <div className="entry-c">
+                        <div className="entry-title">
                           <h4>
                             <a href="#">
                               Elit Assumenda vel amet dolorum quasi
                             </a>
                           </h4>
                         </div>
-                        <ul class="entry-meta">
+                        <ul className="entry-meta">
                           <li>10th July 2014</li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="spost clearfix">
-                      <div class="entry-c">
-                        <div class="entry-title">
+                    <div className="spost clearfix">
+                      <div className="entry-c">
+                        <div className="entry-title">
                           <h4>
                             <a href="#">
                               Debitis nihil placeat, illum est nisi
                             </a>
                           </h4>
                         </div>
-                        <ul class="entry-meta">
+                        <ul className="entry-meta">
                           <li>10th July 2014</li>
                         </ul>
                       </div>
@@ -1061,11 +1096,14 @@ export default () => (
               </div>
             </div>
 
-            <div class="col_one_third col_last">
-              <div class="widget clearfix" style={{ marginBottom: "-20px" }}>
-                <div class="row">
-                  <div class="col-lg-6 bottommargin-sm">
-                    <div class="counter counter-small">
+            <div className="col_one_third col_last">
+              <div
+                className="widget clearfix"
+                style={{ marginBottom: "-20px" }}
+              >
+                <div className="row">
+                  <div className="col-lg-6 bottommargin-sm">
+                    <div className="counter counter-small">
                       <span
                         data-from="50"
                         data-to="15065421"
@@ -1074,11 +1112,11 @@ export default () => (
                         data-comma="true"
                       />
                     </div>
-                    <h5 class="nobottommargin">Total Downloads</h5>
+                    <h5 className="nobottommargin">Total Downloads</h5>
                   </div>
 
-                  <div class="col-lg-6 bottommargin-sm">
-                    <div class="counter counter-small">
+                  <div className="col-lg-6 bottommargin-sm">
+                    <div className="counter counter-small">
                       <span
                         data-from="100"
                         data-to="18465"
@@ -1087,38 +1125,38 @@ export default () => (
                         data-comma="true"
                       />
                     </div>
-                    <h5 class="nobottommargin">Clients</h5>
+                    <h5 className="nobottommargin">Clients</h5>
                   </div>
                 </div>
               </div>
 
-              <div class="widget subscribe-widget clearfix">
+              <div className="widget subscribe-widget clearfix">
                 <h5>
                   <strong>Subscribe</strong> to Our Newsletter to get Important
                   News, Amazing Offers &amp; Inside Scoops:
                 </h5>
-                <div class="widget-subscribe-form-result" />
+                <div className="widget-subscribe-form-result" />
                 <form
                   id="widget-subscribe-form"
                   action="include/subscribe.php"
                   method="post"
-                  class="nobottommargin"
+                  className="nobottommargin"
                 >
-                  <div class="input-group divcenter">
-                    <div class="input-group-prepend">
-                      <div class="input-group-text">
-                        <i class="icon-email2" />
+                  <div className="input-group divcenter">
+                    <div className="input-group-prepend">
+                      <div className="input-group-text">
+                        <i className="icon-email2" />
                       </div>
                     </div>
                     <input
                       type="email"
                       id="widget-subscribe-form-email"
                       name="widget-subscribe-form-email"
-                      class="form-control required email"
+                      className="form-control required email"
                       placeholder="Enter your Email"
                     />
-                    <div class="input-group-append">
-                      <button class="btn btn-success" type="submit">
+                    <div className="input-group-append">
+                      <button className="btn btn-success" type="submit">
                         Subscribe
                       </button>
                     </div>
@@ -1126,16 +1164,19 @@ export default () => (
                 </form>
               </div>
 
-              <div class="widget clearfix" style={{ marginBottom: "-20px" }}>
-                <div class="row">
-                  <div class="col-lg-6 clearfix bottommargin-sm">
+              <div
+                className="widget clearfix"
+                style={{ marginBottom: "-20px" }}
+              >
+                <div className="row">
+                  <div className="col-lg-6 clearfix bottommargin-sm">
                     <a
                       href="#"
-                      class="social-icon si-dark si-colored si-facebook nobottommargin"
+                      className="social-icon si-dark si-colored si-facebook nobottommargin"
                       style={{ marginRight: "10px" }}
                     >
-                      <i class="icon-facebook" />
-                      <i class="icon-facebook" />
+                      <i className="icon-facebook" />
+                      <i className="icon-facebook" />
                     </a>
                     <a href="#">
                       <small style={{ display: "block", marginTop: "3px" }}>
@@ -1145,14 +1186,14 @@ export default () => (
                       </small>
                     </a>
                   </div>
-                  <div class="col-lg-6 clearfix">
+                  <div className="col-lg-6 clearfix">
                     <a
                       href="#"
-                      class="social-icon si-dark si-colored si-rss nobottommargin"
+                      className="social-icon si-dark si-colored si-rss nobottommargin"
                       style={{ marginRight: "10px" }}
                     >
-                      <i class="icon-rss" />
-                      <i class="icon-rss" />
+                      <i className="icon-rss" />
+                      <i className="icon-rss" />
                     </a>
                     <a href="#">
                       <small style={{ display: "block", marginTop: "3px" }}>
@@ -1169,84 +1210,94 @@ export default () => (
         </div>
 
         <div id="copyrights">
-          <div class="container clearfix">
-            <div class="col_half">
+          <div className="container clearfix">
+            <div className="col_half">
               Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.
               <br />
-              <div class="copyright-links">
+              <div className="copyright-links">
                 <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
               </div>
             </div>
 
-            <div class="col_half col_last tright">
-              <div class="fright clearfix">
+            <div className="col_half col_last tright">
+              <div className="fright clearfix">
                 <a
                   href="#"
-                  class="social-icon si-small si-borderless si-facebook"
+                  className="social-icon si-small si-borderless si-facebook"
                 >
-                  <i class="icon-facebook" />
-                  <i class="icon-facebook" />
-                </a>
-
-                <a
-                  href="#"
-                  class="social-icon si-small si-borderless si-twitter"
-                >
-                  <i class="icon-twitter" />
-                  <i class="icon-twitter" />
-                </a>
-
-                <a href="#" class="social-icon si-small si-borderless si-gplus">
-                  <i class="icon-gplus" />
-                  <i class="icon-gplus" />
+                  <i className="icon-facebook" />
+                  <i className="icon-facebook" />
                 </a>
 
                 <a
                   href="#"
-                  class="social-icon si-small si-borderless si-pinterest"
+                  className="social-icon si-small si-borderless si-twitter"
                 >
-                  <i class="icon-pinterest" />
-                  <i class="icon-pinterest" />
-                </a>
-
-                <a href="#" class="social-icon si-small si-borderless si-vimeo">
-                  <i class="icon-vimeo" />
-                  <i class="icon-vimeo" />
+                  <i className="icon-twitter" />
+                  <i className="icon-twitter" />
                 </a>
 
                 <a
                   href="#"
-                  class="social-icon si-small si-borderless si-github"
+                  className="social-icon si-small si-borderless si-gplus"
                 >
-                  <i class="icon-github" />
-                  <i class="icon-github" />
-                </a>
-
-                <a href="#" class="social-icon si-small si-borderless si-yahoo">
-                  <i class="icon-yahoo" />
-                  <i class="icon-yahoo" />
+                  <i className="icon-gplus" />
+                  <i className="icon-gplus" />
                 </a>
 
                 <a
                   href="#"
-                  class="social-icon si-small si-borderless si-linkedin"
+                  className="social-icon si-small si-borderless si-pinterest"
                 >
-                  <i class="icon-linkedin" />
-                  <i class="icon-linkedin" />
+                  <i className="icon-pinterest" />
+                  <i className="icon-pinterest" />
+                </a>
+
+                <a
+                  href="#"
+                  className="social-icon si-small si-borderless si-vimeo"
+                >
+                  <i className="icon-vimeo" />
+                  <i className="icon-vimeo" />
+                </a>
+
+                <a
+                  href="#"
+                  className="social-icon si-small si-borderless si-github"
+                >
+                  <i className="icon-github" />
+                  <i className="icon-github" />
+                </a>
+
+                <a
+                  href="#"
+                  className="social-icon si-small si-borderless si-yahoo"
+                >
+                  <i className="icon-yahoo" />
+                  <i className="icon-yahoo" />
+                </a>
+
+                <a
+                  href="#"
+                  className="social-icon si-small si-borderless si-linkedin"
+                >
+                  <i className="icon-linkedin" />
+                  <i className="icon-linkedin" />
                 </a>
               </div>
-              <div class="clear" />
-              <i class="icon-envelope2" /> info@canvas.com{" "}
-              <span class="middot">&middot;</span> <i class="icon-headphones" />{" "}
-              +91-11-6541-6369 <span class="middot">&middot;</span>{" "}
-              <i class="icon-skype2" /> CanvasOnSkype
+              <div className="clear" />
+              <i className="icon-envelope2" /> info@canvas.com{" "}
+              <span className="middot">&middot;</span>{" "}
+              <i className="icon-headphones" /> +91-11-6541-6369{" "}
+              <span className="middot">&middot;</span>{" "}
+              <i className="icon-skype2" /> CanvasOnSkype
             </div>
           </div>
         </div>
       </footer>
     </div>
 
-    <div id="gotoTop" class="icon-angle-up" />
+    <div id="gotoTop" className="icon-angle-up" />
 
     <script src="js/jquery.js" />
     <script src="js/plugins.js" />
