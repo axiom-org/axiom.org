@@ -1,7 +1,9 @@
 import React from "react";
 
+import Layout from "../components/layout";
+
 export default () => (
-  <div>
+  <Layout>
     <div id="wrapper" class="clearfix">
       <header id="header">
         <div id="header-wrap">
@@ -1253,5 +1255,5 @@ export default () => (
 
     <script src="https://maps.google.com/maps/api/js?key=AIzaSyCzkxzbEni5vR_Ugt1De8gBzrLX3236bnA" />
     <script src="js/jquery.gmap.js" />
-  </div>
+  </Layout>
 );
