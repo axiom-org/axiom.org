@@ -32,32 +32,32 @@ export default () => (
             <nav id="primary-menu">
               <ul className="one-page-menu">
                 <li className="current">
-                  <a href="#" data-href="#section-home">
+                  <a href="/#XXX" data-href="#section-home">
                     <div>Home</div>
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-href="#section-features">
+                  <a href="/#XXX" data-href="#section-features">
                     <div>Features</div>
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-href="#section-pricing">
+                  <a href="/#XXX" data-href="#section-pricing">
                     <div>Pricing</div>
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-href="#section-faqs">
+                  <a href="/#XXX" data-href="#section-faqs">
                     <div>FAQs</div>
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-href="#section-contact">
+                  <a href="/#XXX" data-href="#section-contact">
                     <div>Contact</div>
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-href="#section-buy">
+                  <a href="/#XXX" data-href="#section-buy">
                     <div>Buy Now</div>
                   </a>
                 </li>
@@ -83,7 +83,7 @@ export default () => (
 
             <div className="center bottommargin d-none d-sm-block">
               <a
-                href="#"
+                href="/#XXX"
                 className="button button-3d button-teal button-xlarge nobottommargin"
               >
                 <i className="icon-star3" />
@@ -94,7 +94,7 @@ export default () => (
                 - OR -
               </span>{" "}
               <a
-                href="#"
+                href="/#XXX"
                 data-scrollto="#section-pricing"
                 className="button button-3d button-red button-xlarge nobottommargin"
               >
@@ -104,13 +104,13 @@ export default () => (
             </div>
 
             <div className="center bottommargin d-sm-none">
-              <a href="#" className="button button-3d button-teal m-0">
+              <a href="/#XXX" className="button button-3d button-teal m-0">
                 <i className="icon-star3" />
                 Start your FREE Trial
               </a>
               <span className="d-block my-2"> - OR -</span>{" "}
               <a
-                href="#"
+                href="/#XXX"
                 data-scrollto="#section-pricing"
                 className="button button-3d button-red m-0"
               >
@@ -170,13 +170,14 @@ export default () => (
 
               <div className="landing-video">
                 <iframe
+                  title="Landing Video"
                   src="http://player.vimeo.com/video/87701971"
                   width="560"
                   height="315"
                   frameBorder="0"
                   webkitallowfullscreen="true"
                   mozallowfullscreen="true"
-                  allowfullscreen="true"
+                  allowFullScreen
                 />
               </div>
             </div>
@@ -200,7 +201,7 @@ export default () => (
             <div className="col_one_third">
               <div className="feature-box fbox-plain">
                 <div className="fbox-icon" data-animate="bounceIn">
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/responsive.png"
                       alt="Responsive Layout"
@@ -222,7 +223,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="200"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/retina.png"
                       alt="Retina Graphics"
@@ -244,7 +245,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="400"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/performance.png"
                       alt="Powerful Performance"
@@ -268,7 +269,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="600"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/flag.png"
                       alt="Responsive Layout"
@@ -290,7 +291,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="800"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/tick.png"
                       alt="Retina Graphics"
@@ -312,7 +313,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="1000"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/tools.png"
                       alt="Powerful Performance"
@@ -336,7 +337,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="1200"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/map.png"
                       alt="Responsive Layout"
@@ -358,7 +359,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="1400"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/seo.png"
                       alt="Retina Graphics"
@@ -380,7 +381,7 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="1600"
                 >
-                  <a href="#">
+                  <a href="/#XXX">
                     <img
                       src="images/icons/features/support.png"
                       alt="Powerful Performance"
@@ -437,7 +438,7 @@ export default () => (
                     </ul>
                   </div>
                   <div className="pricing-action">
-                    <a href="#" className="btn btn-danger btn-block btn-lg">
+                    <a href="/#XXX" className="btn btn-danger btn-block btn-lg">
                       Sign Up
                     </a>
                   </div>
@@ -484,7 +485,7 @@ export default () => (
                   </div>
                   <div className="pricing-action">
                     <a
-                      href="#"
+                      href="/#XXX"
                       className="btn btn-danger btn-block btn-lg bgcolor border-color"
                     >
                       Sign Up
@@ -525,7 +526,7 @@ export default () => (
                     </ul>
                   </div>
                   <div className="pricing-action">
-                    <a href="#" className="btn btn-danger btn-block btn-lg">
+                    <a href="/#XXX" className="btn btn-danger btn-block btn-lg">
                       Sign Up
                     </a>
                   </div>
@@ -564,7 +565,7 @@ export default () => (
                     </ul>
                   </div>
                   <div className="pricing-action">
-                    <a href="#" className="btn btn-danger btn-block btn-lg">
+                    <a href="/#XXX" className="btn btn-danger btn-block btn-lg">
                       Sign Up
                     </a>
                   </div>
@@ -869,7 +870,7 @@ export default () => (
               <div className="col_one_fourth">
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
-                    <a href="#">
+                    <a href="/#XXX">
                       <i className="icon-map-marker2" />
                     </a>
                   </div>
@@ -883,7 +884,7 @@ export default () => (
               <div className="col_one_fourth">
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
-                    <a href="#">
+                    <a href="/#XXX">
                       <i className="icon-phone3" />
                     </a>
                   </div>
@@ -897,7 +898,7 @@ export default () => (
               <div className="col_one_fourth">
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
-                    <a href="#">
+                    <a href="/#XXX">
                       <i className="icon-skype2" />
                     </a>
                   </div>
@@ -911,7 +912,7 @@ export default () => (
               <div className="col_one_fourth col_last">
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
-                    <a href="#">
+                    <a href="/#XXX">
                       <i className="icon-twitter2" />
                     </a>
                   </div>
@@ -935,7 +936,7 @@ export default () => (
 
               <div className="center">
                 <a
-                  href="#"
+                  href="/#XXX"
                   data-animate="tada"
                   className="button button-3d button-teal button-xlarge nobottommargin"
                 >
@@ -944,7 +945,7 @@ export default () => (
                 </a>{" "}
                 - OR -{" "}
                 <a
-                  href="#"
+                  href="/#XXX"
                   data-scrollto="#section-pricing"
                   className="button button-3d button-red button-xlarge nobottommargin"
                 >
@@ -1051,7 +1052,7 @@ export default () => (
                       <div className="entry-c">
                         <div className="entry-title">
                           <h4>
-                            <a href="#">
+                            <a href="/#XXX">
                               Lorem ipsum dolor sit amet, consectetur
                             </a>
                           </h4>
@@ -1066,7 +1067,7 @@ export default () => (
                       <div className="entry-c">
                         <div className="entry-title">
                           <h4>
-                            <a href="#">
+                            <a href="/#XXX">
                               Elit Assumenda vel amet dolorum quasi
                             </a>
                           </h4>
@@ -1081,7 +1082,7 @@ export default () => (
                       <div className="entry-c">
                         <div className="entry-title">
                           <h4>
-                            <a href="#">
+                            <a href="/#XXX">
                               Debitis nihil placeat, illum est nisi
                             </a>
                           </h4>
@@ -1171,14 +1172,14 @@ export default () => (
                 <div className="row">
                   <div className="col-lg-6 clearfix bottommargin-sm">
                     <a
-                      href="#"
+                      href="/#XXX"
                       className="social-icon si-dark si-colored si-facebook nobottommargin"
                       style={{ marginRight: "10px" }}
                     >
                       <i className="icon-facebook" />
                       <i className="icon-facebook" />
                     </a>
-                    <a href="#">
+                    <a href="/#XXX">
                       <small style={{ display: "block", marginTop: "3px" }}>
                         <strong>Like us</strong>
                         <br />
@@ -1188,14 +1189,14 @@ export default () => (
                   </div>
                   <div className="col-lg-6 clearfix">
                     <a
-                      href="#"
+                      href="/#XXX"
                       className="social-icon si-dark si-colored si-rss nobottommargin"
                       style={{ marginRight: "10px" }}
                     >
                       <i className="icon-rss" />
                       <i className="icon-rss" />
                     </a>
-                    <a href="#">
+                    <a href="/#XXX">
                       <small style={{ display: "block", marginTop: "3px" }}>
                         <strong>Subscribe</strong>
                         <br />
@@ -1215,14 +1216,15 @@ export default () => (
               Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.
               <br />
               <div className="copyright-links">
-                <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
+                <a href="/#XXX">Terms of Use</a> /{" "}
+                <a href="/#XXX">Privacy Policy</a>
               </div>
             </div>
 
             <div className="col_half col_last tright">
               <div className="fright clearfix">
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-facebook"
                 >
                   <i className="icon-facebook" />
@@ -1230,7 +1232,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-twitter"
                 >
                   <i className="icon-twitter" />
@@ -1238,7 +1240,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-gplus"
                 >
                   <i className="icon-gplus" />
@@ -1246,7 +1248,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-pinterest"
                 >
                   <i className="icon-pinterest" />
@@ -1254,7 +1256,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-vimeo"
                 >
                   <i className="icon-vimeo" />
@@ -1262,7 +1264,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-github"
                 >
                   <i className="icon-github" />
@@ -1270,7 +1272,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-yahoo"
                 >
                   <i className="icon-yahoo" />
@@ -1278,7 +1280,7 @@ export default () => (
                 </a>
 
                 <a
-                  href="#"
+                  href="/#XXX"
                   className="social-icon si-small si-borderless si-linkedin"
                 >
                   <i className="icon-linkedin" />
