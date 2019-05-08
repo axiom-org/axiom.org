@@ -16,16 +16,16 @@ export default () => (
               <a
                 href="index.html"
                 className="standard-logo"
-                data-dark-logo="images/logo-dark.png"
+                data-dark-logo="/images/logo-dark.png"
               >
-                <img src="images/logo.png" alt="Canvas Logo" />
+                <img src="/images/logo.png" alt="Canvas Logo" />
               </a>
               <a
                 href="index.html"
                 className="retina-logo"
-                data-dark-logo="images/logo-dark@2x.png"
+                data-dark-logo="/images/logo-dark@2x.png"
               >
-                <img src="images/logo@2x.png" alt="Canvas Logo" />
+                <img src="/images/logo@2x.png" alt="Canvas Logo" />
               </a>
             </div>
 
@@ -163,7 +163,7 @@ export default () => (
 
             <div className="col_two_third topmargin nobottommargin col_last">
               <img
-                src="images/icons/macbook.png"
+                src="/images/icons/macbook.png"
                 alt="Macbook Video Underlay"
                 style={{ position: "absolute", top: 0, left: 0 }}
               />
@@ -203,7 +203,7 @@ export default () => (
                 <div className="fbox-icon" data-animate="bounceIn">
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/responsive.png"
+                      src="/images/icons/features/responsive.png"
                       alt="Responsive Layout"
                     />
                   </a>
@@ -225,7 +225,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/retina.png"
+                      src="/images/icons/features/retina.png"
                       alt="Retina Graphics"
                     />
                   </a>
@@ -247,7 +247,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/performance.png"
+                      src="/images/icons/features/performance.png"
                       alt="Powerful Performance"
                     />
                   </a>
@@ -271,7 +271,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/flag.png"
+                      src="/images/icons/features/flag.png"
                       alt="Responsive Layout"
                     />
                   </a>
@@ -293,7 +293,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/tick.png"
+                      src="/images/icons/features/tick.png"
                       alt="Retina Graphics"
                     />
                   </a>
@@ -315,7 +315,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/tools.png"
+                      src="/images/icons/features/tools.png"
                       alt="Powerful Performance"
                     />
                   </a>
@@ -339,7 +339,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/map.png"
+                      src="/images/icons/features/map.png"
                       alt="Responsive Layout"
                     />
                   </a>
@@ -361,7 +361,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/seo.png"
+                      src="/images/icons/features/seo.png"
                       alt="Retina Graphics"
                     />
                   </a>
@@ -383,7 +383,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="images/icons/features/support.png"
+                      src="/images/icons/features/support.png"
                       alt="Powerful Performance"
                     />
                   </a>
@@ -397,181 +397,6 @@ export default () => (
             </div>
 
             <div className="clear" />
-
-            <div className="divider divider-short divider-center">
-              <i className="icon-circle" />
-            </div>
-
-            <div
-              id="section-pricing"
-              className="heading-block title-center page-section"
-            >
-              <h2>Smart Pricing</h2>
-              <span>Flexible &amp; Easy Pricing for wide Audience Groups</span>
-            </div>
-
-            <div className="row pricing bottommargin clearfix">
-              <div className="col-lg-3" data-animate="fadeInLeft">
-                <div className="pricing-box">
-                  <div className="pricing-title">
-                    <h3>Starter</h3>
-                  </div>
-                  <div className="pricing-price">
-                    <span className="price-unit">&euro;</span>7
-                    <span className="price-tenure">/mo</span>
-                  </div>
-                  <div className="pricing-features">
-                    <ul>
-                      <li>
-                        <strong>Full</strong> Access
-                      </li>
-                      <li>
-                        <i className="icon-code" /> Source Files
-                      </li>
-                      <li>
-                        <strong>100</strong> User Accounts
-                      </li>
-                      <li>
-                        <strong>1 Year</strong> License
-                      </li>
-                      <li>Phone &amp; Email Support</li>
-                    </ul>
-                  </div>
-                  <div className="pricing-action">
-                    <a href="/#XXX" className="btn btn-danger btn-block btn-lg">
-                      Sign Up
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-lg-3"
-                data-animate="fadeInDown"
-                data-delay="250"
-              >
-                <div className="pricing-box best-price">
-                  <div className="pricing-title">
-                    <h3>Professional</h3>
-                    <span>Most Popular</span>
-                  </div>
-                  <div className="pricing-price">
-                    <span className="price-unit">&euro;</span>
-                    12
-                    <span className="price-tenure">/mo</span>
-                  </div>
-                  <div className="pricing-features">
-                    <ul>
-                      <li>
-                        <strong>Full</strong> Access
-                      </li>
-                      <li>
-                        <i className="icon-code" /> Source Files
-                      </li>
-                      <li>
-                        <strong>1000</strong> User Accounts
-                      </li>
-                      <li>
-                        <strong>2 Years</strong> License
-                      </li>
-                      <li>
-                        <i className="icon-star3" />
-                        <i className="icon-star3" />
-                        <i className="icon-star3" />
-                        <i className="icon-star3" />
-                        <i className="icon-star3" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="pricing-action">
-                    <a
-                      href="/#XXX"
-                      className="btn btn-danger btn-block btn-lg bgcolor border-color"
-                    >
-                      Sign Up
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-lg-3"
-                data-animate="fadeInUp"
-                data-delay="500"
-              >
-                <div className="pricing-box">
-                  <div className="pricing-title">
-                    <h3>Business</h3>
-                  </div>
-                  <div className="pricing-price">
-                    <span className="price-unit">&euro;</span>
-                    19
-                    <span className="price-tenure">/mo</span>
-                  </div>
-                  <div className="pricing-features">
-                    <ul>
-                      <li>
-                        <strong>Full</strong> Access
-                      </li>
-                      <li>
-                        <i className="icon-code" /> Source Files
-                      </li>
-                      <li>
-                        <strong>500</strong> User Accounts
-                      </li>
-                      <li>
-                        <strong>3 Years</strong> License
-                      </li>
-                      <li>Phone &amp; Email Support</li>
-                    </ul>
-                  </div>
-                  <div className="pricing-action">
-                    <a href="/#XXX" className="btn btn-danger btn-block btn-lg">
-                      Sign Up
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-lg-3"
-                data-animate="fadeInRight"
-                data-delay="250"
-              >
-                <div className="pricing-box">
-                  <div className="pricing-title">
-                    <h3>Enterprise</h3>
-                  </div>
-                  <div className="pricing-price">
-                    <span className="price-unit">&euro;</span>
-                    29
-                    <span className="price-tenure">/mo</span>
-                  </div>
-                  <div className="pricing-features">
-                    <ul>
-                      <li>
-                        <strong>Full</strong> Access
-                      </li>
-                      <li>
-                        <i className="icon-code" /> Source Files
-                      </li>
-                      <li>
-                        <strong>1000</strong> User Accounts
-                      </li>
-                      <li>
-                        <strong>5 Years</strong> License
-                      </li>
-                      <li>Phone &amp; Email Support</li>
-                    </ul>
-                  </div>
-                  <div className="pricing-action">
-                    <a href="/#XXX" className="btn btn-danger btn-block btn-lg">
-                      Sign Up
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div className="divider divider-short divider-center">
               <i className="icon-circle" />
@@ -876,12 +701,14 @@ export default () => (
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
                     <a href="/#XXX">
-                      <i className="icon-map-marker2" />
+                      <i className="icon-envelope" />
                     </a>
                   </div>
                   <h3>
-                    Our Headquarters
-                    <span className="subtitle">Melbourne, Australia</span>
+                    Email Newsletter
+                    <span className="subtitle">
+                      Just once a week, not too annoying
+                    </span>
                   </h3>
                 </div>
               </div>
@@ -890,12 +717,14 @@ export default () => (
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
                     <a href="/#XXX">
-                      <i className="icon-phone3" />
+                      <i className="icon-twitter2" />
                     </a>
                   </div>
                   <h3>
-                    Speak to Us
-                    <span className="subtitle">(123) 456 7890</span>
+                    Twitter
+                    <span className="subtitle">
+                      The easiest way to stay tuned
+                    </span>
                   </h3>
                 </div>
               </div>
@@ -904,12 +733,14 @@ export default () => (
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
                     <a href="/#XXX">
-                      <i className="icon-skype2" />
+                      <i className="icon-github2" />
                     </a>
                   </div>
                   <h3>
-                    Make a Video Call
-                    <span className="subtitle">CanvasOnSkype</span>
+                    GitHub
+                    <span className="subtitle">
+                      All development happens publicly
+                    </span>
                   </h3>
                 </div>
               </div>
@@ -918,12 +749,12 @@ export default () => (
                 <div className="feature-box fbox-center fbox-bg fbox-plain">
                   <div className="fbox-icon">
                     <a href="/#XXX">
-                      <i className="icon-twitter2" />
+                      <i className="icon-discord" />
                     </a>
                   </div>
                   <h3>
-                    Follow on Twitter
-                    <span className="subtitle">2.3M Followers</span>
+                    Discord
+                    <span className="subtitle">Chat with the developers</span>
                   </h3>
                 </div>
               </div>
@@ -942,7 +773,6 @@ export default () => (
               <div className="center">
                 <a
                   href="/#XXX"
-                  data-animate="tada"
                   className="button button-3d button-teal button-xlarge nobottommargin"
                 >
                   <i className="icon-star3" />
@@ -970,7 +800,7 @@ export default () => (
               <div className="col_one_third">
                 <div className="widget clearfix">
                   <img
-                    src="images/footer-widget-logo.png"
+                    src="/images/footer-widget-logo.png"
                     alt=""
                     className="footer-logo"
                   />
