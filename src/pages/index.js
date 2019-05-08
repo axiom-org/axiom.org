@@ -1305,13 +1305,5 @@ export default () => (
     </div>
 
     <div id="gotoTop" className="icon-angle-up" />
-
-    <script src="/js/jquery.js" />
-    <script src="/js/plugins.js" />
-
-    <script src="/js/functions.js" />
-
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCzkxzbEni5vR_Ugt1De8gBzrLX3236bnA" />
-    <script src="/js/jquery.gmap.js" />
   </Layout>
 );

@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function HTML(props) {
   return (
@@ -16,7 +16,7 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
+          axiom.org doesn't really work without JavaScript enabled. Sorry!
         </noscript>
         <div
           key={`body`}
@@ -24,9 +24,16 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script src="/js/jquery.js" />
+        <script src="/js/plugins.js" />
+
+        <script src="/js/functions.js" />
+
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyCzkxzbEni5vR_Ugt1De8gBzrLX3236bnA" />
+        <script src="/js/jquery.gmap.js" />
       </body>
     </html>
-  )
+  );
 }
 
 HTML.propTypes = {
@@ -35,5 +42,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
-}
+  postBodyComponents: PropTypes.array
+};
