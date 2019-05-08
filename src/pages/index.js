@@ -752,6 +752,7 @@ export default () => (
                       id="template-contactform-name"
                       name="template-contactform-name"
                       value=""
+                      readOnly={true}
                       className="sm-form-control required"
                     />
                   </div>
@@ -765,6 +766,7 @@ export default () => (
                       id="template-contactform-email"
                       name="template-contactform-email"
                       value=""
+                      readOnly={true}
                       className="required email sm-form-control"
                     />
                   </div>
@@ -776,6 +778,7 @@ export default () => (
                       id="template-contactform-phone"
                       name="template-contactform-phone"
                       value=""
+                      readOnly={true}
                       className="sm-form-control"
                     />
                   </div>
@@ -791,6 +794,7 @@ export default () => (
                       id="template-contactform-subject"
                       name="subject"
                       value=""
+                      readOnly={true}
                       className="required sm-form-control"
                     />
                   </div>
@@ -833,6 +837,7 @@ export default () => (
                       id="template-contactform-botcheck"
                       name="template-contactform-botcheck"
                       value=""
+                      readOnly={true}
                       className="sm-form-control"
                     />
                   </div>
