@@ -31,34 +31,29 @@ export default () => (
 
             <nav id="primary-menu">
               <ul className="one-page-menu">
-                <li className="current">
-                  <a href="/#XXX" data-href="#section-home">
+                <li>
+                  <a href="/">
                     <div>Home</div>
                   </a>
                 </li>
                 <li>
-                  <a href="/#XXX" data-href="#section-features">
-                    <div>Features</div>
+                  <a href="/#XXX">
+                    <div>Documentation</div>
                   </a>
                 </li>
                 <li>
-                  <a href="/#XXX" data-href="#section-pricing">
-                    <div>Pricing</div>
+                  <a href="/#XXX">
+                    <div>GitHub</div>
                   </a>
                 </li>
                 <li>
-                  <a href="/#XXX" data-href="#section-faqs">
-                    <div>FAQs</div>
+                  <a href="/#XXX">
+                    <div>Twitter</div>
                   </a>
                 </li>
                 <li>
-                  <a href="/#XXX" data-href="#section-contact">
+                  <a href="/#section-contact">
                     <div>Contact</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="/#XXX" data-href="#section-buy">
-                    <div>Buy Now</div>
                   </a>
                 </li>
               </ul>
@@ -74,10 +69,10 @@ export default () => (
               id="section-home"
               className="heading-block title-center nobottomborder page-section"
             >
-              <h1>Starter's Guide to create Landing Pages</h1>
+              <h1>A Blockchain Designed for Developers</h1>
               <span>
-                Building a Landing Page was never so{" "}
-                <span className="color">Easy</span> &amp; Interactive
+                Axiom is the best way to build a decentralized application. At
+                least once there's real content here instead of lorem ipsum.
               </span>
             </div>
 
@@ -87,7 +82,7 @@ export default () => (
                 className="button button-3d button-teal button-xlarge nobottommargin"
               >
                 <i className="icon-star3" />
-                Start your FREE Trial
+                Get started building an app
               </a>
               <span className="d-block d-lg-inline-block my-2">
                 {" "}
@@ -99,7 +94,7 @@ export default () => (
                 className="button button-3d button-red button-xlarge nobottommargin"
               >
                 <i className="icon-user2" />
-                Sign Up for a Subscription
+                Sign up for our newsletter
               </a>
             </div>
 
@@ -136,27 +131,23 @@ export default () => (
 
               <ul className="iconlist iconlist-large iconlist-color">
                 <li>
-                  <i className="icon-ok-sign" /> Interactive Live Builder
+                  <i className="icon-ok-sign" /> Interactive Frobulator
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> Valid HTML5 &amp; CSS3
-                  Semantics
+                  <i className="icon-ok-sign" /> Valid Semantics
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> 100% Open Source &amp;
-                  Customizable
+                  <i className="icon-ok-sign" /> 100% Open Source
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> Responsive &amp; Retina Devices
-                  Support
+                  <i className="icon-ok-sign" /> Works on multiple devices
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> Easy Embeddable Media &amp;
-                  Graphics
+                  <i className="icon-ok-sign" /> Relates to the word
+                  "Blockchain"
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> Lifetime <strong>FREE</strong>{" "}
-                  Updates
+                  <i className="icon-ok-sign" /> Is trendy
                 </li>
               </ul>
             </div>
@@ -194,7 +185,7 @@ export default () => (
             >
               <h2>Features Overview</h2>
               <span>
-                Some of the Features that are gonna blow your mind off
+                Time to think of features based on the icons I have available
               </span>
             </div>
 
@@ -408,7 +399,8 @@ export default () => (
             >
               <h2>Frequently Asked Questions</h2>
               <span>
-                We have answered a wide range of Questions for your Convenience
+                Here are some questions, inconveniently answered in a
+                hard-to-read two-column format
               </span>
             </div>
 
@@ -547,8 +539,11 @@ export default () => (
               id="section-contact"
               className="heading-block title-center page-section"
             >
-              <h2>Get in Touch with us</h2>
-              <span>Still have Questions? Contact Us using the Form below</span>
+              <h2>Get in touch</h2>
+              <span>
+                If you like talking about crypto stuff but don't want to
+                actually build crypto stuff, try one of these fine options
+              </span>
             </div>
 
             <div className="col_full nobottommargin clearfix">
@@ -619,9 +614,10 @@ export default () => (
           <div id="section-buy" className="section page-section footer-stick">
             <div className="container clearfix">
               <div className="heading-block title-center nobottomborder">
-                <h2>Enough? Start Building!</h2>
+                <h2>Enough reading. Let's write some code</h2>
                 <span>
-                  Now that you have read all the Tid-Bits, so start with a plan
+                  Clicking this button is the easiest way to become a software
+                  engineer with cryptocurrency experience
                 </span>
               </div>
 
@@ -631,16 +627,7 @@ export default () => (
                   className="button button-3d button-teal button-xlarge nobottommargin"
                 >
                   <i className="icon-star3" />
-                  Start your FREE Trial
-                </a>{" "}
-                - OR -{" "}
-                <a
-                  href="/#XXX"
-                  data-scrollto="#section-pricing"
-                  className="button button-3d button-red button-xlarge nobottommargin"
-                >
-                  <i className="icon-user2" />
-                  Sign Up for a Subscription
+                  Show me how to build a decentralized "Hello World" app
                 </a>
               </div>
             </div>
@@ -649,276 +636,18 @@ export default () => (
       </section>
 
       <footer id="footer" className="dark">
-        <div className="container">
-          <div className="footer-widgets-wrap clearfix">
-            <div className="col_two_third">
-              <div className="col_one_third">
-                <div className="widget clearfix">
-                  <img
-                    src="/images/footer-widget-logo.png"
-                    alt=""
-                    className="footer-logo"
-                  />
-
-                  <p>
-                    We believe in <strong>Simple</strong>,{" "}
-                    <strong>Creative</strong> &amp; <strong>Flexible</strong>{" "}
-                    Design Standards.
-                  </p>
-
-                  <div
-                    style={{
-                      background:
-                        "url('images/world-map.png') no-repeat center center",
-                      backgroundSize: "100%"
-                    }}
-                  >
-                    <address>
-                      <strong>Headquarters:</strong>
-                      <br />
-                      795 Folsom Ave, Suite 600
-                      <br />
-                      San Francisco, CA 94107
-                      <br />
-                    </address>
-                    <abbr title="Phone Number">
-                      <strong>Phone:</strong>
-                    </abbr>{" "}
-                    (91) 8547 632521
-                    <br />
-                    <abbr title="Fax">
-                      <strong>Fax:</strong>
-                    </abbr>{" "}
-                    (91) 11 4752 1433
-                    <br />
-                    <abbr title="Email Address">
-                      <strong>Email:</strong>
-                    </abbr>{" "}
-                    info@canvas.com
-                  </div>
-                </div>
-              </div>
-
-              <div className="col_one_third">
-                <div className="widget widget_links clearfix">
-                  <h4>Blogroll</h4>
-
-                  <ul>
-                    <li>
-                      <a href="http://codex.wordpress.org/">Documentation</a>
-                    </li>
-                    <li>
-                      <a href="http://wordpress.org/support/forum/requests-and-feedback">
-                        Feedback
-                      </a>
-                    </li>
-                    <li>
-                      <a href="http://wordpress.org/extend/plugins/">Plugins</a>
-                    </li>
-                    <li>
-                      <a href="http://wordpress.org/support/">Support Forums</a>
-                    </li>
-                    <li>
-                      <a href="http://wordpress.org/extend/themes/">Themes</a>
-                    </li>
-                    <li>
-                      <a href="http://wordpress.org/news/">WordPress Blog</a>
-                    </li>
-                    <li>
-                      <a href="http://planet.wordpress.org/">
-                        WordPress Planet
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="col_one_third col_last">
-                <div className="widget clearfix">
-                  <h4>Recent Posts</h4>
-
-                  <div id="post-list-footer">
-                    <div className="spost clearfix">
-                      <div className="entry-c">
-                        <div className="entry-title">
-                          <h4>
-                            <a href="/#XXX">
-                              Lorem ipsum dolor sit amet, consectetur
-                            </a>
-                          </h4>
-                        </div>
-                        <ul className="entry-meta">
-                          <li>10th July 2014</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div className="spost clearfix">
-                      <div className="entry-c">
-                        <div className="entry-title">
-                          <h4>
-                            <a href="/#XXX">
-                              Elit Assumenda vel amet dolorum quasi
-                            </a>
-                          </h4>
-                        </div>
-                        <ul className="entry-meta">
-                          <li>10th July 2014</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div className="spost clearfix">
-                      <div className="entry-c">
-                        <div className="entry-title">
-                          <h4>
-                            <a href="/#XXX">
-                              Debitis nihil placeat, illum est nisi
-                            </a>
-                          </h4>
-                        </div>
-                        <ul className="entry-meta">
-                          <li>10th July 2014</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col_one_third col_last">
-              <div
-                className="widget clearfix"
-                style={{ marginBottom: "-20px" }}
-              >
-                <div className="row">
-                  <div className="col-lg-6 bottommargin-sm">
-                    <div className="counter counter-small">
-                      <span
-                        data-from="50"
-                        data-to="15065421"
-                        data-refresh-interval="80"
-                        data-speed="3000"
-                        data-comma="true"
-                      />
-                    </div>
-                    <h5 className="nobottommargin">Total Downloads</h5>
-                  </div>
-
-                  <div className="col-lg-6 bottommargin-sm">
-                    <div className="counter counter-small">
-                      <span
-                        data-from="100"
-                        data-to="18465"
-                        data-refresh-interval="50"
-                        data-speed="2000"
-                        data-comma="true"
-                      />
-                    </div>
-                    <h5 className="nobottommargin">Clients</h5>
-                  </div>
-                </div>
-              </div>
-
-              <div className="widget subscribe-widget clearfix">
-                <h5>
-                  <strong>Subscribe</strong> to Our Newsletter to get Important
-                  News, Amazing Offers &amp; Inside Scoops:
-                </h5>
-                <div className="widget-subscribe-form-result" />
-                <form
-                  id="widget-subscribe-form"
-                  action="include/subscribe.php"
-                  method="post"
-                  className="nobottommargin"
-                >
-                  <div className="input-group divcenter">
-                    <div className="input-group-prepend">
-                      <div className="input-group-text">
-                        <i className="icon-email2" />
-                      </div>
-                    </div>
-                    <input
-                      type="email"
-                      id="widget-subscribe-form-email"
-                      name="widget-subscribe-form-email"
-                      className="form-control required email"
-                      placeholder="Enter your Email"
-                    />
-                    <div className="input-group-append">
-                      <button className="btn btn-success" type="submit">
-                        Subscribe
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-
-              <div
-                className="widget clearfix"
-                style={{ marginBottom: "-20px" }}
-              >
-                <div className="row">
-                  <div className="col-lg-6 clearfix bottommargin-sm">
-                    <a
-                      href="/#XXX"
-                      className="social-icon si-dark si-colored si-facebook nobottommargin"
-                      style={{ marginRight: "10px" }}
-                    >
-                      <i className="icon-facebook" />
-                      <i className="icon-facebook" />
-                    </a>
-                    <a href="/#XXX">
-                      <small style={{ display: "block", marginTop: "3px" }}>
-                        <strong>Like us</strong>
-                        <br />
-                        on Facebook
-                      </small>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 clearfix">
-                    <a
-                      href="/#XXX"
-                      className="social-icon si-dark si-colored si-rss nobottommargin"
-                      style={{ marginRight: "10px" }}
-                    >
-                      <i className="icon-rss" />
-                      <i className="icon-rss" />
-                    </a>
-                    <a href="/#XXX">
-                      <small style={{ display: "block", marginTop: "3px" }}>
-                        <strong>Subscribe</strong>
-                        <br />
-                        to RSS Feeds
-                      </small>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div id="copyrights">
           <div className="container clearfix">
-            <div className="col_half">
-              Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.
-              <br />
-              <div className="copyright-links">
-                <a href="/#XXX">Terms of Use</a> /{" "}
-                <a href="/#XXX">Privacy Policy</a>
-              </div>
-            </div>
+            <div className="col_half">&copy; 2019 All Rights Reserved</div>
 
             <div className="col_half col_last tright">
               <div className="fright clearfix">
                 <a
                   href="/#XXX"
-                  className="social-icon si-small si-borderless si-facebook"
+                  className="social-icon si-small si-borderless si-twitter"
                 >
-                  <i className="icon-facebook" />
-                  <i className="icon-facebook" />
+                  <i className="icon-envelope2" />
+                  <i className="icon-envelope2" />
                 </a>
 
                 <a
@@ -931,30 +660,6 @@ export default () => (
 
                 <a
                   href="/#XXX"
-                  className="social-icon si-small si-borderless si-gplus"
-                >
-                  <i className="icon-gplus" />
-                  <i className="icon-gplus" />
-                </a>
-
-                <a
-                  href="/#XXX"
-                  className="social-icon si-small si-borderless si-pinterest"
-                >
-                  <i className="icon-pinterest" />
-                  <i className="icon-pinterest" />
-                </a>
-
-                <a
-                  href="/#XXX"
-                  className="social-icon si-small si-borderless si-vimeo"
-                >
-                  <i className="icon-vimeo" />
-                  <i className="icon-vimeo" />
-                </a>
-
-                <a
-                  href="/#XXX"
                   className="social-icon si-small si-borderless si-github"
                 >
                   <i className="icon-github" />
@@ -963,26 +668,12 @@ export default () => (
 
                 <a
                   href="/#XXX"
-                  className="social-icon si-small si-borderless si-yahoo"
+                  className="social-icon si-small si-borderless si-twitter"
                 >
-                  <i className="icon-yahoo" />
-                  <i className="icon-yahoo" />
-                </a>
-
-                <a
-                  href="/#XXX"
-                  className="social-icon si-small si-borderless si-linkedin"
-                >
-                  <i className="icon-linkedin" />
-                  <i className="icon-linkedin" />
+                  <i className="icon-discord" />
+                  <i className="icon-discord" />
                 </a>
               </div>
-              <div className="clear" />
-              <i className="icon-envelope2" /> info@canvas.com{" "}
-              <span className="middot">&middot;</span>{" "}
-              <i className="icon-headphones" /> +91-11-6541-6369{" "}
-              <span className="middot">&middot;</span>{" "}
-              <i className="icon-skype2" /> CanvasOnSkype
             </div>
           </div>
         </div>
