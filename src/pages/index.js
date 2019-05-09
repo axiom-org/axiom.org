@@ -1,9 +1,19 @@
 import React from "react";
 
-import Layout from "../components/layout";
+import "../styles/animate.css";
+import "../styles/bootstrap.css";
+import "../styles/dark.css";
+import "../styles/font-icons.css";
+import "../styles/magnific-popup.css";
+import "../styles/responsive.css";
+import "../styles/style.css";
+
+import Footer from "../components/footer";
+import Header from "../components/header";
 
 export default () => (
-  <Layout>
+  <div id="wrapper" className="clearfix">
+    <Header />
     <section id="content">
       <div className="content-wrap">
         <div className="container clearfix">
@@ -377,5 +387,6 @@ export default () => (
         </div>
       </div>
     </section>
-  </Layout>
+    <Footer />
+  </div>
 );

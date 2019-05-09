@@ -18,7 +18,7 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="/#XXX">
+              <a href="/docs">
                 <div>Documentation</div>
               </a>
             </li>
