@@ -123,6 +123,10 @@ export default () => (
                   ways, to avoid censorship
                 </li>
                 <li>
+                  <i className="icon-ok-sign" /> Get paid for hosting
+                  applications
+                </li>
+                <li>
                   <i className="icon-ok-sign" /> Get paid for making a popular
                   app
                 </li>
@@ -132,7 +136,7 @@ export default () => (
             <div className="col_two_third topmargin nobottommargin col_last">
               <img
                 src="/images/icons/macbook.png"
-                alt="Macbook Stuff"
+                alt="Macbook With Code"
                 style={{ position: "absolute", top: 0, left: 0 }}
               />
             </div>
@@ -156,14 +160,17 @@ export default () => (
                   <a href="/#XXX">
                     <img
                       src="/images/icons/features/tools.png"
-                      alt="Responsive Layout"
+                      alt="Scalable Storage"
                     />
                   </a>
                 </div>
-                <h3>Responsive Layout</h3>
+                <h3>Scalable Storage</h3>
                 <p>
-                  Powerful Layout with Responsive functionality that can be
-                  adapted to any screen size. Resize browser to view.
+                  The core Axiom blockchain is replicated many times, but stores
+                  only the most critical data. Storage buckets are replicated
+                  fewer times and store general application data. So in most
+                  cases, users can interact with your decentralized application
+                  without constantly paying little bits of money.
                 </p>
               </div>
             </div>
@@ -178,14 +185,17 @@ export default () => (
                   <a href="/#XXX">
                     <img
                       src="/images/icons/features/seo.png"
-                      alt="Retina Graphics"
+                      alt="Open Distribution"
                     />
                   </a>
                 </div>
-                <h3>Retina Graphics</h3>
+                <h3>Open Distribution</h3>
                 <p>
-                  Looks beautiful &amp; ultra-sharp on Retina Screen Displays.
-                  Retina Icons, Fonts &amp; all others graphics are optimized.
+                  Both the static application bundle and user data are available
+                  via JavaScript API. Running a mirror that lets you access
+                  every decentralized application is as simple as hosting a
+                  single JavaScript + HTML bundle. So you can't censor an
+                  application by blocking a single URL.
                 </p>
               </div>
             </div>
@@ -200,14 +210,17 @@ export default () => (
                   <a href="/#XXX">
                     <img
                       src="/images/icons/features/tick.png"
-                      alt="Powerful Performance"
+                      alt="Authentication"
                     />
                   </a>
                 </div>
-                <h3>Powerful Performance</h3>
+                <h3>Authentication</h3>
                 <p>
-                  Canvas includes tons of optimized code that are completely
-                  customizable and deliver unmatched fast performance. XXX END
+                  No authentication is required to read data from an
+                  application. When a user is writing data, they delegate
+                  control to allow the application to write to a single storage
+                  bucket. At any time, the user can revoke control and delegate
+                  to a different application.
                 </p>
               </div>
             </div>
@@ -223,10 +236,6 @@ export default () => (
               className="heading-block title-center page-section"
             >
               <h2>Frequently Asked Questions</h2>
-              <span>
-                Here are some questions, inconveniently answered in a
-                hard-to-read two-column format
-              </span>
             </div>
 
             <div className="col_half nobottommargin">
