@@ -4,10 +4,6 @@ export default () => (
   <header id="header">
     <div id="header-wrap">
       <div className="container clearfix">
-        <div id="primary-menu-trigger">
-          <i className="icon-reorder" />
-        </div>
-
         <div id="logo">
           <a href="index.html" className="standard-logo">
             <img src="/images/logo.png" alt="Logo" />
