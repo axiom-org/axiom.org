@@ -9,6 +9,8 @@ If you make changes, you can test them locally with:
 npm start
 ```
 
+The local development site runs at [localhost:8080](http://localhost:8080).
+
 To deploy changes to the live website, run:
 
 ```
