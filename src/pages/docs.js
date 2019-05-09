@@ -8,7 +8,7 @@ import "../styles/docs.css";
 import "../styles/font-icons.css";
 import "../styles/magnific-popup.css";
 import "../styles/responsive.css";
-import "../styles/docStyles.css";
+import "../styles/docStyle.css";
 */
 
 export default () => (
