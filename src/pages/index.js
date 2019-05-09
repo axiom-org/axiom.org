@@ -71,7 +71,7 @@ export default () => (
             >
               <h1>A Blockchain Designed for Developers</h1>
               <span>
-                JavaScript-driven decentralized web apps, uncensored by any
+                JavaScript-based decentralized web apps, uncensored by any
                 central authority.
               </span>
             </div>
@@ -98,56 +98,33 @@ export default () => (
               </a>
             </div>
 
-            <div className="center bottommargin d-sm-none">
-              <a href="/#XXX" className="button button-3d button-teal m-0">
-                <i className="icon-star3" />
-                Start your FREE Trial
-              </a>
-              <span className="d-block my-2"> - OR -</span>{" "}
-              <a
-                href="/#XXX"
-                data-scrollto="#section-pricing"
-                className="button button-3d button-red m-0"
-              >
-                <i className="icon-user2" />
-                Sign Up for a Subscription
-              </a>
-            </div>
-
             <div className="clear" />
 
             <div className="col_one_third topmargin nobottommargin">
-              <h3>Short Overview.</h3>
+              <h3>The best way to build decentralized applications.</h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quidem, quos, facilis esse rem dicta dignissimos eligendi earum
-                sapiente ipsam iure vel deserunt.
+                Build your application in any standard frontend JavaScript
+                framework. Store user data via the blockchain, no backend server
+                needed.
               </p>
-
-              <div className="divider divider-short">
-                <i className="icon-circle" />
-              </div>
 
               <ul className="iconlist iconlist-large iconlist-color">
                 <li>
-                  <i className="icon-ok-sign" /> Interactive Frobulator
+                  <i className="icon-ok-sign" /> Works with React, Angular, Vue,
+                  and more
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> Valid Semantics
+                  <i className="icon-ok-sign" /> Use a simple API to store
+                  decentralized data
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> 100% Open Source
+                  <i className="icon-ok-sign" /> Access a single app in multiple
+                  ways, to avoid censorship
                 </li>
                 <li>
-                  <i className="icon-ok-sign" /> Works on multiple devices
-                </li>
-                <li>
-                  <i className="icon-ok-sign" /> Relates to the word
-                  "Blockchain"
-                </li>
-                <li>
-                  <i className="icon-ok-sign" /> Is trendy
+                  <i className="icon-ok-sign" /> Get paid for making a popular
+                  app
                 </li>
               </ul>
             </div>
