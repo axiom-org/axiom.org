@@ -71,8 +71,8 @@ export default () => (
             >
               <h1>A Blockchain Designed for Developers</h1>
               <span>
-                Axiom is the best way to build a decentralized application. At
-                least once there's real content here instead of lorem ipsum.
+                JavaScript-driven decentralized web apps, uncensored by any
+                central authority.
               </span>
             </div>
 
