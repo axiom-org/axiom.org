@@ -11,6 +11,25 @@ import "../styles/style.css";
 
 import Header from "../components/header";
 
+const DocLink = props => (
+  <a
+    href={props.href}
+    onClick={e => {
+      e.preventDefault();
+      let target = window.$(props.href);
+      window.$("html, body").animate(
+        {
+          scrollTop: target.offset().top - 120
+        },
+        50
+      );
+      return false;
+    }}
+  >
+    {props.children}
+  </a>
+);
+
 export default () => (
   <div>
     <div id="wrapper" className="clearfix">
@@ -22,7 +41,7 @@ export default () => (
             <div className="docs-navigation">
               <ul>
                 <li>
-                  <a href="#docs-start">Start</a>
+                  <DocLink href="#docs-start">Start</DocLink>
                   <ul
                     className="one-page-menu"
                     data-offset="110"

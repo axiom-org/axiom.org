@@ -5207,7 +5207,11 @@ var SEMICOLON = SEMICOLON || {};
     $textRotaterEl = $(".text-rotater"),
     $cookieNotification = $("#cookie-notification");
 
-  $(document).ready(SEMICOLON.documentOnReady.init);
+  $(document).ready(function() {
+    SEMICOLON.documentOnReady.init();
+
+    // Added by Kevin
+  });
   $window.on("load", SEMICOLON.documentOnLoad.init);
   $window.on("resize", SEMICOLON.documentOnResize.init);
 })(jQuery);
