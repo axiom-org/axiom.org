@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes} className="no-transition">
+      <body {...props.bodyAttributes} className="no-transition stretched">
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           axiom.org doesn't really work without JavaScript enabled. Sorry!

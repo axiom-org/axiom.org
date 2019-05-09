@@ -1,6 +1,5 @@
 import React from "react";
 
-/*
 import "../styles/animate.css";
 import "../styles/bootstrap.css";
 import "../styles/dark.css";
@@ -8,63 +7,24 @@ import "../styles/docs.css";
 import "../styles/font-icons.css";
 import "../styles/magnific-popup.css";
 import "../styles/responsive.css";
-import "../styles/docStyle.css";
-*/
+import "../styles/style.css";
+
+import Header from "../components/header";
 
 export default () => (
   <div>
-    <div id="wrapper" class="clearfix">
-      <header id="header" class="static-sticky">
-        <div id="header-wrap">
-          <div class="container-fullwidth clearfix">
-            <div id="primary-menu-trigger">
-              <i class="icon-reorder" />
-            </div>
-
-            <div id="logo">
-              <a
-                href="index.html"
-                class="standard-logo"
-                data-dark-logo="one-page/images/canvasone-dark.png"
-              >
-                <img src="images/canvashelp.png" alt="Canvas Logo" />
-              </a>
-              <a
-                href="index.html"
-                class="retina-logo"
-                data-dark-logo="one-page/images/canvasone-dark@2x.png"
-              >
-                <img src="images/canvashelp@2x.png" alt="Canvas Logo" />
-              </a>
-            </div>
-
-            <nav id="primary-menu">
-              <ul>
-                <li>
-                  <a href="http://themeforest.net/user/SemiColonWeb/portfolio?ref=SemiColonWeb">
-                    <div>Themes</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123/support/contact?ref=SemiColonWeb">
-                    <div>Contact</div>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
+    <div id="wrapper" className="clearfix">
+      <Header />
 
       <section id="content">
-        <div class="content-wrap nopadding">
-          <div id="docs" class="container-fullwidth clearfix">
-            <div class="docs-navigation">
+        <div className="content-wrap nopadding">
+          <div id="docs" className="container-fullwidth clearfix">
+            <div className="docs-navigation">
               <ul>
                 <li>
                   <a href="#docs-start">Start</a>
                   <ul
-                    class="one-page-menu"
+                    className="one-page-menu"
                     data-offset="110"
                     data-easing="easeInOutExpo"
                     data-speed="1250"
@@ -139,7 +99,7 @@ export default () => (
                 <li>
                   <a href="#docs-headers">Headers</a>
                   <ul
-                    class="one-page-menu"
+                    className="one-page-menu"
                     data-offset="110"
                     data-easing="easeInOutExpo"
                     data-speed="1250"
@@ -184,7 +144,7 @@ export default () => (
                 <li>
                   <a href="#docs-pageel">Page Elements</a>
                   <ul
-                    class="one-page-menu"
+                    className="one-page-menu"
                     data-offset="110"
                     data-easing="easeInOutExpo"
                     data-speed="1250"
@@ -239,11 +199,11 @@ export default () => (
               </ul>
             </div>
 
-            <div class="docs-content">
+            <div className="docs-content">
               <div id="docs-start">
                 <div
                   id="docs-start-installation"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Installation</h1>
 
@@ -294,11 +254,11 @@ export default () => (
                   </ol>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-nichedemos"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Using Niche Demos</h1>
 
@@ -354,11 +314,11 @@ export default () => (
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-html"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>HTML Structure</h1>
 
@@ -367,42 +327,42 @@ export default () => (
                     sample:
                   </p>
 
-                  <pre class="bottommargin">
+                  <pre className="bottommargin">
                     &lt;!DOCTYPE html&gt; &lt;html dir="ltr" lang="en-US"&gt;
                     &lt;head&gt;
-                    <span class="color">
+                    <span className="color">
                       &lt;!-- Your Stylesheets, Scripts &amp; Title
                       ============================================= --&gt;
                     </span>
                     ... &lt;/head&gt; &lt;body&gt;
-                    <span class="color">
+                    <span className="color">
                       &lt;!-- The Main Wrapper
                       ============================================= --&gt;
                     </span>
-                    &lt;div id="wrapper" class="clearfix"&gt;
-                    <span class="color">
+                    &lt;div id="wrapper" className="clearfix"&gt;
+                    <span className="color">
                       &lt;!-- Header
                       ============================================= --&gt;
                     </span>
                     &lt;header id="header"&gt; ... &lt;/header&gt;
-                    <span class="color">
+                    <span className="color">
                       &lt;!-- Site Content
                       ============================================= --&gt;
                     </span>
                     &lt;section id="content"&gt; &lt;div
-                    class="content-wrap"&gt; &lt;div class="container
+                    className="content-wrap"&gt; &lt;div className="container
                     clearfix"&gt; ... &lt;/div&gt; &lt;/div&gt; &lt;/section&gt;
-                    <span class="color">
+                    <span className="color">
                       &lt;!-- Footer
                       ============================================= --&gt;
                     </span>
-                    &lt;footer id="footer" class="dark"&gt; &lt;div
-                    class="container"&gt; ... &lt;/div&gt;
-                    <span class="color">
+                    &lt;footer id="footer" className="dark"&gt; &lt;div
+                    className="container"&gt; ... &lt;/div&gt;
+                    <span className="color">
                       &lt;!-- Copyrights
                       ============================================= --&gt;
                     </span>
-                    &lt;div id="copyrights"&gt; &lt;div class="container
+                    &lt;div id="copyrights"&gt; &lt;div className="container
                     clearfix"&gt; ... &lt;/div&gt; &lt;/div&gt; &lt;/footer&gt;
                     &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;
                   </pre>
@@ -416,7 +376,9 @@ export default () => (
                     Layout:
                   </p>
 
-                  <pre class="bottommargin">&lt;body class="stretched"&gt;</pre>
+                  <pre className="bottommargin">
+                    &lt;body className="stretched"&gt;
+                  </pre>
 
                   <h3>Favicons &amp; Apple Touch Icons</h3>
 
@@ -447,11 +409,11 @@ export default () => (
                   </pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-pagetransition"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Page Loading Transitions</h1>
 
@@ -464,7 +426,7 @@ export default () => (
                     Class to the <code>&lt;body&gt;</code> Tag.
                   </p>
 
-                  <pre>&lt;body class="no-transition"&gt;</pre>
+                  <pre>&lt;body className="no-transition"&gt;</pre>
 
                   <p>
                     You can customize the Transitions of your Pages Load using
@@ -520,11 +482,11 @@ export default () => (
                   </pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-logo"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Logo Settings</h1>
 
@@ -535,21 +497,21 @@ export default () => (
 
                   <pre>
                     &lt;div id="logo"&gt; &lt;a href="index.html"
-                    class="standard-logo"
+                    className="standard-logo"
                     data-dark-logo="images/logo-dark.png"&gt;&lt;img
                     src="images/logo.png" alt="Canvas Logo"&gt;&lt;/a&gt;
                     &lt;/div&gt;
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note</span> The Logo
+                    <span className="label label-danger">Note</span> The Logo
                     Image's maximum height can be <strong>100px</strong>. Also
                     make sure you also add the Dark Logo which provides even
                     more intuitiveness when you switch between Light/Dark
                     Scheme. However, it is optional.
                   </p>
 
-                  <hr class="bs-docs-separator" />
+                  <hr className="bs-docs-separator" />
 
                   <h2>Retina Logo</h2>
 
@@ -561,21 +523,21 @@ export default () => (
 
                   <pre>
                     &lt;div id="logo"&gt; &lt;a href="index.html"
-                    class="standard-logo"
+                    className="standard-logo"
                     data-dark-logo="images/logo-dark.png"&gt;&lt;img
                     src="images/logo.png" alt="Canvas Logo"&gt;&lt;/a&gt; &lt;a
-                    href="index.html" class="retina-logo"
+                    href="index.html" className="retina-logo"
                     data-dark-logo="images/logo-dark@2x.png"&gt;&lt;img
                     src="images/logo@2x.png" alt="Canvas Logo"&gt;&lt;/a&gt;
                     &lt;/div&gt;
                   </pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-color"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Color Schemes</h1>
 
@@ -601,7 +563,7 @@ export default () => (
                         9]&gt; &lt;script
                         src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"&gt;&lt;/script&gt;
                         &lt;![endif]--&gt;
-                        <span class="color">
+                        <span className="color">
                           &lt;!-- Here goes your colors.css
                           ============================================= --&gt;
                         </span>
@@ -615,7 +577,7 @@ export default () => (
                     </li>
                   </ol>
 
-                  <div class="line line-sm" />
+                  <div className="line line-sm" />
 
                   <h2>Dark Scheme</h2>
 
@@ -633,11 +595,11 @@ export default () => (
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-fonts"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Changing Fonts</h1>
 
@@ -681,11 +643,11 @@ export default () => (
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-custom"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Theme Customization</h1>
 
@@ -710,7 +672,7 @@ export default () => (
                     9]&gt; &lt;script
                     src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"&gt;&lt;/script&gt;
                     &lt;![endif]--&gt;
-                    <span class="color">
+                    <span className="color">
                       &lt;!-- Here goes your custom.css
                       ============================================= --&gt;
                     </span>
@@ -719,11 +681,11 @@ export default () => (
                   </pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-rtl"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Setting up RTL</h1>
 
@@ -756,7 +718,7 @@ export default () => (
                         /&gt; &#x9;&lt;link rel=&quot;stylesheet&quot;
                         href=&quot;css/bootstrap.css&quot;
                         type=&quot;text/css&quot; /&gt;
-                        <span class="color">
+                        <span className="color">
                           &#x9;&lt;link rel=&quot;stylesheet&quot;
                           href=&quot;css/bootstrap-rtl.css&quot;
                           type=&quot;text/css&quot; /&gt;
@@ -764,7 +726,7 @@ export default () => (
                         &#x9;&lt;link rel=&quot;stylesheet&quot;
                         href=&quot;style.css&quot; type=&quot;text/css&quot;
                         /&gt;
-                        <span class="color">
+                        <span className="color">
                           &#x9;&lt;link rel=&quot;stylesheet&quot;
                           href=&quot;style-rtl.css&quot;
                           type=&quot;text/css&quot; /&gt;
@@ -772,7 +734,7 @@ export default () => (
                         &#x9;&lt;link rel=&quot;stylesheet&quot;
                         href=&quot;css/dark.css&quot; type=&quot;text/css&quot;
                         /&gt;
-                        <span class="color">
+                        <span className="color">
                           &#x9;&lt;link rel=&quot;stylesheet&quot;
                           href=&quot;css/dark-rtl.css&quot;
                           type=&quot;text/css&quot; /&gt;
@@ -780,7 +742,7 @@ export default () => (
                         &#x9;&lt;link rel=&quot;stylesheet&quot;
                         href=&quot;css/font-icons.css&quot;
                         type=&quot;text/css&quot; /&gt;
-                        <span class="color">
+                        <span className="color">
                           &#x9;&lt;link rel=&quot;stylesheet&quot;
                           href=&quot;css/font-icons-rtl.css&quot;
                           type=&quot;text/css&quot; /&gt;
@@ -794,7 +756,7 @@ export default () => (
                         rel=&quot;stylesheet&quot;
                         href=&quot;css/responsive.css&quot;
                         type=&quot;text/css&quot; /&gt;
-                        <span class="color">
+                        <span className="color">
                           &#x9;&lt;link rel=&quot;stylesheet&quot;
                           href=&quot;css/responsive-rtl.css&quot;
                           type=&quot;text/css&quot; /&gt;
@@ -812,16 +774,16 @@ export default () => (
                     <li>
                       Add the <code>.rtl</code> Class to the{" "}
                       <code>&lt;body&gt;</code> Tag. <strong>Example:</strong>
-                      <pre>&lt;body class="stretched rtl"&gt;</pre>
+                      <pre>&lt;body className="stretched rtl"&gt;</pre>
                     </li>
                   </ol>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-cssvars"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>CSS Custom Properties (Variables)</h1>
 
@@ -899,11 +861,11 @@ export default () => (
                   </ul>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-less"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Setting up LESS CSS</h1>
 
@@ -962,10 +924,10 @@ export default () => (
                   </ul>
 
                   <p>
-                    <span class="label label-danger">Note:</span> LESS will work
-                    perfectly fine after compiling, but it can still be extended
-                    more. If you have any Suggestions to Improve or Requests to
-                    Add New Features to the LESS Files, then please{" "}
+                    <span className="label label-danger">Note:</span> LESS will
+                    work perfectly fine after compiling, but it can still be
+                    extended more. If you have any Suggestions to Improve or
+                    Requests to Add New Features to the LESS Files, then please{" "}
                     <a
                       href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123/support?ref=SemiColonWeb#new_item_support_inquiry_form"
                       target="_blank"
@@ -976,11 +938,11 @@ export default () => (
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-https"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>HTTPs Compatibility</h1>
 
@@ -1006,7 +968,7 @@ export default () => (
 
                   <pre>
                     &lt;link href="
-                    <span class="color">https://</span>
+                    <span className="color">https://</span>
                     fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
                     rel="stylesheet" type="text/css" /&gt;
                   </pre>
@@ -1015,17 +977,17 @@ export default () => (
 
                   <pre>
                     &lt;link href="
-                    <span class="text-danger">http://</span>
+                    <span className="text-danger">http://</span>
                     fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
                     rel="stylesheet" type="text/css" /&gt;
                   </pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-start-tips"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Website Optimization Tips</h1>
 
@@ -1178,8 +1140,8 @@ export default () => (
                         .
                       </p>
                       <p>
-                        <span class="label label-danger">Note:</span> CDN setup
-                        requires Extra monthly Fees to setup, so it is
+                        <span className="label label-danger">Note:</span> CDN
+                        setup requires Extra monthly Fees to setup, so it is
                         completely optional &amp; according to your needs.
                       </p>
                     </li>
@@ -1207,7 +1169,7 @@ export default () => (
               <div id="docs-headers">
                 <div
                   id="docs-headers-types"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Header Types</h1>
 
@@ -1220,7 +1182,7 @@ export default () => (
                     reference:
                   </p>
 
-                  <table class="table table-bordered">
+                  <table className="table table-bordered">
                     <thead>
                       <tr>
                         <th>Type Class</th>
@@ -1238,7 +1200,7 @@ export default () => (
                           text.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
+                          <pre className="nobottommargin">
                             &lt;header id="header"&gt; ... &lt;/header&gt;
                           </pre>
                         </td>
@@ -1249,8 +1211,8 @@ export default () => (
                         </td>
                         <td>Header with a Dark Background &amp; Light text.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;header id="header" class="dark"&gt; ...
+                          <pre className="nobottommargin">
+                            &lt;header id="header" className="dark"&gt; ...
                             &lt;/header&gt;
                           </pre>
                         </td>
@@ -1267,9 +1229,10 @@ export default () => (
                           Colored Text.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
+                          <pre className="nobottommargin">
                             &lt;header id="header"
-                            class="transparent-header"&gt; ... &lt;/header&gt;
+                            className="transparent-header"&gt; ...
+                            &lt;/header&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1283,8 +1246,8 @@ export default () => (
                           &amp; a Dark Background.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;header id="header" class="transparent-header
+                          <pre className="nobottommargin">
+                            &lt;header id="header" className="transparent-header
                             semi-transparent"&gt; ... &lt;/header&gt;
                           </pre>
                         </td>
@@ -1299,8 +1262,8 @@ export default () => (
                           a Dark Background.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;header id="header" class="transparent-header
+                          <pre className="nobottommargin">
+                            &lt;header id="header" className="transparent-header
                             floating-header"&gt; ... &lt;/header&gt;
                           </pre>
                         </td>
@@ -1315,8 +1278,8 @@ export default () => (
                           <code>body</code>.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;body class="stretched side-header"&gt;
+                          <pre className="nobottommargin">
+                            &lt;body className="stretched side-header"&gt;
                             &lt;header id="header"&gt; ... &lt;/header&gt; ...
                             &lt;/body&gt;
                           </pre>
@@ -1337,8 +1300,8 @@ export default () => (
                           <code>body</code> tag.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;body class="stretched side-header
+                          <pre className="nobottommargin">
+                            &lt;body className="stretched side-header
                             open-header"&gt; &lt;header id="header"&gt; ...
                             &lt;/header&gt; ... &lt;/body&gt;
                           </pre>
@@ -1360,10 +1323,11 @@ export default () => (
                           <code>body</code> tag.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;body class="stretched side-header open-header
-                            push-wrapper"&gt; &lt;header id="header"&gt; ...
-                            &lt;/header&gt; ... &lt;/body&gt;
+                          <pre className="nobottommargin">
+                            &lt;body className="stretched side-header
+                            open-header push-wrapper"&gt; &lt;header
+                            id="header"&gt; ... &lt;/header&gt; ...
+                            &lt;/body&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1381,8 +1345,8 @@ export default () => (
                           the above behaviours.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;body class="stretched side-header
+                          <pre className="nobottommargin">
+                            &lt;body className="stretched side-header
                             side-header-right"&gt; &lt;header id="header"&gt;
                             ... &lt;/header&gt; ... &lt;/body&gt;
                           </pre>
@@ -1392,11 +1356,11 @@ export default () => (
                   </table>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-headers-megamenu"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Mega Menu</h1>
 
@@ -1408,20 +1372,21 @@ export default () => (
                   <pre>
                     &lt;nav id="primary-menu"&gt; &lt;ul&gt; &lt;li&gt;&lt;a
                     href="index.html"&gt;&lt;div&gt;Home&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class="mega-menu"&gt;&lt;a
+                    &lt;li className="mega-menu"&gt;&lt;a
                     href="link.html"&gt;&lt;div&gt;Mega
-                    Menu&lt;/div&gt;&lt;/a&gt; &lt;div class="mega-menu-content
-                    style-2 clearfix"&gt; &lt;ul class="mega-menu-column
-                    col-md-3"&gt; ... &lt;/ul&gt; &lt;ul class="mega-menu-column
-                    col-md-3"&gt; ... &lt;/ul&gt; &lt;ul class="mega-menu-column
-                    col-md-3"&gt; ... &lt;/ul&gt; &lt;ul class="mega-menu-column
+                    Menu&lt;/div&gt;&lt;/a&gt; &lt;div
+                    className="mega-menu-content style-2 clearfix"&gt; &lt;ul
+                    className="mega-menu-column col-md-3"&gt; ... &lt;/ul&gt;
+                    &lt;ul className="mega-menu-column col-md-3"&gt; ...
+                    &lt;/ul&gt; &lt;ul className="mega-menu-column col-md-3"&gt;
+                    ... &lt;/ul&gt; &lt;ul className="mega-menu-column
                     col-md-3"&gt; ... &lt;/ul&gt; &lt;/div&gt; &lt;/li&gt;
                     &lt;/ul&gt; &lt;/nav&gt;
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note:</span> Currently only{" "}
-                    <code>.col-lg-*</code> and <code>.col-md-*</code> are
+                    <span className="label label-danger">Note:</span> Currently
+                    only <code>.col-lg-*</code> and <code>.col-md-*</code> are
                     supported.
                   </p>
 
@@ -1433,10 +1398,10 @@ export default () => (
                   </p>
 
                   <pre>
-                    &lt;ul class="mega-menu-column col-md-3"&gt; &#x9;&lt;li&gt;
-                    &#x9;&#x9;&lt;div class=&quot;widget clearfix&quot;&gt;
-                    &#x9;&#x9;&#x9;&lt;h4&gt;Our Location&lt;/h4&gt;
-                    &#x9;&#x9;&#x9;&lt;iframe
+                    &lt;ul className="mega-menu-column col-md-3"&gt;
+                    &#x9;&lt;li&gt; &#x9;&#x9;&lt;div className=&quot;widget
+                    clearfix&quot;&gt; &#x9;&#x9;&#x9;&lt;h4&gt;Our
+                    Location&lt;/h4&gt; &#x9;&#x9;&#x9;&lt;iframe
                     src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201717.45988409253!2d144.81557611671303!3d-37.81732634202082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1456564509271&quot;
                     width=&quot;600&quot; height=&quot;400&quot;
                     frameborder=&quot;0&quot; style=&quot;border:0&quot;
@@ -1445,7 +1410,7 @@ export default () => (
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note:</span>{" "}
+                    <span className="label label-danger">Note:</span>{" "}
                     Widgets/Shortcodes that run on Javascript are not supported
                     except those provided in the <code>mega-menu.html</code>{" "}
                     Template. We will continue adding support for more widgets
@@ -1461,11 +1426,11 @@ export default () => (
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-headers-menustyles"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Menu Styles</h1>
 
@@ -1474,7 +1439,7 @@ export default () => (
                     .
                   </p>
 
-                  <table class="table table-bordered">
+                  <table className="table table-bordered">
                     <thead>
                       <tr>
                         <th>Style Class</th>
@@ -1489,7 +1454,7 @@ export default () => (
                         </td>
                         <td>Default Menu Style which aligns to the right.</td>
                         <td>
-                          <pre class="nobottommargin">
+                          <pre className="nobottommargin">
                             &lt;nav id="primary-menu"&gt; ... &lt;/nav&gt;
                           </pre>
                         </td>
@@ -1500,20 +1465,21 @@ export default () => (
                         </td>
                         <td>Menu aligns beside the Logo.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="style-2"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="style-2"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
                       <tr>
                         <td>Menu aligns below the Logo Area.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;header id="header" class="sticky-style-2"&gt;
-                            ... &lt;div id="header-wrap"&gt; &lt;nav
-                            id="primary-menu" class="style-2"&gt; ...
-                            &lt;/nav&gt; &lt;/header-wrap&gt; &lt;/header&gt;
+                          <pre className="nobottommargin">
+                            &lt;header id="header"
+                            className="sticky-style-2"&gt; ... &lt;div
+                            id="header-wrap"&gt; &lt;nav id="primary-menu"
+                            className="style-2"&gt; ... &lt;/nav&gt;
+                            &lt;/header-wrap&gt; &lt;/header&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1523,9 +1489,9 @@ export default () => (
                         </td>
                         <td>Menu Items with Theme Scheme Background Colors.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="style-3"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="style-3"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1535,9 +1501,9 @@ export default () => (
                         </td>
                         <td>Menu Items with Theme Scheme Border Colors.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="style-4"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="style-4"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1549,9 +1515,9 @@ export default () => (
                           Menu Items with Large Icons on top of the Menu Name.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="style-5"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="style-5"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1563,9 +1529,9 @@ export default () => (
                           Menu Items with a top animating border on Mouse Hover.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="style-6"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="style-6"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1575,9 +1541,9 @@ export default () => (
                         </td>
                         <td>Menu Items with Sub Titles.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="sub-title"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="sub-title"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1587,11 +1553,12 @@ export default () => (
                           Sub Titles.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;header id="header" class="sticky-style-3"&gt;
-                            ... &lt;div id="header-wrap"&gt; &lt;nav
-                            id="primary-menu" class="style-2 sub-title"&gt; ...
-                            &lt;/nav&gt; &lt;/header-wrap&gt; &lt;/header&gt;
+                          <pre className="nobottommargin">
+                            &lt;header id="header"
+                            className="sticky-style-3"&gt; ... &lt;div
+                            id="header-wrap"&gt; &lt;nav id="primary-menu"
+                            className="style-2 sub-title"&gt; ... &lt;/nav&gt;
+                            &lt;/header-wrap&gt; &lt;/header&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1604,9 +1571,9 @@ export default () => (
                           Dropdown Menu underneath.
                         </td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="with-arrows"&gt;
-                            ... &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu"
+                            className="with-arrows"&gt; ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1616,9 +1583,9 @@ export default () => (
                         </td>
                         <td>Open Menu Items on Click rather than on Hover.</td>
                         <td>
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="on-click"&gt; ...
-                            &lt;/nav&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="on-click"&gt;
+                            ... &lt;/nav&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1626,11 +1593,11 @@ export default () => (
                   </table>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-headers-mobilemenu"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Alternate Mobile Menu</h1>
 
@@ -1646,16 +1613,16 @@ export default () => (
                     ============================================= --&gt; &lt;nav
                     id=&quot;primary-menu&quot;&gt; &#x9;&lt;ul&gt;
                     &#x9;&#x9;.... &#x9;&lt;/ul&gt; &#x9;&lt;ul
-                    class=&quot;mobile-primary-menu&quot;&gt; &#x9;&#x9;....
+                    className=&quot;mobile-primary-menu&quot;&gt; &#x9;&#x9;....
                     &#x9;&lt;/ul&gt; &#x9;....
                   </pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-headers-submenu"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Page Sub Menu</h1>
 
@@ -1666,32 +1633,32 @@ export default () => (
 
                   <pre>
                     &lt;div id="page-menu"&gt; &lt;div id="page-menu-wrap"&gt;
-                    &lt;div class="container clearfix"&gt; &lt;div
-                    class="menu-title"&gt;Explore
+                    &lt;div className="container clearfix"&gt; &lt;div
+                    className="menu-title"&gt;Explore
                     &lt;span&gt;CANVAS&lt;/span&gt;&lt;/div&gt; &lt;nav
-                    class="one-page-menu"&gt; &lt;ul&gt; &lt;li&gt;&lt;a
+                    className="one-page-menu"&gt; &lt;ul&gt; &lt;li&gt;&lt;a
                     href="#"
                     data-href="#header"&gt;&lt;div&gt;Start&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href="#"
                     data-href="#section-about"&gt;&lt;div&gt;About&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
                     ... &lt;/ul&gt; &lt;/nav&gt; &lt;div
                     id="page-submenu-trigger"&gt;&lt;i
-                    class="icon-reorder"&gt;&lt;/i&gt;&lt;/div&gt; &lt;/div&gt;
-                    &lt;/div&gt; &lt;/div&gt;
+                    className="icon-reorder"&gt;&lt;/i&gt;&lt;/div&gt;
+                    &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note:</span> It is
+                    <span className="label label-danger">Note:</span> It is
                     recommended that you place the Page Sub Menu code just below
                     the Header.
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-headers-dotsmenu"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Dots Sub Menu</h1>
 
@@ -1701,34 +1668,34 @@ export default () => (
                   </p>
 
                   <pre>
-                    &lt;div id="page-menu" class="dots-menu"&gt; &lt;div
-                    id="page-menu-wrap"&gt; &lt;div class="container
-                    clearfix"&gt; &lt;div class="menu-title"&gt;Explore
+                    &lt;div id="page-menu" className="dots-menu"&gt; &lt;div
+                    id="page-menu-wrap"&gt; &lt;div className="container
+                    clearfix"&gt; &lt;div className="menu-title"&gt;Explore
                     &lt;span&gt;CANVAS&lt;/span&gt;&lt;/div&gt; &lt;nav&gt;
                     &lt;ul&gt; &lt;li&gt;&lt;a href="#"
                     data-href="#header"&gt;&lt;/a&gt;&lt;div
-                    class="dots-menu-caption"&gt;Home&lt;/div&gt;&lt;/li&gt;
+                    className="dots-menu-caption"&gt;Home&lt;/div&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href="#"
                     data-href="#section-about"&gt;&lt;/a&gt;&lt;div
-                    class="dots-menu-caption"&gt;About&lt;/div&gt;&lt;/li&gt;
+                    className="dots-menu-caption"&gt;About&lt;/div&gt;&lt;/li&gt;
                     ... &lt;/ul&gt; &lt;/nav&gt; &lt;div
                     id="page-submenu-trigger"&gt;&lt;i
-                    class="icon-reorder"&gt;&lt;/i&gt;&lt;/div&gt; &lt;/div&gt;
-                    &lt;/div&gt; &lt;/div&gt;
+                    className="icon-reorder"&gt;&lt;/i&gt;&lt;/div&gt;
+                    &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note:</span> It is
+                    <span className="label label-danger">Note:</span> It is
                     recommended that you place the Dots Sub Menu code just below
                     the Header.
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-headers-helper"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Helper Classes</h1>
 
@@ -1737,7 +1704,7 @@ export default () => (
                     more flexible than you can imagine.
                   </p>
 
-                  <table class="table table-bordered">
+                  <table className="table table-bordered">
                     <thead>
                       <tr>
                         <th>Helper Class</th>
@@ -1773,8 +1740,8 @@ export default () => (
                           <br />
                           <br />
                           <pre>
-                            &lt;header class="dark"
-                            data-sticky-class="not-dark"&gt;
+                            &lt;header className="dark"
+                            data-sticky-className="not-dark"&gt;
                           </pre>
                           You can use these classes: <code>.dark</code>,{" "}
                           <code>.not-dark</code>, <code>.semi-transparent</code>
@@ -1797,8 +1764,8 @@ export default () => (
                           <br />
                           <strong>Example:</strong>
                           <br />
-                          <pre class="nobottommargin">
-                            &lt;nav id="primary-menu" class="not-dark"&gt;
+                          <pre className="nobottommargin">
+                            &lt;nav id="primary-menu" className="not-dark"&gt;
                           </pre>
                         </td>
                       </tr>
@@ -1838,12 +1805,12 @@ export default () => (
               <div id="docs-pageel">
                 <div
                   id="docs-pageel-titles"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Page Titles</h1>
 
-                  <div class="table-responsive">
-                    <table class="table table-bordered">
+                  <div className="table-responsive">
+                    <table className="table table-bordered">
                       <thead>
                         <tr>
                           <th>Class</th>
@@ -1861,16 +1828,16 @@ export default () => (
                             &amp; Breadcrumbs Right.
                           </td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title&lt;/h1&gt; &lt;span&gt;A Short Page Title
-                              Tagline&lt;/span&gt; &lt;ol class="breadcrumb"&gt;
-                              &lt;li&gt;&lt;a
+                              Tagline&lt;/span&gt; &lt;ol
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -1884,17 +1851,17 @@ export default () => (
                             Breadcrumbs Left.
                           </td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-right"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="page-title-right"&gt; &lt;div
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title Right&lt;/h1&gt; &lt;span&gt;A Short Page
                               Title Tagline&lt;/span&gt; &lt;ol
-                              class="breadcrumb"&gt; &lt;li&gt;&lt;a
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -1908,17 +1875,17 @@ export default () => (
                             Center.
                           </td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-center"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="page-title-center"&gt; &lt;div
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title Center&lt;/h1&gt; &lt;span&gt;A Short Page
                               Title Tagline&lt;/span&gt; &lt;ol
-                              class="breadcrumb"&gt; &lt;li&gt;&lt;a
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -1929,17 +1896,17 @@ export default () => (
                           </td>
                           <td>Page Title style with Mini Title.</td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-mini"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="page-title-mini"&gt; &lt;div
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title Mini&lt;/h1&gt; &lt;span&gt;A Short Page
                               Title Tagline&lt;/span&gt; &lt;ol
-                              class="breadcrumb"&gt; &lt;li&gt;&lt;a
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -1950,17 +1917,17 @@ export default () => (
                           </td>
                           <td>Page Title style with Background Color Dark.</td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-dark"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="page-title-dark"&gt; &lt;div
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title Dark&lt;/h1&gt; &lt;span&gt;A Short Page
                               Title Tagline&lt;/span&gt; &lt;ol
-                              class="breadcrumb"&gt; &lt;li&gt;&lt;a
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -1973,17 +1940,17 @@ export default () => (
                             Page Title style with Background Color Transparent.
                           </td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-nobg"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="page-title-nobg"&gt; &lt;div
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title No BG&lt;/h1&gt; &lt;span&gt;A Short Page
                               Title Tagline&lt;/span&gt; &lt;ol
-                              class="breadcrumb"&gt; &lt;li&gt;&lt;a
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -1994,17 +1961,17 @@ export default () => (
                           </td>
                           <td>Page Title style with a Background Pattern.</td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-pattern"&gt; &lt;div
-                              class="container clearfix"&gt; &lt;h1&gt;Page
+                              className="page-title-pattern"&gt; &lt;div
+                              className="container clearfix"&gt; &lt;h1&gt;Page
                               Title with Pattern&lt;/h1&gt; &lt;span&gt;A Short
                               Page Title Tagline&lt;/span&gt; &lt;ol
-                              class="breadcrumb"&gt; &lt;li&gt;&lt;a
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -2021,23 +1988,23 @@ export default () => (
                           </td>
                           <td>Page Title style with a HTML5 Video.</td>
                           <td>
-                            <pre class="nobottommargin">
+                            <pre className="nobottommargin">
                               &lt;section id="page-title"
-                              class="page-title-parallax page-title-dark
+                              className="page-title-parallax page-title-dark
                               page-title-video"&gt; &lt;div
-                              class="video-wrap"&gt; &lt;video width="100%"
+                              className="video-wrap"&gt; &lt;video width="100%"
                               src="images/videos/deskwork.mp4" preload="auto"
                               loop autoplay muted&gt;&lt;/video&gt; &lt;div
-                              class="video-overlay"&gt;&lt;/div&gt; &lt;/div&gt;
-                              &lt;div class="container clearfix"&gt;
-                              &lt;h1&gt;Page Title Video&lt;/h1&gt;
-                              &lt;span&gt;A Short Page Title
-                              Tagline&lt;/span&gt; &lt;ol class="breadcrumb"&gt;
-                              &lt;li&gt;&lt;a
+                              className="video-overlay"&gt;&lt;/div&gt;
+                              &lt;/div&gt; &lt;div className="container
+                              clearfix"&gt; &lt;h1&gt;Page Title
+                              Video&lt;/h1&gt; &lt;span&gt;A Short Page Title
+                              Tagline&lt;/span&gt; &lt;ol
+                              className="breadcrumb"&gt; &lt;li&gt;&lt;a
                               href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                               &lt;li&gt;&lt;a
                               href="#"&gt;Shortcodes&lt;/a&gt;&lt;/li&gt; &lt;li
-                              class="active"&gt;Page Titles&lt;/li&gt;
+                              className="active"&gt;Page Titles&lt;/li&gt;
                               &lt;/ol&gt; &lt;/div&gt; &lt;/section&gt;
                             </pre>
                           </td>
@@ -2047,123 +2014,123 @@ export default () => (
                   </div>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-grid"
-                  class="docs-content-inner page-section clearfix"
+                  className="docs-content-inner page-section clearfix"
                 >
                   <h1>Columns &amp; Grid</h1>
 
                   <h3>Canvas Grid</h3>
 
-                  <div class="show-grid bottommargin clearfix">
-                    <div class="col_full">.col_full</div>
-                    <div class="col_half">.col_half</div>
-                    <div class="col_half col_last">.col_half .col_last</div>
-                    <div class="col_one_third">.col_one_third</div>
-                    <div class="col_two_third col_last">
+                  <div className="show-grid bottommargin clearfix">
+                    <div className="col_full">.col_full</div>
+                    <div className="col_half">.col_half</div>
+                    <div className="col_half col_last">.col_half .col_last</div>
+                    <div className="col_one_third">.col_one_third</div>
+                    <div className="col_two_third col_last">
                       .col_two_third .col_last
                     </div>
-                    <div class="col_one_fourth">.col_one_fourth</div>
-                    <div class="col_three_fourth col_last">
+                    <div className="col_one_fourth">.col_one_fourth</div>
+                    <div className="col_three_fourth col_last">
                       .col_three_fourth .col_last
                     </div>
-                    <div class="col_one_fifth">.col_one_fifth</div>
-                    <div class="col_four_fifth col_last">
+                    <div className="col_one_fifth">.col_one_fifth</div>
+                    <div className="col_four_fifth col_last">
                       .col_four_fifth .col_last
                     </div>
-                    <div class="col_two_fifth">.col_two_fifth</div>
-                    <div class="col_three_fifth col_last">
+                    <div className="col_two_fifth">.col_two_fifth</div>
+                    <div className="col_three_fifth col_last">
                       .col_three_fifth .col_last
                     </div>
-                    <div class="col_one_sixth">.col_one_sixth</div>
-                    <div class="col_five_sixth col_last">
+                    <div className="col_one_sixth">.col_one_sixth</div>
+                    <div className="col_five_sixth col_last">
                       .col_five_sixth .col_last
                     </div>
                   </div>
 
                   <h3>Bootstrap Grid</h3>
 
-                  <div class="show-grid">
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-1">.col-md-1</div>
+                  <div className="show-grid">
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-1">.col-md-1</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-2">.col-md-2</div>
-                    <div class="col-md-2">.col-md-2</div>
-                    <div class="col-md-2">.col-md-2</div>
-                    <div class="col-md-2">.col-md-2</div>
-                    <div class="col-md-2">.col-md-2</div>
-                    <div class="col-md-2">.col-md-2</div>
+                  <div className="show-grid">
+                    <div className="col-md-2">.col-md-2</div>
+                    <div className="col-md-2">.col-md-2</div>
+                    <div className="col-md-2">.col-md-2</div>
+                    <div className="col-md-2">.col-md-2</div>
+                    <div className="col-md-2">.col-md-2</div>
+                    <div className="col-md-2">.col-md-2</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-3">.col-md-3</div>
-                    <div class="col-md-3">.col-md-3</div>
-                    <div class="col-md-3">.col-md-3</div>
-                    <div class="col-md-3">.col-md-3</div>
+                  <div className="show-grid">
+                    <div className="col-md-3">.col-md-3</div>
+                    <div className="col-md-3">.col-md-3</div>
+                    <div className="col-md-3">.col-md-3</div>
+                    <div className="col-md-3">.col-md-3</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-4">.col-md-4</div>
-                    <div class="col-md-4">.col-md-4</div>
-                    <div class="col-md-4">.col-md-4</div>
+                  <div className="show-grid">
+                    <div className="col-md-4">.col-md-4</div>
+                    <div className="col-md-4">.col-md-4</div>
+                    <div className="col-md-4">.col-md-4</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-5">.col-md-5</div>
-                    <div class="col-md-5">.col-md-5</div>
-                    <div class="col-md-2">.col-md-2</div>
+                  <div className="show-grid">
+                    <div className="col-md-5">.col-md-5</div>
+                    <div className="col-md-5">.col-md-5</div>
+                    <div className="col-md-2">.col-md-2</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-6">.col-md-6</div>
-                    <div class="col-md-6">.col-md-6</div>
+                  <div className="show-grid">
+                    <div className="col-md-6">.col-md-6</div>
+                    <div className="col-md-6">.col-md-6</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-1">.col-md-1</div>
-                    <div class="col-md-11">.col-md-11</div>
+                  <div className="show-grid">
+                    <div className="col-md-1">.col-md-1</div>
+                    <div className="col-md-11">.col-md-11</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-2">.col-md-2</div>
-                    <div class="col-md-10">.col-md-10</div>
+                  <div className="show-grid">
+                    <div className="col-md-2">.col-md-2</div>
+                    <div className="col-md-10">.col-md-10</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-3">.col-md-3</div>
-                    <div class="col-md-9">.col-md-9</div>
+                  <div className="show-grid">
+                    <div className="col-md-3">.col-md-3</div>
+                    <div className="col-md-9">.col-md-9</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-4">.col-md-4</div>
-                    <div class="col-md-8">.col-md-8</div>
+                  <div className="show-grid">
+                    <div className="col-md-4">.col-md-4</div>
+                    <div className="col-md-8">.col-md-8</div>
                   </div>
 
-                  <div class="show-grid">
-                    <div class="col-md-5">.col-md-5</div>
-                    <div class="col-md-7">.col-md-7</div>
+                  <div className="show-grid">
+                    <div className="col-md-5">.col-md-5</div>
+                    <div className="col-md-7">.col-md-7</div>
                   </div>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-isotope"
-                  class="docs-content-inner page-section clearfix"
+                  className="docs-content-inner page-section clearfix"
                 >
                   <h1>Isotope Initialization</h1>
 
@@ -2178,9 +2145,9 @@ export default () => (
                   <pre>
                     &lt;!-- Portfolio Items
                     ============================================= --&gt; &lt;div
-                    id=&quot;portfolio&quot; class=&quot;portfolio{" "}
-                    <span class="color">grid-container</span> clearfix&quot;&gt;
-                    &#x9;... &lt;/div&gt;
+                    id=&quot;portfolio&quot; className=&quot;portfolio{" "}
+                    <span className="color">grid-container</span>{" "}
+                    clearfix&quot;&gt; &#x9;... &lt;/div&gt;
                   </pre>
 
                   <h5>Settings:</h5>
@@ -2207,11 +2174,11 @@ export default () => (
                   </ul>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-sidepanel"
-                  class="docs-content-inner page-section clearfix"
+                  className="docs-content-inner page-section clearfix"
                 >
                   <h1>Side Panel</h1>
 
@@ -2222,19 +2189,20 @@ export default () => (
                   </p>
 
                   <pre>
-                    &lt;div class=&quot;body-overlay&quot;&gt;&lt;/div&gt;
-                    &lt;div id=&quot;side-panel&quot; class=&quot;dark&quot;&gt;
-                    &#x9;&lt;div id=&quot;side-panel-trigger-close&quot;
-                    class=&quot;side-panel-trigger&quot;&gt;&lt;a
+                    &lt;div className=&quot;body-overlay&quot;&gt;&lt;/div&gt;
+                    &lt;div id=&quot;side-panel&quot;
+                    className=&quot;dark&quot;&gt; &#x9;&lt;div
+                    id=&quot;side-panel-trigger-close&quot;
+                    className=&quot;side-panel-trigger&quot;&gt;&lt;a
                     href=&quot;#&quot;&gt;&lt;i
-                    class=&quot;icon-line-cross&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
-                    &#x9;&lt;div class=&quot;side-panel-wrap&quot;&gt;
+                    className=&quot;icon-line-cross&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+                    &#x9;&lt;div className=&quot;side-panel-wrap&quot;&gt;
                     &#x9;&#x9;... Your Content &#x9;&lt;/div&gt; &lt;/div&gt;
                   </pre>
 
-                  <p class="bottommargin">
-                    <span class="label label-danger">Note:</span> Make sure that
-                    you add the Side Panel's Code just after the{" "}
+                  <p className="bottommargin">
+                    <span className="label label-danger">Note:</span> Make sure
+                    that you add the Side Panel's Code just after the{" "}
                     <code>#wrapper</code> Starts.
                   </p>
 
@@ -2249,8 +2217,8 @@ export default () => (
                     <code>&lt;body&gt;</code> Tag.
                   </p>
 
-                  <pre class="bottommargin">
-                    &lt;body class="stretched side-panel-left"&gt;
+                  <pre className="bottommargin">
+                    &lt;body className="stretched side-panel-left"&gt;
                   </pre>
 
                   <h3>Side Panel Reveal Style</h3>
@@ -2263,14 +2231,14 @@ export default () => (
                     <code>&lt;body&gt;</code> Tag.
                   </p>
 
-                  <pre>&lt;body class="stretched side-push-panel"&gt;</pre>
+                  <pre>&lt;body className="stretched side-push-panel"&gt;</pre>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-stickysidebar"
-                  class="docs-content-inner page-section clearfix"
+                  className="docs-content-inner page-section clearfix"
                 >
                   <h1>Sticky Sidebar</h1>
 
@@ -2295,14 +2263,15 @@ export default () => (
                   </ol>
 
                   <pre>
-                    &lt;div class="sidebar sticky-sidebar-wrap nobottommargin
-                    clearfix"&gt; &lt;div class="sidebar-widgets-wrap"&gt;
-                    &lt;div class="sticky-sidebar"&gt; ... Your Sidebar Widgets
+                    &lt;div className="sidebar sticky-sidebar-wrap
+                    nobottommargin clearfix"&gt; &lt;div
+                    className="sidebar-widgets-wrap"&gt; &lt;div
+                    className="sticky-sidebar"&gt; ... Your Sidebar Widgets
                     &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;
                   </pre>
 
-                  <p class="bottommargin">
-                    <span class="label label-danger">Note:</span> The Sticky
+                  <p className="bottommargin">
+                    <span className="label label-danger">Note:</span> The Sticky
                     Sidebar Plugins currently works best with the Sidebar{" "}
                     <code>.sidebar</code> Containers and Bootstrap Columns.
                   </p>
@@ -2321,11 +2290,11 @@ export default () => (
                   </ul>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-gototop"
-                  class="docs-content-inner page-section clearfix"
+                  className="docs-content-inner page-section clearfix"
                 >
                   <h1>Go To Top</h1>
 
@@ -2338,7 +2307,7 @@ export default () => (
 
                   <pre>
                     &lt;div id=&quot;gotoTop&quot;
-                    class=&quot;icon-angle-up&quot;&gt;&lt;/div&gt;
+                    className=&quot;icon-angle-up&quot;&gt;&lt;/div&gt;
                   </pre>
 
                   <h5>Settings:</h5>
@@ -2364,11 +2333,11 @@ export default () => (
                   </ul>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-classes"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Helper Classes</h1>
 
@@ -2622,11 +2591,11 @@ export default () => (
                   </ul>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-snippets"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Useful Snippets</h1>
 
@@ -2653,8 +2622,8 @@ export default () => (
                   </p>
 
                   <pre>
-                    &lt;a href="#header" data-scrollto="#header" class="button
-                    button-3d"&gt;Scroll to Header&lt;/a&gt;
+                    &lt;a href="#header" data-scrollto="#header"
+                    className="button button-3d"&gt;Scroll to Header&lt;/a&gt;
                   </pre>
 
                   <h5>Settings:</h5>
@@ -2682,18 +2651,18 @@ export default () => (
                   </ul>
 
                   <p>
-                    <span class="label label-danger">Note:</span> You should
+                    <span className="label label-danger">Note:</span> You should
                     have a Valid &amp; Unique Element ID on the Page where you
                     are planning to use the <strong>ScrollTo</strong>{" "}
                     Functionality.
                   </p>
                 </div>
 
-                <div class="line" />
+                <div className="line" />
 
                 <div
                   id="docs-pageel-responsiveutilities"
-                  class="docs-content-inner page-section"
+                  className="docs-content-inner page-section"
                 >
                   <h1>Responsive Utilities</h1>
 
@@ -2711,7 +2680,7 @@ export default () => (
 
                   <pre>.device-touch img display: none;</pre>
 
-                  <div class="line line-sm" />
+                  <div className="line line-sm" />
 
                   <h3>Responsive Absolute Heights</h3>
 
@@ -2751,9 +2720,9 @@ export default () => (
 
                   <pre>
                     &lt;div style="position: relative; margin-bottom: -60px;"
-                    class="ohidden" data-height-xl="426" data-height-lg="567"
-                    data-height-md="470" data-height-sm="287"
-                    data-height-xs="183"&gt; &lt;img
+                    className="ohidden" data-height-xl="426"
+                    data-height-lg="567" data-height-md="470"
+                    data-height-sm="287" data-height-xs="183"&gt; &lt;img
                     src="images/services/main-fbrowser.png" style="position:
                     absolute; top: 0; left: 0;" data-animate="fadeInUp"
                     data-delay="100" alt="Chrome"&gt; &lt;img
@@ -2763,16 +2732,16 @@ export default () => (
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note:</span> Width of the
-                    Image is flexible depending on the Parent Container. Now,
-                    the Large Device will have the Default Height of your Image
-                    and the other heights can be checked simply by resizing your
-                    browser to see the image heights change, so you can define
-                    the other heights accordingly. We guess, this will surely
-                    serve you well.
+                    <span className="label label-danger">Note:</span> Width of
+                    the Image is flexible depending on the Parent Container.
+                    Now, the Large Device will have the Default Height of your
+                    Image and the other heights can be checked simply by
+                    resizing your browser to see the image heights change, so
+                    you can define the other heights accordingly. We guess, this
+                    will surely serve you well.
                   </p>
 
-                  <div class="line line-sm" />
+                  <div className="line line-sm" />
 
                   <h3>Responsive Classes</h3>
 
@@ -2810,19 +2779,19 @@ export default () => (
                   </p>
 
                   <pre>
-                    &lt;a href="#" class="button" data-class-lg="button-large"
-                    data-class-lg="" data-class-md="button-xlarge"
-                    data-class-sm="button-small"
+                    &lt;a href="#" className="button"
+                    data-class-lg="button-large" data-class-lg=""
+                    data-class-md="button-xlarge" data-class-sm="button-small"
                     data-class-xs="button-mini"&gt;Button&lt;/a&gt;
                   </pre>
 
                   <p>
-                    <span class="label label-danger">Note:</span> Make sure that
-                    if you intend to use the Responsive Classes Functionality,
-                    then you add the <code>data-class-*</code> Variations for
-                    all the Devices, since this will ensure that your Defined
-                    Classes are Applied on Window Load of that Particular Device
-                    as well.
+                    <span className="label label-danger">Note:</span> Make sure
+                    that if you intend to use the Responsive Classes
+                    Functionality, then you add the <code>data-class-*</code>{" "}
+                    Variations for all the Devices, since this will ensure that
+                    your Defined Classes are Applied on Window Load of that
+                    Particular Device as well.
                   </p>
                 </div>
               </div>
