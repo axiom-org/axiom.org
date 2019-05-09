@@ -17,8 +17,8 @@ export default () => (
       <Header />
 
       <section id="content">
-        <div className="content-wrap nopadding">
-          <div id="docs" className="container-fullwidth clearfix">
+        <div className="content-wrap">
+          <div id="docs" className="container clearfix">
             <div className="docs-navigation">
               <ul>
                 <li>
