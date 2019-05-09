@@ -1,25 +1,4 @@
 /* ----------------------------------------------------------------
-	CSS Specific to the Documentation
-
-	Version: 1.0
------------------------------------------------------------------*/
-
-
-#logo a { position: relative; }
-
-#logo a:not(.noversion):after {
-	content: '5.9';
-	position: absolute;
-	top: 20px;
-	left: 125px;
-	font-size: 11px;
-	line-height: 11px;
-	font-weight: 500;
-	color: #111;
-}
-
-
-/* ----------------------------------------------------------------
 	Docs
 -----------------------------------------------------------------*/
 
@@ -116,12 +95,6 @@
 .docs-content ol ul {
 	margin-top: 10px;
 	margin-left: 30px;
-}
-
-
-.page-section {
-	margin: 0;
-	padding: 0;
 }
 
 
