@@ -69,9 +69,9 @@ export default () => (
               id="section-home"
               className="heading-block title-center nobottomborder page-section"
             >
-              <h1>A Blockchain Designed for Developers</h1>
+              <h1>A Blockchain Designed for App Developers</h1>
               <span>
-                JavaScript-based decentralized web apps, uncensored by any
+                Build JavaScript-based decentralized web apps, uncensored by any
                 central authority.
               </span>
             </div>
@@ -132,22 +132,9 @@ export default () => (
             <div className="col_two_third topmargin nobottommargin col_last">
               <img
                 src="/images/icons/macbook.png"
-                alt="Macbook Video Underlay"
+                alt="Macbook Stuff"
                 style={{ position: "absolute", top: 0, left: 0 }}
               />
-
-              <div className="landing-video">
-                <iframe
-                  title="Landing Video"
-                  src="http://player.vimeo.com/video/87701971"
-                  width="560"
-                  height="315"
-                  frameBorder="0"
-                  webkitallowfullscreen="true"
-                  mozallowfullscreen="true"
-                  allowFullScreen
-                />
-              </div>
             </div>
 
             <div className="clear" />
@@ -160,10 +147,7 @@ export default () => (
               id="section-features"
               className="heading-block title-center page-section"
             >
-              <h2>Features Overview</h2>
-              <span>
-                Time to think of features based on the icons I have available
-              </span>
+              <h2>How It Works</h2>
             </div>
 
             <div className="col_one_third">
@@ -171,7 +155,7 @@ export default () => (
                 <div className="fbox-icon" data-animate="bounceIn">
                   <a href="/#XXX">
                     <img
-                      src="/images/icons/features/responsive.png"
+                      src="/images/icons/features/tools.png"
                       alt="Responsive Layout"
                     />
                   </a>
@@ -193,7 +177,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="/images/icons/features/retina.png"
+                      src="/images/icons/features/seo.png"
                       alt="Retina Graphics"
                     />
                   </a>
@@ -215,143 +199,7 @@ export default () => (
                 >
                   <a href="/#XXX">
                     <img
-                      src="/images/icons/features/performance.png"
-                      alt="Powerful Performance"
-                    />
-                  </a>
-                </div>
-                <h3>Powerful Performance</h3>
-                <p>
-                  Canvas includes tons of optimized code that are completely
-                  customizable and deliver unmatched fast performance.
-                </p>
-              </div>
-            </div>
-
-            <div className="clear" />
-
-            <div className="col_one_third">
-              <div className="feature-box fbox-plain">
-                <div
-                  className="fbox-icon"
-                  data-animate="bounceIn"
-                  data-delay="600"
-                >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/flag.png"
-                      alt="Responsive Layout"
-                    />
-                  </a>
-                </div>
-                <h3>Endless Possibilities</h3>
-                <p>
-                  You have complete easy control on each &amp; every element
-                  that provides endless customization possibilities.
-                </p>
-              </div>
-            </div>
-
-            <div className="col_one_third">
-              <div className="feature-box fbox-plain">
-                <div
-                  className="fbox-icon"
-                  data-animate="bounceIn"
-                  data-delay="800"
-                >
-                  <a href="/#XXX">
-                    <img
                       src="/images/icons/features/tick.png"
-                      alt="Retina Graphics"
-                    />
-                  </a>
-                </div>
-                <h3>Light &amp; Dark Scheme</h3>
-                <p>
-                  Change your Website's Primary Scheme instantly by simply
-                  adding the dark class to the body.
-                </p>
-              </div>
-            </div>
-
-            <div className="col_one_third col_last">
-              <div className="feature-box fbox-plain">
-                <div
-                  className="fbox-icon"
-                  data-animate="bounceIn"
-                  data-delay="1000"
-                >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/tools.png"
-                      alt="Powerful Performance"
-                    />
-                  </a>
-                </div>
-                <h3>Customizable Fonts</h3>
-                <p>
-                  Use any Font you like from Google Web Fonts, Typekit or other
-                  Web Fonts. They will blend in perfectly.
-                </p>
-              </div>
-            </div>
-
-            <div className="clear" />
-
-            <div className="col_one_third">
-              <div className="feature-box fbox-plain">
-                <div
-                  className="fbox-icon"
-                  data-animate="bounceIn"
-                  data-delay="1200"
-                >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/map.png"
-                      alt="Responsive Layout"
-                    />
-                  </a>
-                </div>
-                <h3>Responsive Layout</h3>
-                <p>
-                  Powerful Layout with Responsive functionality that can be
-                  adapted to any screen size. Resize browser to view.
-                </p>
-              </div>
-            </div>
-
-            <div className="col_one_third">
-              <div className="feature-box fbox-plain">
-                <div
-                  className="fbox-icon"
-                  data-animate="bounceIn"
-                  data-delay="1400"
-                >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/seo.png"
-                      alt="Retina Graphics"
-                    />
-                  </a>
-                </div>
-                <h3>Retina Graphics</h3>
-                <p>
-                  Looks beautiful &amp; ultra-sharp on Retina Screen Displays.
-                  Retina Icons, Fonts &amp; all others graphics are optimized.
-                </p>
-              </div>
-            </div>
-
-            <div className="col_one_third col_last">
-              <div className="feature-box fbox-plain">
-                <div
-                  className="fbox-icon"
-                  data-animate="bounceIn"
-                  data-delay="1600"
-                >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/support.png"
                       alt="Powerful Performance"
                     />
                   </a>
@@ -359,7 +207,7 @@ export default () => (
                 <h3>Powerful Performance</h3>
                 <p>
                   Canvas includes tons of optimized code that are completely
-                  customizable and deliver unmatched fast performance.
+                  customizable and deliver unmatched fast performance. XXX END
                 </p>
               </div>
             </div>
