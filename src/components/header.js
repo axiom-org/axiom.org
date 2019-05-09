@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => (
-  <header id="header">
+  <header id="header" className="static-sticky">
     <div id="header-wrap">
       <div className="container clearfix">
         <div id="logo">
