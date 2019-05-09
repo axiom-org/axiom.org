@@ -51,8 +51,6 @@
 	margin-left: 5px;
 }
 
-.docs-navigation ul ul { display: none; }
-
 .docs-navigation ul li.ui-tabs-active ul { display: block; }
 
 .docs-navigation ul ul a {
