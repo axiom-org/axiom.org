@@ -49,74 +49,58 @@ export default () => (
                     data-speed="1250"
                   >
                     <li>
-                      <a href="#" data-href="#docs-start-installation">
+                      <DocLink href="#docs-start-installation">
                         Installation
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-nichedemos">
+                      <DocLink href="#docs-start-nichedemos">
                         Niche Demos
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-html">
-                        HTML Structure
-                      </a>
+                      <DocLink href="#docs-start-html">HTML Structure</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-pagetransition">
+                      <DocLink href="#docs-start-pagetransition">
                         Page Transition
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-logo">
-                        Logo Settings
-                      </a>
+                      <DocLink href="#docs-start-logo">Logo Settings</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-color">
-                        Color Schemes
-                      </a>
+                      <DocLink href="#docs-start-color">Color Schemes</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-fonts">
-                        Changing Fonts
-                      </a>
+                      <DocLink href="#docs-start-fonts">Changing Fonts</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-custom">
-                        Customization
-                      </a>
+                      <DocLink href="#docs-start-custom">Customization</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-rtl">
-                        RTL Setup
-                      </a>
+                      <DocLink href="#docs-start-rtl">RTL Setup</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-cssvars">
-                        CSS Vars
-                      </a>
+                      <DocLink href="#docs-start-cssvars">CSS Vars</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-less">
-                        LESS Setup
-                      </a>
+                      <DocLink href="#docs-start-less">LESS Setup</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-https">
+                      <DocLink href="#docs-start-https">
                         HTTPs Compatibility
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-start-tips">
+                      <DocLink href="#docs-start-tips">
                         Optimization Tips
-                      </a>
+                      </DocLink>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#docs-headers">Headers</a>
+                  <DocLink href="#docs-headers">Headers</DocLink>
                   <ul
                     className="one-page-menu"
                     data-offset="110"
@@ -124,44 +108,42 @@ export default () => (
                     data-speed="1250"
                   >
                     <li>
-                      <a href="#" data-href="#docs-headers-types">
-                        Header Types
-                      </a>
+                      <DocLink href="#docs-headers-types">Header Types</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-headers-megamenu">
+                      <DocLink href="#docs-headers-megamenu">
                         Mega Menus
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-headers-menustyles">
+                      <DocLink href="#docs-headers-menustyles">
                         Menu Styles
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-headers-mobilemenu">
+                      <DocLink href="#docs-headers-mobilemenu">
                         Mobile Menu
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-headers-submenu">
+                      <DocLink href="#docs-headers-submenu">
                         Page Sub Menu
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-headers-dotsmenu">
+                      <DocLink href="#docs-headers-dotsmenu">
                         Dots Sub Menu
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-headers-helper">
+                      <DocLink href="#docs-headers-helper">
                         Helper Classes
-                      </a>
+                      </DocLink>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#docs-pageel">Page Elements</a>
+                  <DocLink href="#docs-pageel">Page Elements</DocLink>
                   <ul
                     className="one-page-menu"
                     data-offset="110"
@@ -169,49 +151,43 @@ export default () => (
                     data-speed="1250"
                   >
                     <li>
-                      <a href="#" data-href="#docs-pageel-titles">
-                        Page Title
-                      </a>
+                      <DocLink href="#docs-pageel-titles">Page Title</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-grid">
-                        Grid
-                      </a>
+                      <DocLink href="#docs-pageel-grid">Grid</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-isotope">
+                      <DocLink href="#docs-pageel-isotope">
                         Isotope Grid
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-sidepanel">
+                      <DocLink href="#docs-pageel-sidepanel">
                         Side Panel
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-stickysidebar">
+                      <DocLink href="#docs-pageel-stickysidebar">
                         Sticky Sidebar
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-gototop">
-                        Go To Top
-                      </a>
+                      <DocLink href="#docs-pageel-gototop">Go To Top</DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-classes">
+                      <DocLink href="#docs-pageel-classes">
                         Helper Classes
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-snippets">
+                      <DocLink href="#docs-pageel-snippets">
                         Useful Snippets
-                      </a>
+                      </DocLink>
                     </li>
                     <li>
-                      <a href="#" data-href="#docs-pageel-responsiveutilities">
+                      <DocLink href="#docs-pageel-responsiveutilities">
                         Responsive Utilities
-                      </a>
+                      </DocLink>
                     </li>
                   </ul>
                 </li>
