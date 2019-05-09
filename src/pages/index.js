@@ -238,7 +238,11 @@ export default () => (
               <h2>Frequently Asked Questions</h2>
             </div>
 
-            <div className="col_half nobottommargin">
+            <div className="col_one_fifth nobottommargin">
+              <div style={{ color: "white" }}>.</div>
+            </div>
+
+            <div className="col_three_fifth nobottommargin">
               <h4 id="faq-1">
                 <strong>Q.</strong> How do I become an author?
               </h4>
@@ -298,68 +302,6 @@ export default () => (
                 hic commodi nulla ratione accusamus doloribus fuga magnam id
                 temporibus dignissimos deleniti quidem ipsam corporis sapiente
                 nam expedita saepe quas ab? Vero, assumenda.
-              </p>
-            </div>
-
-            <div className="col_half nobottommargin col_last">
-              <h4 id="faq-7">
-                <strong>Q.</strong> What Images, Videos, Code or Music Can I Use
-                in my Items?
-              </h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                odio ab quis architecto recusandae doloremque incidunt! Eius,
-                quidem, pariatur necessitatibus commodi aliquid deleniti
-                repudiandae accusantium tempora soluta vel nesciunt est
-                quibusdam iure adipisci aspernatur maiores saepe ea eaque quo
-                harum reprehenderit similique nemo voluptate ullam natus illum
-                magnam alias nobis doloremque delectus ipsa dicta repellat
-                maxime dignissimos eveniet quae debitis ratione assumenda
-                tempore officiis fugiat dolor. Saepe iusto praesentium ullam
-                aliquam impedit.
-              </p>
-
-              <div className="line" />
-
-              <h4 id="faq-8">
-                <strong>Q.</strong> Can I use trademarked names in my items?
-              </h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eveniet, nisi, laborum autem reprehenderit excepturi harum ipsum
-                quod sit. Inventore et sunt nemo natus labore voluptate omnis
-                reprehenderit culpa. Minus vitae molestiae totam ut a accusamus
-                at fugiat nemo debitis delectus? Consectetur, deleniti,
-                cupiditate ad doloribus numquam minus illum fugit laborum a
-                voluptatum nulla at autem ab beatae odio dolorem assumenda magni
-                laudantium saepe recusandae doloremque illo nesciunt aut quos
-                debitis neque reiciendis veritatis iusto eos aliquid voluptatem
-                pariatur eveniet velit?
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-                esse, dolore, animi sed aliquam est consequatur atque magnam
-                sunt voluptas nostrum sint minus neque iste ut velit iure eius!
-                Hic, laudantium, consequatur veniam magnam ullam eveniet sed
-                minus rem deleniti!
-              </p>
-
-              <div className="line" />
-
-              <h4 id="faq-9">
-                <strong>Q.</strong> Tips for Increasing Your Referral Income
-              </h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eveniet, nisi, laborum autem reprehenderit excepturi harum ipsum
-                quod sit. Inventore et sunt nemo natus labore voluptate omnis
-                reprehenderit culpa. Minus vitae molestiae totam ut a accusamus
-                at fugiat nemo debitis delectus? Consectetur, deleniti,
-                cupiditate ad doloribus numquam minus illum fugit laborum a
-                voluptatum nulla at autem ab beatae odio dolorem assumenda magni
-                laudantium saepe recusandae doloremque illo nesciunt aut quos
-                debitis neque reiciendis veritatis iusto eos aliquid voluptatem
-                pariatur eveniet velit?
               </p>
             </div>
 
