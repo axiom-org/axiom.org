@@ -243,65 +243,99 @@ export default () => (
             </div>
 
             <div className="col_three_fifth nobottommargin">
-              <h4 id="faq-1">
-                <strong>Q.</strong> How do I become an author?
+              <h4>
+                <strong>Q.</strong> How do I build an Axiom app?
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Assumenda, dolorum, vero ipsum molestiae minima odio quo
-                voluptate illum excepturi quam cum voluptates doloribus quae
-                nisi tempore necessitatibus dolores ducimus enim libero eaque
-                explicabo suscipit animi at quaerat aliquid ex expedita
-                perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae
-                nulla.
+                The architecture for an Axiom app is similar to the{" "}
+                <a href="https://jamstack.org/">JAM stack</a>. The application
+                logic lives in static HTML and JavaScript. Dynamic user data can
+                be accessed at runtime through the JavaScript Axiom client.
+              </p>
+              <p>
+                You can start out with your favorite frontend framework, like
+                React, Angular, or Vue. Or you can just start writing a plain
+                old HTML page. Once you have a site that's working locally, you
+                can use the Axiom CLI to deploy it as a decentralized
+                application. You can then access it using the Chrome extension
+                or any Axiom mirror. XXX include docs links here
               </p>
 
               <div className="line" />
 
-              <h4 id="faq-2">
-                <strong>Q.</strong> Helpful Resources for Authors
+              <h4>
+                <strong>Q.</strong> Why would I want to build an Axiom app?
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Explicabo, placeat, architecto rem dolorem dignissimos repellat
-                veritatis in et eos doloribus magnam aliquam ipsa alias
-                assumenda officiis quasi sapiente suscipit veniam odio
-                voluptatum. Enim at asperiores quod velit minima officia
-                accusamus cumque eligendi consequuntur fuga? Maiores, quasi,
-                voluptates, exercitationem fuga voluptatibus a repudiandae
-                expedita omnis molestiae alias repellat perferendis dolores
-                dolor.
+                Our mission is to increase freedom on the internet. Axiom lets
+                you build an app that cannot be blocked by a single hosting
+                provider, or a centralized authority blocking a single URL.
+              </p>
+              <p>
+                There is also a second, sneakier form of censorship. Sometimes a
+                platform arises that claims to be committed to free speech. But
+                it is still controlled by a single, centralized entity. Over
+                time, that entity comes under pressure from advertisers and
+                politicians, and decides to introduce censorship. With an Axiom
+                application, users control their data, so they can decide to
+                keep their old data while moving to a different application
+                provider. Axiom helps application developers commit to staying
+                open.
+              </p>
+              <p>
+                Finally, like most other cryptocurrencies Axiom generates new
+                valuable tokens over time through a "mining" model. Some of
+                these tokens are paid to machines running application storage,
+                and some of these tokens are paid out to application developers.
+                So you can make money directly by making a popular Axiom
+                application.
               </p>
 
               <div className="line" />
 
-              <h4 id="faq-3">
+              <h4>
                 <strong>Q.</strong> How much money can I make?
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Possimus, fugiat iste nisi tempore nesciunt nemo fuga? Nesciunt,
-                delectus laboriosam nisi repudiandae nam fuga saepe animi
-                recusandae. Asperiores, provident, esse, doloremque, adipisci
-                eaque alias dolore molestias assumenda quasi saepe nisi ab illo
-                ex nesciunt nobis laboriosam iusto quia nulla ad voluptatibus
-                iste beatae voluptas corrupti facilis accusamus recusandae sequi
-                debitis reprehenderit quibusdam. Facilis eligendi a
-                exercitationem nisi et placeat excepturi velit!
+                Right now, Axiom is in beta. We don't expect the tokens to be
+                worth anything until the main network launches. However,
+                applications built on Axiom will continue to work when the main
+                network launches. User accounts and user data created on the
+                beta network will be airdropped into the main network. So you
+                can start building decentralized applications now, with some
+                hope of getting paid later.
               </p>
 
               <div className="line" />
 
-              <h4 id="faq-5">
-                <strong>Q.</strong> An Introduction to the Marketplaces for
-                Authors
+              <h4>
+                <strong>Q.</strong> Can I make money mining?
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In,
-                quisquam atque vero delectus corrupti! Quo, maiores, dolorem,
-                hic commodi nulla ratione accusamus doloribus fuga magnam id
-                temporibus dignissimos deleniti quidem ipsam corporis sapiente
-                nam expedita saepe quas ab? Vero, assumenda.
+                Yes, although we think it is confusing to call it "mining". It
+                is more accurate to call it "hosting". The network needs
+                machines that store both application data and user data, and
+                rewards machines that perform this storage with cryptocurrency
+                tokens.
+              </p>
+              <p>
+                In particular, Axiom is not a "proof-of-work" cryptocurrency. It
+                uses the{" "}
+                <a href="https://www.stellar.org/papers/stellar-consensus-protocol.pdf">
+                  Stellar Consensus Protocol
+                </a>{" "}
+                for the core operation of its blockchain. The upside of this
+                style of consensus protocol is that the blockchain can operate
+                much more efficiently. This means that very few computing
+                resources need to be expended to gain consensus on blocks, so
+                the primary cost of operating the network is the cost of file
+                hosting.
+              </p>
+              <p>
+                The downside of this style of consensus protocol is that it is
+                less censorship-resistant. We think this is the right tradeoff
+                to make, because blockchain efficiency is a requirement to make
+                decentralized applications cheap enough to be usable.
               </p>
             </div>
 
@@ -317,8 +351,8 @@ export default () => (
             >
               <h2>Get in touch</h2>
               <span>
-                If you like talking about crypto stuff but don't want to
-                actually build crypto stuff, try one of these fine options
+                If you're interested in learning more about Axiom, try one of
+                these fine communication channels.
               </span>
             </div>
 
