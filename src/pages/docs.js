@@ -23,7 +23,6 @@ const DocLink = props => (
         },
         50
       );
-      return false;
     }}
   >
     {props.children}
