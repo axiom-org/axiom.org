@@ -6,10 +6,7 @@ export default () => (
       <div className="container clearfix">
         <div id="logo">
           <a href="/" className="standard-logo">
-            <img src="/images/axiomlogo.png" alt="Logo" />
-          </a>
-          <a href="/" className="retina-logo">
-            <img src="images/axiomlogo@2x.png" alt="Logo" />
+            <img src="/images/axiomlogo@2x.png" alt="Logo" />
           </a>
         </div>
 
