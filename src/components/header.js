@@ -6,7 +6,7 @@ export default () => (
       <div className="container clearfix">
         <div id="logo">
           <a href="index.html" className="standard-logo">
-            <img src="/images/logo.png" alt="Logo" />
+            <img src="/images/axiomlogo.png" alt="Logo" />
           </a>
         </div>
 

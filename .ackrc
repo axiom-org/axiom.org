@@ -1,2 +1,3 @@
 --ignore-dir=is:public
 --ignore-dir=is:fonts
+--ignore-file=is:plugins.js
