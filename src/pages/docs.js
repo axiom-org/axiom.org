@@ -12,18 +12,23 @@ import "../styles/style.css";
 
 import Header from "../components/header";
 
+// Works with anchors in the body, like scrollTo("#docs-start")
+function scrollTo(hash) {
+  let target = window.$(hash);
+  window.$("html, body").animate(
+    {
+      scrollTop: target.offset().top - 120
+    },
+    50
+  );
+}
+
 const DocLink = props => (
   <a
     href={props.href}
     onClick={e => {
       e.preventDefault();
-      let target = window.$(props.href);
-      window.$("html, body").animate(
-        {
-          scrollTop: target.offset().top - 120
-        },
-        50
-      );
+      scrollTo(props.href);
     }}
   >
     {props.children}
