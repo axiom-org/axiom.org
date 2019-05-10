@@ -5,8 +5,11 @@ export default () => (
     <div id="header-wrap">
       <div className="container clearfix">
         <div id="logo">
-          <a href="index.html" className="standard-logo">
+          <a href="/" className="standard-logo">
             <img src="/images/axiomlogo.png" alt="Logo" />
+          </a>
+          <a href="/" className="retina-logo">
+            <img src="images/axiomlogo@2x.png" alt="Logo" />
           </a>
         </div>
 
