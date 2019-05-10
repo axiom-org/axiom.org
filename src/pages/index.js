@@ -5,6 +5,7 @@ import "../styles/animate.css";
 import "../styles/bootstrap.css";
 import "../styles/dark.css";
 import "../styles/font-icons.css";
+import "../styles/index.css";
 import "../styles/magnific-popup.css";
 import "../styles/responsive.css";
 import "../styles/style.css";
@@ -94,85 +95,84 @@ export default () => (
 
           <div className="clear" />
 
-          <div className="divider divider-short divider-center">
-            <i className="icon-circle" />
-          </div>
-
-          <div
-            id="section-features"
-            className="heading-block title-center page-section"
-          >
-            <h2>How It Works</h2>
-          </div>
-
-          <div className="col_one_third">
-            <div className="feature-box fbox-plain">
-              <div className="fbox-icon" data-animate="bounceIn">
-                <a href="/#XXX">
-                  <img
-                    src="/images/icons/features/tools.png"
-                    alt="Scalable Storage"
-                  />
-                </a>
-              </div>
-              <h3>Scalable Storage</h3>
-              <p>
-                The core Axiom blockchain is replicated many times, but stores
-                only the most critical data. Storage buckets are replicated
-                fewer times and store general application data. So in most
-                cases, users can interact with your decentralized application
-                without constantly paying little bits of money.
-              </p>
+          <div id="section-how-it-works">
+            <div className="divider divider-short divider-center">
+              <i className="icon-circle" />
             </div>
-          </div>
 
-          <div className="col_one_third">
-            <div className="feature-box fbox-plain">
-              <div
-                className="fbox-icon"
-                data-animate="bounceIn"
-                data-delay="200"
-              >
-                <a href="/#XXX">
-                  <img
-                    src="/images/icons/features/seo.png"
-                    alt="Open Distribution"
-                  />
-                </a>
-              </div>
-              <h3>Open Distribution</h3>
-              <p>
-                Both the static application bundle and user data are available
-                via JavaScript API. Running a mirror that lets you access every
-                decentralized application is as simple as hosting a single
-                JavaScript + HTML bundle. So you can't censor an application by
-                blocking a single URL.
-              </p>
+            <div className="heading-block title-center page-section">
+              <h2>How It Works</h2>
             </div>
-          </div>
 
-          <div className="col_one_third col_last">
-            <div className="feature-box fbox-plain">
-              <div
-                className="fbox-icon"
-                data-animate="bounceIn"
-                data-delay="400"
-              >
-                <a href="/#XXX">
-                  <img
-                    src="/images/icons/features/tick.png"
-                    alt="Authentication"
-                  />
-                </a>
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
+                <div className="fbox-icon" data-animate="bounceIn">
+                  <a href="/#XXX">
+                    <img
+                      src="/images/icons/features/tools.png"
+                      alt="Scalable Storage"
+                    />
+                  </a>
+                </div>
+                <h3>Scalable Storage</h3>
+                <p>
+                  The core Axiom blockchain is replicated many times, but stores
+                  only the most critical data. Storage buckets are replicated
+                  fewer times and store general application data. So in most
+                  cases, users can interact with your decentralized application
+                  without constantly paying little bits of money.
+                </p>
               </div>
-              <h3>Authentication</h3>
-              <p>
-                No authentication is required to read data from an application.
-                When a user is writing data, they delegate control to allow the
-                application to write to a single storage bucket. At any time,
-                the user can revoke control and delegate to a different
-                application.
-              </p>
+            </div>
+
+            <div className="col_one_third">
+              <div className="feature-box fbox-plain">
+                <div
+                  className="fbox-icon"
+                  data-animate="bounceIn"
+                  data-delay="200"
+                >
+                  <a href="/#XXX">
+                    <img
+                      src="/images/icons/features/seo.png"
+                      alt="Open Distribution"
+                    />
+                  </a>
+                </div>
+                <h3>Open Distribution</h3>
+                <p>
+                  Both the static application bundle and user data are available
+                  via JavaScript API. Running a mirror that lets you access
+                  every decentralized application is as simple as hosting a
+                  single JavaScript + HTML bundle. So you can't censor an
+                  application by blocking a single URL.
+                </p>
+              </div>
+            </div>
+
+            <div className="col_one_third col_last">
+              <div className="feature-box fbox-plain">
+                <div
+                  className="fbox-icon"
+                  data-animate="bounceIn"
+                  data-delay="400"
+                >
+                  <a href="/#XXX">
+                    <img
+                      src="/images/icons/features/tick.png"
+                      alt="Authentication"
+                    />
+                  </a>
+                </div>
+                <h3>Authentication</h3>
+                <p>
+                  No authentication is required to read data from an
+                  application. When a user is writing data, they delegate
+                  control to allow the application to write to a single storage
+                  bucket. At any time, the user can revoke control and delegate
+                  to a different application.
+                </p>
+              </div>
             </div>
           </div>
 
