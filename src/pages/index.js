@@ -12,6 +12,7 @@ import "../styles/style.css";
 
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { newsletterURL } from "../components/urls";
 
 export default () => (
   <div id="wrapper" className="clearfix">
@@ -43,7 +44,7 @@ export default () => (
             </a>
             <span className="d-block d-lg-inline-block my-2"> - OR -</span>{" "}
             <a
-              href="/#XXX"
+              href={newsletterURL}
               data-scrollto="#section-pricing"
               className="button button-3d button-red button-xlarge nobottommargin"
             >
@@ -307,7 +308,7 @@ export default () => (
             <div className="col_one_fourth">
               <div className="feature-box fbox-center fbox-bg fbox-plain">
                 <div className="fbox-icon">
-                  <a href="/#XXX">
+                  <a href={newsletterURL}>
                     <i className="icon-envelope" />
                   </a>
                 </div>
