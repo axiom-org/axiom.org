@@ -543,12 +543,17 @@ body.stretched .container-fullwidth {
 	width: 100%;
 }
 
+.col_left_snap { width: 30.62%; }
+.col_right_snap { width: 65.32%; }
+
 .postcontent,
 .sidebar,
 .col_full,
 .col_half,
 .col_one_third,
 .col_two_third,
+.col_left_snap,
+.col_right_snap,
 .col_three_fourth,
 .col_one_fourth,
 .col_one_fifth,
@@ -562,6 +567,11 @@ body.stretched .container-fullwidth {
 	margin-right: 4%;
 	margin-bottom: 50px;
 	float: left;
+}
+
+@media (max-width: 991px) {
+    .col_right_snap { display: none; }
+    .col_left_snap { width: 100%; }
 }
 
 .col_full {

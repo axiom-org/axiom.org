@@ -55,7 +55,7 @@ export default () => (
 
           <div className="clear" />
 
-          <div className="col_one_third topmargin nobottommargin">
+          <div className="col_left_snap topmargin nobottommargin">
             <h3>The best way to build decentralized applications.</h3>
 
             <p>
@@ -86,7 +86,7 @@ export default () => (
             </ul>
           </div>
 
-          <div className="col_two_third topmargin nobottommargin col_last">
+          <div className="col_right_snap topmargin nobottommargin col_last">
             <img
               src="/images/icons/macbook.png"
               alt="Macbook With Code"
