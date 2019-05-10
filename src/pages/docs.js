@@ -57,7 +57,7 @@ export default () => {
 
         <section id="content">
           <div className="content-wrap">
-            <div id="docs" className="container clearfix">
+            <div id="docs" className="clearfix">
               <div className="docs-navigation">
                 <ul>
                   <li>
