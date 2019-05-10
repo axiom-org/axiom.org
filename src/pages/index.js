@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import "../styles/animate.css";
 import "../styles/bootstrap.css";
@@ -13,6 +14,9 @@ import Header from "../components/header";
 
 export default () => (
   <div id="wrapper" className="clearfix">
+    <Helmet>
+      <title>Axiom.org</title>
+    </Helmet>
     <Header />
     <section id="content">
       <div className="content-wrap">
