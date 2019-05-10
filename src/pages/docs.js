@@ -607,7 +607,11 @@ export default () => (
                     you include with ease. By default, Canvas uses 3 Fonts
                     namely: <code>Raleway</code>, <code>Lato</code> &amp;{" "}
                     <code>Crete Round</code> from the{" "}
-                    <a href="http://www.google.com/fonts" target="_blank">
+                    <a
+                      href="http://www.google.com/fonts"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Google Fonts Library
                     </a>
                     . You can find the Linking to the Font Files in the{" "}
@@ -628,6 +632,7 @@ export default () => (
                     <a
                       href="http://css-tricks.com/snippets/css/using-font-face/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Self Hosted Fonts
                     </a>
@@ -929,6 +934,7 @@ export default () => (
                     <a
                       href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123/support?ref=SemiColonWeb#new_item_support_inquiry_form"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Contact Us from Here
                     </a>
@@ -1024,6 +1030,7 @@ export default () => (
                         <a
                           href="https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess
                         </a>{" "}
@@ -1073,7 +1080,11 @@ export default () => (
                           FREE Image Optimization Tools available to Download.
                           <br />
                           <strong>For MAC</strong> use{" "}
-                          <a href="https://imageoptim.com/" target="_blank">
+                          <a
+                            href="https://imageoptim.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             ImageOptim
                           </a>
                           <br />
@@ -1081,11 +1092,16 @@ export default () => (
                           <a
                             href="http://luci.criosweb.ro/riot/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Riot
                           </a>{" "}
                           for compressing JPEG Images &amp;{" "}
-                          <a href="http://pnggauntlet.com/" target="_blank">
+                          <a
+                            href="http://pnggauntlet.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             PNG Gauntlet
                           </a>{" "}
                           for PNG Images.
@@ -1107,13 +1123,18 @@ export default () => (
                         Minify your CSS &amp; JS Files. Our recommendations are:
                         <br />
                         <strong>For CSS</strong> use{" "}
-                        <a href="http://cssminifier.com/" target="_blank">
+                        <a
+                          href="http://cssminifier.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           CSS Minifier
                         </a>{" "}
                         and <strong>For Javascript</strong> use{" "}
                         <a
                           href="http://javascript-minifier.com/"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Javascript Minifier
                         </a>
@@ -1128,11 +1149,19 @@ export default () => (
                         files of your website like CSS, JS, Images &amp; Font
                         Files. There are several CDN Hosting Providers available
                         on the Internet but we would recommend{" "}
-                        <a href="https://www.maxcdn.com/" target="_blank">
+                        <a
+                          href="https://www.maxcdn.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           MaxCDN
                         </a>{" "}
                         or{" "}
-                        <a href="http://www.cloudflare.com/" target="_blank">
+                        <a
+                          href="http://www.cloudflare.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           CloudFlare
                         </a>
                         .
@@ -1154,6 +1183,7 @@ export default () => (
                         <a
                           href="http://themeforest.net/get_hosting"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           http://themeforest.net/get_hosting
                         </a>
@@ -2161,6 +2191,7 @@ export default () => (
                       <a
                         href="http://isotope.metafizzy.co/layout-modes.html"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         More Layout Options
                       </a>
