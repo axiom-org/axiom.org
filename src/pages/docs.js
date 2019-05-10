@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import "../styles/animate.css";
 import "../styles/bootstrap.css";
@@ -31,6 +32,9 @@ const DocLink = props => (
 
 export default () => (
   <div>
+    <Helmet>
+      <title>Axiom Documentation</title>
+    </Helmet>
     <div id="wrapper" className="clearfix">
       <Header />
 
