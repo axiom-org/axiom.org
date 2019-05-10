@@ -23,17 +23,23 @@ function scrollTo(hash) {
   );
 }
 
-const DocLink = props => (
-  <a
-    href={props.href}
-    onClick={e => {
-      e.preventDefault();
-      scrollTo(props.href);
-    }}
-  >
-    {props.children}
-  </a>
-);
+const DocLink = props => {
+  if (props.href[0] !== "#") {
+    throw new Error("bad href in DocLink: [" + props.href + "]");
+  }
+  return (
+    <a
+      href={props.href}
+      onClick={e => {
+        e.preventDefault();
+        scrollTo(props.href);
+        window.location.hash = props.href;
+      }}
+    >
+      {props.children}
+    </a>
+  );
+};
 
 export default () => {
   useEffect(() => {
