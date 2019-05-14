@@ -61,7 +61,7 @@ export default () => {
               <div className="docs-navigation">
                 <ul>
                   <li>
-                    <DocLink href="#docs-start">Start</DocLink>
+                    <DocLink href="#docs-start">Getting Started</DocLink>
                     <ul
                       className="one-page-menu"
                       data-offset="110"
@@ -69,66 +69,24 @@ export default () => {
                       data-speed="1250"
                     >
                       <li>
-                        <DocLink href="#docs-start-installation">
-                          Installation
+                        <DocLink href="#docs-start-introduction">
+                          Introduction
                         </DocLink>
                       </li>
                       <li>
-                        <DocLink href="#docs-start-nichedemos">
-                          Niche Demos
+                        <DocLink href="#docs-start-installing-the-cli">
+                          Installing the CLI
                         </DocLink>
                       </li>
                       <li>
-                        <DocLink href="#docs-start-html">
-                          HTML Structure
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-pagetransition">
-                          Page Transition
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-logo">Logo Settings</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-color">
-                          Color Schemes
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-fonts">
-                          Changing Fonts
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-custom">
-                          Customization
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-rtl">RTL Setup</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-cssvars">CSS Vars</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-less">LESS Setup</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-https">
-                          HTTPs Compatibility
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-tips">
-                          Optimization Tips
+                        <DocLink href="#docs-start-signing-up">
+                          Signing Up
                         </DocLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <DocLink href="#docs-headers">Headers</DocLink>
+                    <DocLink href="#docs-headers">Lorem Ipsum</DocLink>
                     <ul
                       className="one-page-menu"
                       data-offset="110"
@@ -173,7 +131,7 @@ export default () => {
                     </ul>
                   </li>
                   <li>
-                    <DocLink href="#docs-pageel">Page Elements</DocLink>
+                    <DocLink href="#docs-pageel">Morem Ipsum</DocLink>
                     <ul
                       className="one-page-menu"
                       data-offset="110"
@@ -227,1018 +185,133 @@ export default () => {
               <div className="docs-content">
                 <div id="docs-start">
                   <div
-                    id="docs-start-installation"
+                    id="docs-start-introduction"
                     className="docs-content-inner page-section"
                   >
-                    <h1>Installation</h1>
+                    <h1>Introduction</h1>
 
                     <p>
-                      Follow the steps below to get started with your Site
-                      Template:
+                      Axiom is a platform for building decentralized
+                      applications. It is also a cryptocurrency. If you've used
+                      application platforms like Heroku or App Engine before,
+                      you'll find parts of this familiar. If you've developed an
+                      application using other cryptocurrencies like Ethereum
+                      before, you'll find different parts of this familiar.
                     </p>
 
-                    <ol>
-                      <li>
-                        Open the <code>Package/HTML</code> Folder to find all
-                        the Templates Files
-                      </li>
-                      <li>
-                        You will need to Upload these files to your Web Server
-                        using FTP in order to use it on your Website.
-                      </li>
-                      <li>
-                        Make sure you upload the required files/folders listed
-                        below:
-                        <ul>
-                          <li>
-                            <code>HTML/css</code> - Extra Stylesheets Folder
-                          </li>
-                          <li>
-                            <code>HTML/include</code> - Required PHP Functions
-                            Folder
-                          </li>
-                          <li>
-                            <code>HTML/images</code> - Images Folder
-                          </li>
-                          <li>
-                            <code>HTML/js</code> - Javacripts Folder
-                          </li>
-                          <li>
-                            <code>HTML/style.css</code> - Main Stylesheet File
-                          </li>
-                          <li>
-                            <code>HTML/index.html</code> - Index File/Homepage
-                          </li>
-                        </ul>
-                        The other files can be used according to your
-                        preferences.
-                      </li>
-                      <li>
-                        You're now good to go..! Start adding your Content and
-                        show off your Brand New Beautiful Website in style.
-                      </li>
-                    </ol>
+                    <p>
+                      Currently, Axiom primarily targets web applications built
+                      in JavaScript. If you know how to make a simple website,
+                      you'll be able to deploy a simple decentralized site. To
+                      build a more complicated application, you'll probably want
+                      to be familiar with a JavaScript framework like React or
+                      Vue.
+                    </p>
+
+                    <p>
+                      We think the best way to learn about the Axiom system is
+                      to build a simple application on it. The first two
+                      sections of this documentation will explain how to deploy
+                      a simple static site to Axiom, and then how to build a
+                      slightly more complicated application. If you're
+                      interested in learning more, the later sections will go
+                      into more detail.
+                    </p>
+
+                    <p>Good luck!</p>
                   </div>
 
                   <div className="line" />
 
                   <div
-                    id="docs-start-nichedemos"
+                    id="docs-start-installing-the-cli"
                     className="docs-content-inner page-section"
                   >
-                    <h1>Using Niche Demos</h1>
+                    <h1>Installing the CLI</h1>
 
                     <p>
-                      Canvas makes creating Websites a very easy process and it
-                      becomes even more easier with the inclusion of Niche
-                      Demos. Niche Demos are premade concepts of different
-                      categories of Websites requiring minimal setup with a
-                      faster turnaround time. All the Niche Demos run on the
-                      native <strong>style.css</strong> and{" "}
-                      <strong>css/js</strong> Files. You can find the Main
-                      Homepages of the Niche Demos in the{" "}
-                      <strong>Package/HTML</strong> Folder with the names:{" "}
-                      <strong>demo- niche .html</strong> Template.
+                      There are several different ways to interact with Axiom.
+                      Servers running the Axiom blockchain and hosting Axiom
+                      files interact with each other through the wire protocol.
+                      Application code typically interacts with Axiom through
+                      the JavaScript Axiom client. During the development
+                      process, the most convenient way to interact with Axiom is
+                      typically through the CLI.
                     </p>
 
                     <p>
-                      To setup the Niche Demos you will need the following
-                      Folders/Files:
-                      <ul>
-                        <li>
-                          <code>css/</code> Folder
-                        </li>
-                        <li>
-                          <code>images/</code> Folder (However, you can delete
-                          the Images inside this Folder according to your
-                          Preference, but <strong>don’t</strong> delete the{" "}
-                          <strong>images/icons/</strong> Folder)
-                        </li>
-                        <li>
-                          <code>include/</code> Folder (However, you can delete
-                          the <strong>rs-plugin/</strong> Folder if the Niche
-                          Demos does not use the Revolution Slider)
-                        </li>
-                        <li>
-                          <code>js/</code> Folder
-                        </li>
-                        <li>
-                          <code>demos/ niche/</code> Folder
-                        </li>
-                        <li>
-                          <code>style.css</code> File
-                        </li>
-                      </ul>
+                      You can install the CLI using{" "}
+                      <a href="https://www.npmjs.com/get-npm">npm</a> or{" "}
+                      <a href="https://yarnpkg.com/">yarn</a>:
                     </p>
 
-                    <p>
-                      You can simply delete the other files depending on what
-                      you want to use. Additionally, you simply rename the{" "}
-                      <strong>demo- niche .html</strong> File to{" "}
-                      <strong>index.html</strong> File so that this file is
-                      viewed as your Default Homepage. That's All! You can now
-                      start Editing the Files according to your Website's Needs.
-                    </p>
+                    <pre>npm install -g axiom-cli</pre>
+                    <pre>yarn global add axiom-cli</pre>
                   </div>
 
                   <div className="line" />
 
                   <div
-                    id="docs-start-html"
+                    id="docs-start-signing-up"
                     className="docs-content-inner page-section"
                   >
-                    <h1>HTML Structure</h1>
+                    <h1>Signing Up</h1>
 
                     <p>
-                      Canvas follows a simple coding structure. here is the
-                      sample:
+                      The Axiom system stores data in two different ways. The
+                      blockchain is replicated among every machine running
+                      Axiom. Storage space there is limited, but it is very
+                      reliable. Account data, like public keys to validate
+                      users, and balances indicating how much cryptocurrency is
+                      owned by each account, is kept on the blockchain.
                     </p>
 
-                    <pre className="bottommargin">
-                      &lt;!DOCTYPE html&gt; &lt;html dir="ltr" lang="en-US"&gt;
-                      &lt;head&gt;
-                      <span className="color">
-                        &lt;!-- Your Stylesheets, Scripts &amp; Title
-                        ============================================= --&gt;
-                      </span>
-                      ... &lt;/head&gt; &lt;body&gt;
-                      <span className="color">
-                        &lt;!-- The Main Wrapper
-                        ============================================= --&gt;
-                      </span>
-                      &lt;div id="wrapper" className="clearfix"&gt;
-                      <span className="color">
-                        &lt;!-- Header
-                        ============================================= --&gt;
-                      </span>
-                      &lt;header id="header"&gt; ... &lt;/header&gt;
-                      <span className="color">
-                        &lt;!-- Site Content
-                        ============================================= --&gt;
-                      </span>
-                      &lt;section id="content"&gt; &lt;div
-                      className="content-wrap"&gt; &lt;div className="container
-                      clearfix"&gt; ... &lt;/div&gt; &lt;/div&gt;
-                      &lt;/section&gt;
-                      <span className="color">
-                        &lt;!-- Footer
-                        ============================================= --&gt;
-                      </span>
-                      &lt;footer id="footer" className="dark"&gt; &lt;div
-                      className="container"&gt; ... &lt;/div&gt;
-                      <span className="color">
-                        &lt;!-- Copyrights
-                        ============================================= --&gt;
-                      </span>
-                      &lt;div id="copyrights"&gt; &lt;div className="container
-                      clearfix"&gt; ... &lt;/div&gt; &lt;/div&gt;
-                      &lt;/footer&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;
-                    </pre>
-
-                    <h3>Layout Settings</h3>
-
                     <p>
-                      This Theme Supports both Boxed &amp; Wide Layouts. Adding
-                      the class <code>.stretched</code> to the{" "}
-                      <code>&lt;body&gt;</code> will turn your website into a
-                      Wide Layout:
+                      File storage, on the other hand, is not replicated among
+                      every machine running Axiom. Files stored on Axiom will
+                      only be replicated to a few different machines. Only hash
+                      values of file content will be stored on the blockchain.
                     </p>
 
-                    <pre className="bottommargin">
-                      &lt;body className="stretched"&gt;
-                    </pre>
-
-                    <h3>Favicons &amp; Apple Touch Icons</h3>
-
                     <p>
-                      You can add a Favicon to your Website using the following
-                      code:
+                      To store any data in Axiom, you'll need to acquire some
+                      cryptocurrency, to pay for storage. To make this easier
+                      during the beta period, we have a faucet set up to give
+                      out a small amount of currency to use for development.
                     </p>
 
-                    <pre>
-                      &lt;link rel="icon" href="favicon.png" type="image/png"
-                      sizes="16x16"&gt;
-                    </pre>
-
                     <p>
-                      You can add Apple Touch Icons to your Website using the
-                      following code:
-                    </p>
-
-                    <pre>
-                      &lt;link rel="apple-touch-icon"
-                      href="touch-icon-iphone.png"&gt; &lt;link
-                      rel="apple-touch-icon" sizes="76x76"
-                      href="touch-icon-ipad.png"&gt; &lt;link
-                      rel="apple-touch-icon" sizes="120x120"
-                      href="touch-icon-iphone-retina.png"&gt; &lt;link
-                      rel="apple-touch-icon" sizes="152x152"
-                      href="touch-icon-ipad-retina.png"&gt;
-                    </pre>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-pagetransition"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Page Loading Transitions</h1>
-
-                    <p>
-                      You can show Interactive loaders to your Visitors while
-                      the Pages of you Website loads in the background &amp;
-                      then Reveal your Pages with CSS3 Transitions. Page Loading
-                      Transitions are enabled by default. To disable the
-                      Transition, you can simply add <code>.no-transition</code>{" "}
-                      Class to the <code>&lt;body&gt;</code> Tag.
-                    </p>
-
-                    <pre>&lt;body className="no-transition"&gt;</pre>
-
-                    <p>
-                      You can customize the Transitions of your Pages Load using
-                      the following attributes:
-                    </p>
-
-                    <ul>
-                      <li>
-                        <code>data-animation-in</code> - The Animation style on
-                        Page Load. Eg. fadeIn
-                      </li>
-                      <li>
-                        <code>data-animation-out</code> - The Animation style on
-                        Page Out. Eg. fadeOut
-                      </li>
-                      <li>
-                        <code>data-speed-in</code> - The Speed of the Animation
-                        in milliseconds on Page Load. Eg. 1500
-                      </li>
-                      <li>
-                        <code>data-speed-out</code> - The Speed of the Animation
-                        in milliseconds on Page Out. Eg. 800
-                      </li>
-                      <li>
-                        <code>data-loader</code> - Loading Styles of the
-                        Animation. Eg. 2. Choose from <strong>1</strong>,{" "}
-                        <strong>2</strong>, <strong>3</strong>,{" "}
-                        <strong>4</strong>, <strong>5</strong>,{" "}
-                        <strong>6</strong>, <strong>7</strong>,{" "}
-                        <strong>8</strong>, <strong>9</strong>,{" "}
-                        <strong>10</strong>, <strong>11</strong>,{" "}
-                        <strong>12</strong>, <strong>13</strong> and{" "}
-                        <strong>14</strong>
-                      </li>
-                      <li>
-                        <code>data-loader-color</code> - Any HEX Color for the
-                        Loader. Eg. #FF0000
-                      </li>
-                      <li>
-                        <code>data-loader-timeout</code> - Add a TimeOut in
-                        milliseconds to end the Page Preloader immaturely. Eg.
-                        4000
-                      </li>
-                      <li>
-                        <code>data-loader-html</code> - Add Custom HTML Code for
-                        your Loader.
-                      </li>
-                    </ul>
-
-                    <pre>
-                      &lt;body data-loader="2" data-animation-in="fadeIn"
-                      data-speed-in="1500" data-animation-out="fadeOut"
-                      data-speed-out="800"&gt;
-                    </pre>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-logo"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Logo Settings</h1>
-
-                    <p>
-                      The Logo Container can be found in the Header Container -{" "}
-                      <code>#header</code>
-                    </p>
-
-                    <pre>
-                      &lt;div id="logo"&gt; &lt;a href="index.html"
-                      className="standard-logo"
-                      data-dark-logo="images/logo-dark.png"&gt;&lt;img
-                      src="images/logo.png" alt="Canvas Logo"&gt;&lt;/a&gt;
-                      &lt;/div&gt;
-                    </pre>
-
-                    <p>
-                      <span className="label label-danger">Note</span> The Logo
-                      Image's maximum height can be <strong>100px</strong>. Also
-                      make sure you also add the Dark Logo which provides even
-                      more intuitiveness when you switch between Light/Dark
-                      Scheme. However, it is optional.
-                    </p>
-
-                    <hr className="bs-docs-separator" />
-
-                    <h2>Retina Logo</h2>
-
-                    <p>
-                      If you wish to use a Retina Logo, make sure that you use
-                      double the size of your Standard Logo. Use the code
-                      mentioned below instead of the above code:
-                    </p>
-
-                    <pre>
-                      &lt;div id="logo"&gt; &lt;a href="index.html"
-                      className="standard-logo"
-                      data-dark-logo="images/logo-dark.png"&gt;&lt;img
-                      src="images/logo.png" alt="Canvas Logo"&gt;&lt;/a&gt;
-                      &lt;a href="index.html" className="retina-logo"
-                      data-dark-logo="images/logo-dark@2x.png"&gt;&lt;img
-                      src="images/logo@2x.png" alt="Canvas Logo"&gt;&lt;/a&gt;
-                      &lt;/div&gt;
-                    </pre>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-color"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Color Schemes</h1>
-
-                    <p>
-                      You can change your Website's Color Scheme in an instant.
-                      You simply need to change the HEX Color Code in the{" "}
-                      <code>css/colors.css</code> file &amp; you are good to go.
-                      Follow these quick steps to get going:
-                    </p>
-
-                    <ol>
-                      <li>
-                        <p>
-                          Make sure you add the <code>css/colors.css</code>{" "}
-                          stylesheet in your head after the responsive
-                          stylesheets.
-                        </p>
-                        <pre>
-                          &lt;head&gt; ... &lt;link rel="stylesheet"
-                          href="css/responsive.css" type="text/css" /&gt;
-                          &lt;meta name="viewport" content="width=device-width,
-                          initial-scale=1, maximum-scale=1" /&gt; &lt;!--[if lt
-                          IE 9]&gt; &lt;script
-                          src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"&gt;&lt;/script&gt;
-                          &lt;![endif]--&gt;
-                          <span className="color">
-                            &lt;!-- Here goes your colors.css
-                            ============================================= --&gt;
-                          </span>
-                          &lt;link rel="stylesheet" href="css/colors.css"
-                          type="text/css" /&gt; ... &lt;/head&gt;
-                        </pre>
-                      </li>
-                      <li>
-                        Now simply change the HEX Codes according to your
-                        requirements.
-                      </li>
-                    </ol>
-
-                    <div className="line line-sm" />
-
-                    <h2>Dark Scheme</h2>
-
-                    <p>
-                      You can also completely change the Contrast of the Website
-                      to Dark, simply by adding the <code>.dark</code> Class to
-                      the <code>body</code> Tag. You can also add the{" "}
-                      <code>.dark</code> Class to certain elements like{" "}
-                      <strong>#header</strong>, <strong>#primary-menu</strong>,{" "}
-                      <strong>.section</strong>, <strong>Slides</strong>,{" "}
-                      <strong>#footer</strong> &amp; many other elements. This
-                      will help you experimenting with different color schemes.
-                      The <code>.dark</code> Class will also be very helpful for
-                      turning the Texts of a container to light color.
-                    </p>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-fonts"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Changing Fonts</h1>
-
-                    <p>
-                      Change your Fonts on the Fly as we have included a{" "}
-                      <code>css/fonts.css</code> file to manage the custom fonts
-                      you include with ease. By default, Canvas uses 3 Fonts
-                      namely: <code>Raleway</code>, <code>Lato</code> &amp;{" "}
-                      <code>Crete Round</code> from the{" "}
-                      <a
-                        href="http://www.google.com/fonts"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Google Fonts Library
+                      To sign up, first{" "}
+                      <a href="https://axiom.org/newsletter">
+                        register your email here
                       </a>
-                      . You can find the Linking to the Font Files in the{" "}
-                      <code>head</code> tag of all the <code>.html</code> files.
+                      . Then run this command:
                     </p>
 
-                    <pre>
-                      &lt;link
-                      href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
-                      rel="stylesheet" type="text/css" /&gt;
-                    </pre>
+                    <pre>axiom signup</pre>
 
                     <p>
-                      In order to change the Fonts, you will need to Edit the
-                      Above Links with your Custom Font if you plan to use a
-                      Google Font or Remove it complete if you plan to use a
-                      Self Hosted font. Here is an Example for using{" "}
-                      <a
-                        href="http://css-tricks.com/snippets/css/using-font-face/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Self Hosted Fonts
-                      </a>
-                      .
+                      You will have to enter a token that was emailed to you, so
+                      please use a legitimate email address.
                     </p>
 
                     <p>
-                      You can now be able to change the{" "}
-                      <strong>Font Names</strong> in the{" "}
-                      <code>css/fonts.css</code> File.
+                      Once you complete the signup command, you should have
+                      enough money in your account to pay for the storage used
+                      in application development. To check your account balance,
+                      run:
                     </p>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-custom"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Theme Customization</h1>
-
-                    <p>
-                      We have include a Custom CSS File in the <code>css</code>{" "}
-                      Folder so that you can better handle your Customizations
-                      while updating Canvas to the Latest Version. Simply add
-                      all your Custom CSS Codes in the{" "}
-                      <code>css/custom.css</code> File and link it in the
-                      Document <code>&lt;head&gt;</code> after the{" "}
-                      <code>css/responsive.css</code> Linking. Also make sure
-                      that this is the Last Linked CSS File in the Document{" "}
-                      <code>&lt;head&gt;</code> so that your Custom CSS Styles
-                      are Overwritten properly.
-                    </p>
-
-                    <h5>Example:</h5>
-                    <pre>
-                      &lt;head&gt; ... &lt;link rel="stylesheet"
-                      href="css/responsive.css" type="text/css" /&gt; &lt;meta
-                      name="viewport" content="width=device-width,
-                      initial-scale=1, maximum-scale=1" /&gt; &lt;!--[if lt IE
-                      9]&gt; &lt;script
-                      src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"&gt;&lt;/script&gt;
-                      &lt;![endif]--&gt;
-                      <span className="color">
-                        &lt;!-- Here goes your custom.css
-                        ============================================= --&gt;
-                      </span>
-                      &lt;link rel="stylesheet" href="css/custom.css"
-                      type="text/css" /&gt; &lt;/head&gt;
-                    </pre>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-rtl"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Setting up RTL</h1>
-
-                    <p>
-                      We have included all the Tools to make your Website
-                      completely <strong>RTL</strong> ready. Simply follow the
-                      steps below:
-                    </p>
-
-                    <ol>
-                      <li>
-                        Add the <code>dir="rtl"</code> to the{" "}
-                        <code>&lt;html&gt;</code> Tag. <strong>Example:</strong>
-                        <pre>&lt;html dir="rtl" lang="ar"&gt;</pre>
-                      </li>
-                      <li>
-                        Add the RTL related CSS in the Document{" "}
-                        <code>&lt;head&gt;</code>. <strong>Example:</strong>
-                        <pre>
-                          &lt;head&gt; &#x9;&lt;meta
-                          http-equiv=&quot;content-type&quot;
-                          content=&quot;text/html; charset=utf-8&quot; /&gt;
-                          &#x9;&lt;meta name=&quot;author&quot;
-                          content=&quot;SemiColonWeb&quot; /&gt; &#x9;&lt;!--
-                          Stylesheets
-                          &#x9;=============================================
-                          --&gt; &#x9;&lt;link
-                          href=&quot;http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic&quot;
-                          rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
-                          /&gt; &#x9;&lt;link rel=&quot;stylesheet&quot;
-                          href=&quot;css/bootstrap.css&quot;
-                          type=&quot;text/css&quot; /&gt;
-                          <span className="color">
-                            &#x9;&lt;link rel=&quot;stylesheet&quot;
-                            href=&quot;css/bootstrap-rtl.css&quot;
-                            type=&quot;text/css&quot; /&gt;
-                          </span>
-                          &#x9;&lt;link rel=&quot;stylesheet&quot;
-                          href=&quot;style.css&quot; type=&quot;text/css&quot;
-                          /&gt;
-                          <span className="color">
-                            &#x9;&lt;link rel=&quot;stylesheet&quot;
-                            href=&quot;style-rtl.css&quot;
-                            type=&quot;text/css&quot; /&gt;
-                          </span>
-                          &#x9;&lt;link rel=&quot;stylesheet&quot;
-                          href=&quot;css/dark.css&quot;
-                          type=&quot;text/css&quot; /&gt;
-                          <span className="color">
-                            &#x9;&lt;link rel=&quot;stylesheet&quot;
-                            href=&quot;css/dark-rtl.css&quot;
-                            type=&quot;text/css&quot; /&gt;
-                          </span>
-                          &#x9;&lt;link rel=&quot;stylesheet&quot;
-                          href=&quot;css/font-icons.css&quot;
-                          type=&quot;text/css&quot; /&gt;
-                          <span className="color">
-                            &#x9;&lt;link rel=&quot;stylesheet&quot;
-                            href=&quot;css/font-icons-rtl.css&quot;
-                            type=&quot;text/css&quot; /&gt;
-                          </span>
-                          &#x9;&lt;link rel=&quot;stylesheet&quot;
-                          href=&quot;css/animate.css&quot;
-                          type=&quot;text/css&quot; /&gt; &#x9;&lt;link
-                          rel=&quot;stylesheet&quot;
-                          href=&quot;css/magnific-popup.css&quot;
-                          type=&quot;text/css&quot; /&gt; &#x9;&lt;link
-                          rel=&quot;stylesheet&quot;
-                          href=&quot;css/responsive.css&quot;
-                          type=&quot;text/css&quot; /&gt;
-                          <span className="color">
-                            &#x9;&lt;link rel=&quot;stylesheet&quot;
-                            href=&quot;css/responsive-rtl.css&quot;
-                            type=&quot;text/css&quot; /&gt;
-                          </span>
-                          &#x9;&lt;meta name=&quot;viewport&quot;
-                          content=&quot;width=device-width,
-                          initial-scale=1&quot; /&gt; &#x9;&lt;!--[if lt IE
-                          9]&gt; &#x9;&#x9;&lt;script
-                          src=&quot;http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js&quot;&gt;&lt;/script&gt;
-                          &#x9;&lt;![endif]--&gt; &#x9;&lt;!-- Document Title
-                          &#x9;=============================================
-                          --&gt; &#x9;&lt;title&gt;Page | Canvas&lt;/title&gt;
-                          &lt;/head&gt;
-                        </pre>
-                      </li>
-                      <li>
-                        Add the <code>.rtl</code> Class to the{" "}
-                        <code>&lt;body&gt;</code> Tag. <strong>Example:</strong>
-                        <pre>&lt;body className="stretched rtl"&gt;</pre>
-                      </li>
-                    </ol>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-cssvars"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>CSS Custom Properties (Variables)</h1>
-
-                    <p>
-                      Using CSS Custom Properties is the easiest way to
-                      Customize the Basic Styling in Canvas including the Theme
-                      Colors, Fonts or Margins. Follow the Steps below:
-                    </p>
-
-                    <ol>
-                      <li>
-                        Replace the following code on your Page:
-                        <pre>
-                          &lt;link rel="stylesheet" href="style.css"
-                          type="text/css" /&gt;
-                        </pre>
-                        with:
-                        <pre>
-                          &lt;link rel="stylesheet" href="style-vars.css"
-                          type="text/css" /&gt;
-                        </pre>
-                        The List of the all the Files you need to replace are
-                        mentioned below.
-                      </li>
-                      <li>
-                        Open the <code>style-vars.css</code> File and scroll to
-                        where the <code>:root</code> Line starts.
-                      </li>
-                      <li>
-                        You will see a List of Configurable Options in this
-                        Section which are easy to understand.
-                      </li>
-                      <li>
-                        Simply change the Values according to what you need and
-                        refresh the page to see the changes take effect.
-                      </li>
-                    </ol>
-
-                    <p>
-                      You will need to use the following files instead of their
-                      traditional names (style.css):
-                    </p>
-
-                    <ul>
-                      <li>
-                        <code>style-vars.css</code>
-                      </li>
-                      <li>
-                        <code>style-rtl-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/responsive-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/responsive-rtl-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/dark-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/dark-rtl-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/font-icons-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/components/radio-checkbox-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/components/bs-switches-vars.css</code>
-                      </li>
-                      <li>
-                        <code>css/components/ion.rangeslider-vars.css</code>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-less"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Setting up LESS CSS</h1>
-
-                    <ul>
-                      <li>
-                        <h4>Step 1:</h4>
-                        <p>
-                          Change all the following CSS Linking in your{" "}
-                          <code>&lt;head&gt;</code> Tag:
-                        </p>
-
-                        <pre>
-                          1. &lt;link rel="stylesheet" href="style.css"
-                          type="text/css" /&gt; 2. &lt;link rel="stylesheet"
-                          href="css/dark.css" type="text/css" /&gt; 3. &lt;link
-                          rel="stylesheet" href="css/responsive.css"
-                          type="text/css" /&gt;
-                        </pre>
-
-                        <p>To their respective LESS Linking:</p>
-
-                        <pre>
-                          1. &lt;link rel="stylesheet/less" href="style.less"
-                          type="text/less" /&gt; 2. &lt;link
-                          rel="stylesheet/less" href="less/dark.less"
-                          type="text/less" /&gt; 3. &lt;link
-                          rel="stylesheet/less" href="less/responsive.less"
-                          type="text/less" /&gt;
-                        </pre>
-                      </li>
-                      <li>
-                        <h4>Step 2:</h4>
-                        <p>
-                          Add the LESS Script just after the{" "}
-                          <code>js/plugins.js</code> Script Linking at the
-                          bottom of the Page:
-                        </p>
-                        <pre>
-                          &lt;script
-                          src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"&gt;&lt;/script&gt;
-                        </pre>
-                      </li>
-                      <li>
-                        <h4>Step 3:</h4>
-                        <p>
-                          Open the <code>less/variables.less</code> and Edit the
-                          values according to your needs. If you need more
-                          Advanced Setup then you can Edit the Respective Files
-                          yourself which have been branched inside the{" "}
-                          <code>less</code> Folder. It is completely at your
-                          discretion only to include the Required LESS Files you
-                          need to minimize the amount of CSS &amp; including
-                          only the Styles of the Blocks you need. This can be
-                          setup in your <code>style.less</code> File.
-                        </p>
-                      </li>
-                    </ul>
-
-                    <p>
-                      <span className="label label-danger">Note:</span> LESS
-                      will work perfectly fine after compiling, but it can still
-                      be extended more. If you have any Suggestions to Improve
-                      or Requests to Add New Features to the LESS Files, then
-                      please{" "}
-                      <a
-                        href="http://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123/support?ref=SemiColonWeb#new_item_support_inquiry_form"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Contact Us from Here
-                      </a>
-                      .
-                    </p>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-https"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>HTTPs Compatibility</h1>
-
-                    <p>
-                      With the increasing amount of SPAM, Phishing and Attacks,
-                      it is important to secure your Website, so that
-                      information passed through your website is done securely
-                      without the risk of exposing any private data. While
-                      Canvas is completely ready, out of the box solution for
-                      your Website without any extra setup required to make your
-                      Website HTTPs ready. The only thing you will need to do is
-                      to Install the HTTPs Certificates, which can be done with
-                      help from your Web Hosting Providers.
-                    </p>
-
-                    <p>
-                      Meanwhile, also make sure that any of the JS/CSS/Image/PHP
-                      Linkings, if hosted on an external URL or is an absolute
-                      URL, starts with an <strong>https://</strong>.
-                    </p>
-
-                    <h4>Correct Example:</h4>
-
-                    <pre>
-                      &lt;link href="
-                      <span className="color">https://</span>
-                      fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
-                      rel="stylesheet" type="text/css" /&gt;
-                    </pre>
-
-                    <h4>Wrong Example:</h4>
-
-                    <pre>
-                      &lt;link href="
-                      <span className="text-danger">http://</span>
-                      fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
-                      rel="stylesheet" type="text/css" /&gt;
-                    </pre>
-                  </div>
-
-                  <div className="line" />
-
-                  <div
-                    id="docs-start-tips"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Website Optimization Tips</h1>
-
-                    <p>
-                      A Fast &amp; Optimized Website has several factors which
-                      needs to be implemented in order to achieve the desired
-                      results. There are several Optimization Techniques
-                      available which will definitely affect your Website's
-                      Performance in a Positive Way &amp; we want to share a few
-                      of them with you:
-                    </p>
-
-                    <ul>
-                      <li>
-                        <h4>gZip Compression &amp; Browser Caching</h4>
-                        <p>
-                          This is probably one of the Most Important Techniques
-                          you should definitely implement in order to bump up
-                          your Website's Loading Speed.{" "}
-                          <strong>gZip Compression</strong> is used to compress
-                          the Files that are delivered when loading a Website.
-                          It covers HTML, CSS, Javascript &amp; Font Files along
-                          with other miscellaneous text files. Where as{" "}
-                          <strong>Browser Caching</strong> also covers Images
-                          &amp; Videos apart from including the above files.
-                          This is used to saves the Static Data in your Browser
-                          itself so that when you open the Next Pages on the
-                          Same Website, the content does not gets Downloaded
-                          again, loading the Website fast.
-                        </p>
-
-                        <p>
-                          <strong>gZip Compression</strong> &amp;{" "}
-                          <strong>Browser Caching</strong> can be enabled using
-                          the <code>.htaccess</code> File on an Apache Web
-                          Server. You can use the Codes from here:{" "}
-                          <a
-                            href="https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess
-                          </a>{" "}
-                          to enable these modules on your server.
-                        </p>
-                      </li>
-                      <li>
-                        <h4>Image Compression &amp; Optimization</h4>
-                        <p>
-                          We tend to use Lots of Images on our Websites but we
-                          often do not make efforts to Compress &amp; Optimize
-                          them. Remember, the Larger the Image, the more time it
-                          takes to download and therefore this slows your
-                          website loading times affecting User Experience. Your
-                          customer will leave your website if it does not load
-                          within 3-5 Seconds which adversely affects your Sales.
-                          Therefore, it is important to Resize, Optimize &amp;
-                          Compress your Images before using it on your Website.
-                          Here are some Tips which might come handy in
-                          optimizing images:
-                        </p>
-                        <ul>
-                          <li>
-                            <strong>Resize your Images:</strong> Resize your
-                            Images before using it on your Website. Do not just
-                            Download an Image &amp; place it as it is in your
-                            Website's <code>&lt;img&gt;</code> Tag without
-                            resizing it. The size/resolution of the Image
-                            matters since it is not recommended to use an Image
-                            size of <code>1200px</code> x <code>800px</code> in
-                            a Content Size of <code>300px</code> x{" "}
-                            <code>200px</code> as this is unnecessary. Resize it
-                            to <code>300px</code> x <code>200px</code>
-                          </li>
-                          <li>
-                            <strong>Image Formats:</strong> There are three
-                            common file types that are used for web images which
-                            are JPEG, GIF, &amp; PNG. For images with a Flat
-                            Background use <strong>JPEG</strong> images, for
-                            images with a Transparent background use{" "}
-                            <strong>PNG</strong> images and for images with
-                            Animations use <strong>GIF</strong> images.
-                          </li>
-                          <li>
-                            <strong>Compressing Images:</strong> Images
-                            Compression is important as it considerably reduces
-                            the size without losing the quality. There are
-                            several FREE Image Optimization Tools available to
-                            Download.
-                            <br />
-                            <strong>For MAC</strong> use{" "}
-                            <a
-                              href="https://imageoptim.com/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              ImageOptim
-                            </a>
-                            <br />
-                            <strong>For Windows</strong> use{" "}
-                            <a
-                              href="http://luci.criosweb.ro/riot/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Riot
-                            </a>{" "}
-                            for compressing JPEG Images &amp;{" "}
-                            <a
-                              href="http://pnggauntlet.com/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              PNG Gauntlet
-                            </a>{" "}
-                            for PNG Images.
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <h4>CSS &amp; jQuery Minifications</h4>
-                        <p>
-                          It is also recommended that you{" "}
-                          <strong>Combine &amp; Minify</strong> all your CSS
-                          Files to a single CSS File &amp; all Javascript Files
-                          to a single JS File since{" "}
-                          <strong>Minification</strong> reduces the size of the
-                          File and <strong>Combining</strong> the files helps in
-                          reducing the number of HTTP requests made to the
-                          server. This is also an Important Factor in increasing
-                          the speed of your website. There are several tools
-                          available online to Minify your CSS &amp; JS Files.
-                          Our recommendations are:
-                          <br />
-                          <strong>For CSS</strong> use{" "}
-                          <a
-                            href="http://cssminifier.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            CSS Minifier
-                          </a>{" "}
-                          and <strong>For Javascript</strong> use{" "}
-                          <a
-                            href="http://javascript-minifier.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Javascript Minifier
-                          </a>
-                          .
-                        </p>
-                      </li>
-                      <li>
-                        <h4>Content Delivery Network</h4>
-                        <p>
-                          You can use a <strong>CDN</strong> to further speed up
-                          your website. You can use the CDN to deliver static
-                          files of your website like CSS, JS, Images &amp; Font
-                          Files. There are several CDN Hosting Providers
-                          available on the Internet but we would recommend{" "}
-                          <a
-                            href="https://www.maxcdn.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            MaxCDN
-                          </a>{" "}
-                          or{" "}
-                          <a
-                            href="http://www.cloudflare.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            CloudFlare
-                          </a>
-                          .
-                        </p>
-                        <p>
-                          <span className="label label-danger">Note:</span> CDN
-                          setup requires Extra monthly Fees to setup, so it is
-                          completely optional &amp; according to your needs.
-                        </p>
-                      </li>
-                      <li>
-                        <h4>Fast Web Hosting Servers</h4>
-                        <p>
-                          A lot depends on your Web Hosting Servers, so it is
-                          recommended that you choose a Hosting Company/Server
-                          that provides a Reliable &amp; a Fast Hosting Service.
-                          You can check out some recommended Hosting Services
-                          here:{" "}
-                          <a
-                            href="http://themeforest.net/get_hosting"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            http://themeforest.net/get_hosting
-                          </a>
-                          .
-                        </p>
-                      </li>
-                    </ul>
+                    <pre>axiom status</pre>
                   </div>
                 </div>
 
+                <div className="line" />
                 <div id="docs-headers">
                   <div
                     id="docs-headers-types"
                     className="docs-content-inner page-section"
                   >
-                    <h1>Header Types</h1>
+                    <h1>Lorem Ipsum Starts Here</h1>
 
                     <p>
                       You can choose between <strong>7 Types</strong> of headers
