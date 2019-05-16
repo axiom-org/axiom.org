@@ -11,6 +11,7 @@ import "../styles/magnific-popup.css";
 import "../styles/responsive.css";
 import "../styles/style.css";
 
+import Subsection from "../components/subsection";
 import Header from "../components/header";
 
 // Works with anchors in the body, like scrollTo("#docs-start")
@@ -225,42 +226,7 @@ export default () => {
 
               <div className="docs-content">
                 <div id="docs-start">
-                  <div
-                    id="docs-start-introduction"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Introduction</h1>
-
-                    <p>
-                      Axiom is a platform for building decentralized
-                      applications. It is also a cryptocurrency. If you've used
-                      application platforms like Heroku or App Engine before,
-                      you'll find parts of this familiar. If you've developed an
-                      application using other cryptocurrencies like Ethereum
-                      before, you'll find different parts of this familiar.
-                    </p>
-
-                    <p>
-                      Currently, Axiom primarily targets web applications built
-                      in JavaScript. If you know how to make a simple website,
-                      you'll be able to deploy a simple decentralized site. To
-                      build a more complicated application, you'll probably want
-                      to be familiar with a JavaScript framework like React or
-                      Vue.
-                    </p>
-
-                    <p>
-                      We think the best way to learn about the Axiom system is
-                      to build a simple application on it. The first two
-                      sections of this documentation will explain how to deploy
-                      a simple static site to Axiom, and then how to build a
-                      slightly more complicated application. If you're
-                      interested in learning more, the later sections will go
-                      into more detail.
-                    </p>
-
-                    <p>Good luck!</p>
-                  </div>
+                  <Subsection {...docs["Introduction"]} />
 
                   <div className="line" />
 
