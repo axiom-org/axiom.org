@@ -14,6 +14,26 @@ import "../styles/style.css";
 import Subsection from "../components/subsection";
 import Header from "../components/header";
 
+// The SECTIONS constant controls the order of the documentation.
+let SECTIONS = [
+  {
+    name: "Getting Started",
+    id: "start",
+    subsections: ["Introduction", "Installing the CLI", "Signing Up"]
+  },
+  {
+    name: "Lorem Ipsum",
+    id: "lorem",
+    subsections: ["Here Is Some Lorem Ipsum"]
+  },
+  {
+    name: "Morem Ipsum",
+    id: "morem",
+    subsections: ["Here Is Some Morem Ipsum"]
+  }
+];
+console.log("XXX", SECTIONS);
+
 // Works with anchors in the body, like scrollTo("#docs-start")
 function scrollTo(hash) {
   let target = window.$(hash);
@@ -230,31 +250,7 @@ export default () => {
 
                   <div className="line" />
 
-                  <div
-                    id="docs-start-installing-the-cli"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Installing the CLI</h1>
-
-                    <p>
-                      There are several different ways to interact with Axiom.
-                      Servers running the Axiom blockchain and hosting Axiom
-                      files interact with each other through the wire protocol.
-                      Application code typically interacts with Axiom through
-                      the JavaScript Axiom client. During the development
-                      process, the most convenient way to interact with Axiom is
-                      typically through the CLI.
-                    </p>
-
-                    <p>
-                      You can install the CLI using{" "}
-                      <a href="https://www.npmjs.com/get-npm">npm</a> or{" "}
-                      <a href="https://yarnpkg.com/">yarn</a>:
-                    </p>
-
-                    <pre>npm install -g axiom-cli</pre>
-                    <pre>yarn global add axiom-cli</pre>
-                  </div>
+                  <Subsection {...docs["Installing the CLI"]} />
 
                   <div className="line" />
 
