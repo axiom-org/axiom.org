@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useStaticQuery, graphql } from "gatsby";
 
 import "../styles/animate.css";
 import "../styles/bootstrap.css";
@@ -47,6 +48,46 @@ export default () => {
       scrollTo(window.location.hash);
     }
   });
+
+  // Extract markdown via graphql
+  let data = useStaticQuery(graphql`
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              title
+              section
+            }
+            html
+          }
+        }
+      }
+    }
+  `);
+  let docs = {};
+  let titles = {};
+  for (let edge of data.allMarkdownRemark.edges) {
+    let { frontmatter, html } = edge.node;
+    let { section, title } = frontmatter;
+    let sectionID = "docs-" + section;
+    let normalizedTitle = title
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/['"]/g, "");
+    let subsectionID = sectionID + "-" + normalizedTitle;
+    if (titles[normalizedTitle]) {
+      throw new Error("cannot reuse title: " + title);
+    }
+    titles[normalizedTitle] = true;
+    docs[title] = {
+      title,
+      html,
+      sectionID,
+      subsectionID
+    };
+  }
+
   return (
     <div>
       <Helmet>
@@ -604,7 +645,7 @@ export default () => {
                           </td>
                         </tr>
                         <tr>
-                          <td rowspan="2">
+                          <td rowSpan="2">
                             <code>.style-2</code>
                           </td>
                           <td>Menu aligns beside the Logo.</td>
