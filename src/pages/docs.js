@@ -32,14 +32,18 @@ let SECTIONS = [
     subsections: ["Here Is Some Morem Ipsum"]
   }
 ];
-console.log("XXX", SECTIONS);
 
 // Works with anchors in the body, like scrollTo("#docs-start")
 function scrollTo(hash) {
   let target = window.$(hash);
+  let offset = target.offset();
+  if (!offset) {
+    console.log("cannot scroll to nonexistent hash:", hash);
+    return;
+  }
   window.$("html, body").animate(
     {
-      scrollTop: target.offset().top - 120
+      scrollTop: offset.top - 120
     },
     50
   );
@@ -80,6 +84,29 @@ const DocSectionNav = ({ section, docs }) => {
         ))}
       </ul>
     </li>
+  );
+};
+
+function lineJoin(divs) {
+  let answer = [];
+  for (let div of divs) {
+    if (answer.length > 0) {
+      answer.push(<div className="line" />);
+    }
+    answer.push(div);
+  }
+  return answer;
+}
+
+const DocSectionContent = ({ section, docs }) => {
+  return (
+    <div id={"docs-" + section.id}>
+      {lineJoin(
+        section.subsections.map(title => (
+          <Subsection {...docs[title]} key={title} />
+        ))
+      )}
+    </div>
   );
 };
 
@@ -142,118 +169,17 @@ export default () => {
             <div id="docs" className="clearfix">
               <div className="docs-navigation">
                 <ul>
-                  <DocSectionNav section={SECTIONS[0]} docs={docs} />
-                  <li>
-                    <DocLink href="#docs-headers">Lorem Ipsum</DocLink>
-                    <ul
-                      className="one-page-menu"
-                      data-offset="110"
-                      data-easing="easeInOutExpo"
-                      data-speed="1250"
-                    >
-                      <li>
-                        <DocLink href="#docs-headers-types">
-                          Header Types
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-headers-megamenu">
-                          Mega Menus
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-headers-menustyles">
-                          Menu Styles
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-headers-mobilemenu">
-                          Mobile Menu
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-headers-submenu">
-                          Page Sub Menu
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-headers-dotsmenu">
-                          Dots Sub Menu
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-headers-helper">
-                          Helper Classes
-                        </DocLink>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <DocLink href="#docs-pageel">Morem Ipsum</DocLink>
-                    <ul
-                      className="one-page-menu"
-                      data-offset="110"
-                      data-easing="easeInOutExpo"
-                      data-speed="1250"
-                    >
-                      <li>
-                        <DocLink href="#docs-pageel-titles">Page Title</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-grid">Grid</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-isotope">
-                          Isotope Grid
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-sidepanel">
-                          Side Panel
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-stickysidebar">
-                          Sticky Sidebar
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-gototop">Go To Top</DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-classes">
-                          Helper Classes
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-snippets">
-                          Useful Snippets
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-pageel-responsiveutilities">
-                          Responsive Utilities
-                        </DocLink>
-                      </li>
-                    </ul>
-                  </li>
+                  {SECTIONS.map(section => (
+                    <DocSectionNav section={section} docs={docs} />
+                  ))}
                 </ul>
               </div>
 
               <div className="docs-content">
-                <div id="docs-start">
-                  <Subsection {...docs["Introduction"]} />
-
-                  <div className="line" />
-
-                  <Subsection {...docs["Installing the CLI"]} />
-
-                  <div className="line" />
-
-                  <Subsection {...docs["Signing Up"]} />
-                </div>
+                <DocSectionContent section={SECTIONS[0]} docs={docs} />
 
                 <div className="line" />
+
                 <div id="docs-headers">
                   <div
                     id="docs-headers-types"
