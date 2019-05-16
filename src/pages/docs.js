@@ -63,6 +63,26 @@ const DocLink = props => {
   );
 };
 
+const DocSectionNav = ({ section, docs }) => {
+  return (
+    <li>
+      <DocLink href={"#docs-" + section.id}>{section.name}</DocLink>
+      <ul
+        className="one-page-menu"
+        data-offset="110"
+        data-easing="easeInOutExpo"
+        data-speed="1250"
+      >
+        {section.subsections.map(title => (
+          <li>
+            <DocLink href={"#" + docs[title].subsectionID}>{title}</DocLink>
+          </li>
+        ))}
+      </ul>
+    </li>
+  );
+};
+
 export default () => {
   useEffect(() => {
     if (window.location.hash.length > 0) {
@@ -122,31 +142,7 @@ export default () => {
             <div id="docs" className="clearfix">
               <div className="docs-navigation">
                 <ul>
-                  <li>
-                    <DocLink href="#docs-start">Getting Started</DocLink>
-                    <ul
-                      className="one-page-menu"
-                      data-offset="110"
-                      data-easing="easeInOutExpo"
-                      data-speed="1250"
-                    >
-                      <li>
-                        <DocLink href="#docs-start-introduction">
-                          Introduction
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-installing-the-cli">
-                          Installing the CLI
-                        </DocLink>
-                      </li>
-                      <li>
-                        <DocLink href="#docs-start-signing-up">
-                          Signing Up
-                        </DocLink>
-                      </li>
-                    </ul>
-                  </li>
+                  <DocSectionNav section={SECTIONS[0]} docs={docs} />
                   <li>
                     <DocLink href="#docs-headers">Lorem Ipsum</DocLink>
                     <ul
@@ -254,58 +250,7 @@ export default () => {
 
                   <div className="line" />
 
-                  <div
-                    id="docs-start-signing-up"
-                    className="docs-content-inner page-section"
-                  >
-                    <h1>Signing Up</h1>
-
-                    <p>
-                      The Axiom system stores data in two different ways. The
-                      blockchain is replicated among every machine running
-                      Axiom. Storage space there is limited, but it is very
-                      reliable. Account data, like public keys to validate
-                      users, and balances indicating how much cryptocurrency is
-                      owned by each account, is kept on the blockchain.
-                    </p>
-
-                    <p>
-                      File storage, on the other hand, is not replicated among
-                      every machine running Axiom. Files stored on Axiom will
-                      only be replicated to a few different machines. Only hash
-                      values of file content will be stored on the blockchain.
-                    </p>
-
-                    <p>
-                      To store any data in Axiom, you'll need to acquire some
-                      cryptocurrency, to pay for storage. To make this easier
-                      during the beta period, we have a faucet set up to give
-                      out a small amount of currency to use for development.
-                    </p>
-
-                    <p>
-                      To sign up, first{" "}
-                      <a href="https://axiom.org/newsletter">
-                        register your email here
-                      </a>
-                      . Then run this command:
-                    </p>
-
-                    <pre>axiom signup</pre>
-
-                    <p>
-                      You will have to enter a token that was emailed to you, so
-                      please use a legitimate email address.
-                    </p>
-
-                    <p>
-                      Once you complete the signup command, you should have
-                      enough money in your account to pay for the storage used
-                      in application development. To check your account balance,
-                      run:
-                    </p>
-                    <pre>axiom status</pre>
-                  </div>
+                  <Subsection {...docs["Signing Up"]} />
                 </div>
 
                 <div className="line" />
