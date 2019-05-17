@@ -8,6 +8,16 @@ module.exports = {
         name: "markdown-pages"
       }
     },
-    "gatsby-transformer-remark"
+    "gatsby-transformer-remark",
+    {
+      resolve: "gatsby-remark-prismjs",
+      options: {
+        classPrefix: "language-",
+        inlineCodeMarker: null,
+        aliases: {},
+        showLineNumbers: false,
+        noInlineHighlight: false
+      }
+    }
   ]
 };
