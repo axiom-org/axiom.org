@@ -43,6 +43,7 @@ let SECTIONS = [
       "axiom deploy",
       "axiom download",
       "axiom generate",
+      "axiom get-account",
       "axiom get-bucket",
       "axiom get-buckets",
       "axiom get-provider",
@@ -53,7 +54,6 @@ let SECTIONS = [
       "axiom send",
       "axiom set-magnet",
       "axiom signup",
-      "axiom status",
       "axiom upload",
       "axiom which"
     ]

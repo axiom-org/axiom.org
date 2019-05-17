@@ -31,3 +31,9 @@ HTTP API. The CLI source code is [on
 GitHub](https://github.com/axiom-org/axiom/blob/master/ts/src/node/cli-main.ts)
 so if some of its behavior is insufficiently documented, or it's
 unclear how to achieve it programmatically, you can check there.
+
+Several of the CLI commands use bucket names. A bucket name can
+optionally have an application tag on it. If the application tag is
+omitted, the application is considered to be `www`. For example, in the
+bucket name `foobar:bazqux`, `foobar` is the application tag and
+`bazqux` is the name of the bucket itself.
