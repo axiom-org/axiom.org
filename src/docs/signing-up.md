@@ -25,11 +25,14 @@ To sign up, first
 Then run this command:
 
 ```bash
-axiom signup
+axiom signup youremail@example.com
 ```
 
 You will have to enter a token that was emailed to you, so
 please use a legitimate email address.
+
+The signup command will log in the CLI and generate a secure
+passphrase for you. Keep this somewhere secure.
 
 Once you complete the signup command, you should have
 enough money in your account to pay for the storage used
@@ -40,5 +43,6 @@ run:
 axiom status
 ```
 
-You should output that displays a balance greater than
+Log in using the passphrase that the `signup` command generated.
+You should see output that displays a balance greater than
 zero. Congratulations, you now own some of the Axiom cryptocurrency!

@@ -19,7 +19,12 @@ let SECTIONS = [
   {
     name: "Getting Started",
     id: "start",
-    subsections: ["Introduction", "Installing the CLI", "Signing Up"]
+    subsections: [
+      "Introduction",
+      "Installing the CLI",
+      "Signing Up",
+      "Creating a Bucket"
+    ]
   },
   {
     name: "Lorem Ipsum",

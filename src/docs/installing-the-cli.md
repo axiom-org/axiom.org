@@ -11,6 +11,8 @@ the JavaScript Axiom client. During the development
 process, the most convenient way to interact with Axiom is
 typically through the CLI.
 
+The CLI is tested on OS X and Linux. It might also work in Windows.
+
 You can install the CLI using [npm](https://www.npmjs.com/get-npm) or
 [yarn](https://yarnpkg.com/):
 
