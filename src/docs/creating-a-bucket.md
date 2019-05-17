@@ -12,9 +12,9 @@ application you are deploying, or it could hold the data for an
 application you are using, or it could hold any sort of files you
 would like to keep in decentralized storage.
 
-When you store data on the blockchain, it gets replicated among every
-machine running the blockchain. When you store data in a bucket, it
-only gets replicated among a few different hosting providers. This
+Data on the blockchain is replicated among every
+machine running the blockchain. Data in a bucket is
+only replicated among a few different hosting providers. This
 makes it relatively inexpensive to store data in a bucket. With the
 developer faucet, you should have enough to pay for about 100 megabytes
 of bucket storage.
@@ -31,10 +31,26 @@ because we're just using this as an example:
 axiom new-bucket my-cool-example 1
 ```
 
-XXX describe this next part mayeb in a different file
+You should see output that looks like:
 
-```bash
-mkdir ~/my-cool-example
-cd ~/my-cool-example
-echo "hello decentralized world" > index.html
 ```
+created bucket: www:my-cool-example
+allocated bucket to 1 provider
+allocated bucket to 2 providers
+allocated bucket to 3 providers
+allocated bucket to 4 providers
+```
+
+The `www` is the application tag for this bucket. It defaults to `www`
+which indicates that these files are intended for web access.
+
+The `new-bucket` command will automatically allocate the bucket to a
+few hosting providers for you. Either the owner of a bucket or the
+hosting provider can deallocate the bucket at any time. As a developer, you
+might want to reallocate a bucket elsewhere if a hosting provider is providing
+a poor service level. As a hosting provider, you might want to
+deallocate a bucket if you discover that it is hosting content that
+you don't want to be hosting. Providers are never forced to host
+particular files.
+
+

@@ -19,8 +19,8 @@ Vue.
 
 The best way to learn about the Axiom system is
 to build a simple application on it. The "Getting Started"
-section of this documentation will explain how to get an account set up, how to deploy
-a simple static site to Axiom, and then how to build a
+section of this documentation will explain how to get an account set up and how to deploy
+a simple static site to Axiom. The "Building Applications" section will explain how to build a
 slightly more complicated application. If you're
 interested in learning more, the later sections will go
 into more detail.

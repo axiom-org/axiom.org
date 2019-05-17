@@ -23,18 +23,40 @@ let SECTIONS = [
       "Introduction",
       "Installing the CLI",
       "Signing Up",
-      "Creating a Bucket"
+      "Creating a Bucket",
+      "Storing Files"
     ]
   },
   {
-    name: "Lorem Ipsum",
-    id: "lorem",
-    subsections: ["Here Is Some Lorem Ipsum"]
-  },
-  {
-    name: "Morem Ipsum",
-    id: "morem",
-    subsections: ["Here Is Some Morem Ipsum"]
+    name: "CLI Reference",
+    id: "cli",
+    subsections: [
+      "CLI Overview",
+      "axiom alloc",
+      "axiom allocate",
+      "axiom config",
+      "axiom create-bucket",
+      "axiom create-provider",
+      "axiom dealloc",
+      "axiom deallocate",
+      "axiom delete-bucket",
+      "axiom deploy",
+      "axiom download",
+      "axiom generate",
+      "axiom get-bucket",
+      "axiom get-buckets",
+      "axiom get-provider",
+      "axiom get-providers",
+      "axiom login",
+      "axiom logout",
+      "axiom new-bucket",
+      "axiom send",
+      "axiom set-magnet",
+      "axiom signup",
+      "axiom status",
+      "axiom upload",
+      "axiom which"
+    ]
   }
 ];
 
