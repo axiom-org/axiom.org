@@ -47,6 +47,7 @@ let SECTIONS = [
       "axiom get-account",
       "axiom get-bucket",
       "axiom get-buckets",
+      "axiom get-private-key",
       "axiom get-provider",
       "axiom get-providers",
       "axiom login",
@@ -55,6 +56,7 @@ let SECTIONS = [
       "axiom set-magnet",
       "axiom signup",
       "axiom upload",
+      "axiom version",
       "axiom which"
     ]
   },
@@ -109,11 +111,16 @@ const DocSectionNav = ({ section, docs }) => {
         data-easing="easeInOutExpo"
         data-speed="1250"
       >
-        {section.subsections.map(title => (
-          <li key={title}>
-            <DocLink href={"#" + docs[title].subsectionID}>{title}</DocLink>
-          </li>
-        ))}
+        {section.subsections.map(title => {
+          if (!docs[title]) {
+            throw new Error("missing markdown file for " + title);
+          }
+          return (
+            <li key={title}>
+              <DocLink href={"#" + docs[title].subsectionID}>{title}</DocLink>
+            </li>
+          );
+        })}
       </ul>
     </li>
   );
