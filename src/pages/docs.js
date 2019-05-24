@@ -57,6 +57,11 @@ let SECTIONS = [
       "axiom upload",
       "axiom which"
     ]
+  },
+  {
+    name: "API Reference",
+    id: "api",
+    subsections: ["API Overview"]
   }
 ];
 

@@ -26,8 +26,8 @@ axiom command-name argument-1 argument-2 [...]
 If you run a command with no arguments, you'll get a brief usage
 message.
 
-Anything that can be done through the CLI can also be done through the
-HTTP API. The CLI source code is [on
+Anything that can be done through the CLI can also be done through
+HTTP. The CLI source code is [on
 GitHub](https://github.com/axiom-org/axiom/blob/master/ts/src/node/cli-main.ts)
 so if some of its behavior is insufficiently documented, or it's
 unclear how to achieve it programmatically, you can check there.
