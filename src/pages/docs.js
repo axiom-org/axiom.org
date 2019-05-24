@@ -133,7 +133,7 @@ const DocSectionNav = ({ section, docs }) => {
       >
         {section.subsections.map(title => {
           if (!docs[title]) {
-            throw new Error("missing markdown file for " + title);
+            return <p>missing: {title}</p>;
           }
           return (
             <li key={title}>
@@ -161,9 +161,12 @@ const DocSectionContent = ({ section, docs }) => {
   return (
     <div id={"docs-" + section.id}>
       {lineJoin(
-        section.subsections.map(title => (
-          <Subsection {...docs[title]} key={title} />
-        ))
+        section.subsections.map(title => {
+          if (!docs[title]) {
+            return <p>missing content for {title}</p>;
+          }
+          return <Subsection {...docs[title]} key={title} />;
+        })
       )}
     </div>
   );
@@ -200,7 +203,7 @@ export default () => {
     let sectionID = "docs-" + section;
     let normalizedTitle = title
       .toLowerCase()
-      .replace(/ /g, "-")
+      .replace(/[ \(\)]/g, "-")
       .replace(/['"]/g, "");
     let subsectionID = sectionID + "-" + normalizedTitle;
     if (titles[normalizedTitle]) {
