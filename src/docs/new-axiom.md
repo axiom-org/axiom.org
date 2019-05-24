@@ -20,3 +20,6 @@ The constructor can take an options object, with the fields:
   
 * `verbose` can be set to `true` to log debugging messages to the
   console. By default Axiom shouldn't log unless there is an error.
+
+If you have a question about the `Axiom` class that isn't answered by
+this documentation, you can check out its [source code on GitHub](https://github.com/axiom-org/axiom/blob/master/ts/src/browser/AxiomAPI.ts).
