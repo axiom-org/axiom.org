@@ -209,6 +209,13 @@ export default () => {
                     />
                   ))}
                 </ul>
+                <div style={{ fontSize: 0 }}>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>.</p>
+                </div>
               </div>
 
               <div className="docs-content">
