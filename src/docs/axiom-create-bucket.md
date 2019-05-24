@@ -7,7 +7,11 @@ title: axiom create-bucket
 axiom create-bucket [bucketName] [size]
 ```
 
-`axiom create-bucket` creates a new bucket with no providers. This is useful if you wish
-to use a specific set of providers, and manually allocate them yourself later.
+Creates a new bucket, finds some providers with enough available space
+to host this bucket, and allocates the bucket to those providers.
+
+If you want to allocate the bucket yourself, use [axiom
+create-unallocated-bucket](#docs-cli-create-unallocated-bucket) instead, which won't
+automatically allocate the bucket.
 
 `size` is denominated in megabytes.
