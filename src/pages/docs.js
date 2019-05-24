@@ -63,7 +63,27 @@ let SECTIONS = [
   {
     name: "API Reference",
     id: "api",
-    subsections: ["API Overview"]
+    subsections: [
+      "API Overview",
+      "new Axiom()",
+      "axiom.createBucket",
+      "axiom.getAccount",
+      "axiom.getBucket",
+      "axiom.getPublicKey",
+      "bucket.download",
+      "bucket.getFile",
+      "bucket.getJSON",
+      "bucket.getPaths",
+      "bucket.getText",
+      "bucket.magnet",
+      "bucket.name",
+      "bucket.owner",
+      "bucket.setFile",
+      "bucket.setJSON",
+      "bucket.setText",
+      "bucket.size",
+      "bucket.upload"
+    ]
   }
 ];
 
