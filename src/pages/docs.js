@@ -105,7 +105,7 @@ const DocSectionNav = ({ section, docs }) => {
         data-speed="1250"
       >
         {section.subsections.map(title => (
-          <li>
+          <li key={title}>
             <DocLink href={"#" + docs[title].subsectionID}>{title}</DocLink>
           </li>
         ))}
@@ -118,7 +118,7 @@ function lineJoin(divs) {
   let answer = [];
   for (let div of divs) {
     if (answer.length > 0) {
-      answer.push(<div className="line" />);
+      answer.push(<div key={Math.random()} className="line" />);
     }
     answer.push(div);
   }
@@ -197,7 +197,11 @@ export default () => {
               <div className="docs-navigation">
                 <ul>
                   {SECTIONS.map(section => (
-                    <DocSectionNav section={section} docs={docs} />
+                    <DocSectionNav
+                      key={section.name}
+                      section={section}
+                      docs={docs}
+                    />
                   ))}
                 </ul>
               </div>
@@ -205,7 +209,11 @@ export default () => {
               <div className="docs-content">
                 {lineJoin(
                   SECTIONS.map(section => (
-                    <DocSectionContent section={section} docs={docs} />
+                    <DocSectionContent
+                      key={section.name}
+                      section={section}
+                      docs={docs}
+                    />
                   ))
                 )}
               </div>
