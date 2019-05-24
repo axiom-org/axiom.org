@@ -79,7 +79,8 @@
 .docs-content {
 	position: relative;
 	overflow: hidden;
-	left: 350px;
+	left: 300px;
+	margin-right: 330px;
 	margin-left: 0px;
 	padding: 20px 0 60px 40px;
 	min-height: 1000px;
