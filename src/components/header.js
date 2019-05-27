@@ -23,7 +23,7 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="/#XXX">
+              <a href="https://github.com/axiom-org/axiom">
                 <div>GitHub</div>
               </a>
             </li>
