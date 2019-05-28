@@ -28,7 +28,7 @@ First, we have to create a new bucket. Let's pick a size of 1 megabyte
 because we're just using this as an example:
 
 ```bash
-axiom new-bucket my-cool-example 1
+axiom create-bucket my-cool-example 1
 ```
 
 You should see output that looks like:
@@ -44,7 +44,7 @@ allocated bucket to 4 providers
 The `www` is the application tag for this bucket. It defaults to `www`
 which indicates that these files are intended for web access.
 
-The `new-bucket` command will automatically allocate the bucket to a
+The `create-bucket` command will automatically allocate the bucket to a
 few hosting providers for you. Either the owner of a bucket or the
 hosting provider can deallocate the bucket at any time. As a developer, you
 might want to reallocate a bucket elsewhere if a hosting provider is providing
