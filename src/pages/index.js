@@ -27,16 +27,16 @@ export default () => (
             id="section-home"
             className="heading-block title-center nobottomborder page-section"
           >
-            <h1>A Blockchain Designed for App Developers</h1>
+            <h1>A Blockchain Designed for Decentralized Applications</h1>
             <span>
-              Build JavaScript-based decentralized web apps, uncensored by any
-              central authority.
+              Build, distribute, and run JavaScript-based applications,
+              uncensored by any central authority.
             </span>
           </div>
 
           <div className="center bottommargin d-none d-sm-block">
             <a
-              href="/#XXX"
+              href="/docs"
               className="button button-3d button-teal button-xlarge nobottommargin"
             >
               <i className="icon-star3" />
@@ -108,12 +108,10 @@ export default () => (
             <div className="col_one_third">
               <div className="feature-box fbox-plain">
                 <div className="fbox-icon" data-animate="bounceIn">
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/tools.png"
-                      alt="Scalable Storage"
-                    />
-                  </a>
+                  <img
+                    src="/images/icons/features/tools.png"
+                    alt="Scalable Storage"
+                  />
                 </div>
                 <h3>Scalable Storage</h3>
                 <p>
@@ -121,7 +119,7 @@ export default () => (
                   only the most critical data. Storage buckets are replicated
                   fewer times and store general application data. So in most
                   cases, users can interact with your decentralized application
-                  without constantly paying little bits of money.
+                  without paying for expensive transactions.
                 </p>
               </div>
             </div>
@@ -133,20 +131,17 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="200"
                 >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/seo.png"
-                      alt="Open Distribution"
-                    />
-                  </a>
+                  <img
+                    src="/images/icons/features/seo.png"
+                    alt="Open Distribution"
+                  />
                 </div>
                 <h3>Open Distribution</h3>
                 <p>
                   Both the static application bundle and user data are available
-                  via JavaScript API. Running a mirror that lets you access
-                  every decentralized application is as simple as hosting a
-                  single JavaScript + HTML bundle. So you can't censor an
-                  application by blocking a single URL.
+                  via JavaScript API. A decentralized application can be run
+                  with a Chrome extension, or through a static mirror. So you
+                  can't censor an application by blocking a single URL.
                 </p>
               </div>
             </div>
@@ -158,12 +153,10 @@ export default () => (
                   data-animate="bounceIn"
                   data-delay="400"
                 >
-                  <a href="/#XXX">
-                    <img
-                      src="/images/icons/features/tick.png"
-                      alt="Authentication"
-                    />
-                  </a>
+                  <img
+                    src="/images/icons/features/tick.png"
+                    alt="Authentication"
+                  />
                 </div>
                 <h3>Authentication</h3>
                 <p>
@@ -209,8 +202,8 @@ export default () => (
               React, Angular, or Vue. Or you can just start writing a plain old
               HTML page. Once you have a site that's working locally, you can
               use the Axiom CLI to deploy it as a decentralized application. You
-              can then access it using the Chrome extension or any Axiom mirror.
-              XXX include docs links here
+              can then access it using the Chrome extension, or anyone can
+              mirror it to a static site.
             </p>
 
             <div className="line" />
@@ -381,7 +374,7 @@ export default () => (
 
             <div className="center">
               <a
-                href="/#XXX"
+                href="/docs"
                 className="button button-3d button-teal button-xlarge nobottommargin"
               >
                 <i className="icon-star3" />
