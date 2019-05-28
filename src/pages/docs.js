@@ -8,6 +8,7 @@ import "../styles/dark.css";
 import "../styles/docs.css";
 import "../styles/font-icons.css";
 import "../styles/magnific-popup.css";
+import "../styles/prism.css";
 import "../styles/responsive.css";
 import "../styles/style.css";
 

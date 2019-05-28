@@ -141,6 +141,7 @@ h4 > span:not(.nocolor):not(.badge),
 h5 > span:not(.nocolor):not(.badge),
 h6 > span:not(.nocolor):not(.badge) { color: #1ABC9C; }
 
+.gatsby-highlight,
 p,
 ul,
 ol,
