@@ -28,6 +28,11 @@ let SECTIONS = [
     ]
   },
   {
+    name: "Building an Application",
+    id: "build",
+    subsections: ["Hello World"]
+  },
+  {
     name: "CLI Reference",
     id: "cli",
     subsections: [
