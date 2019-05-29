@@ -220,7 +220,7 @@ export default () => {
     let sectionID = "docs-" + section;
     let normalizedTitle = title
       .toLowerCase()
-      .replace(/[ ()]/g, "-")
+      .replace(/[ ().]/g, "-")
       .replace(/['"]/g, "");
     let subsectionID = sectionID + "-" + normalizedTitle;
     if (titles[normalizedTitle]) {
