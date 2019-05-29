@@ -32,7 +32,7 @@ let SECTIONS = [
   {
     name: "Building an Application",
     id: "build",
-    subsections: ["React Hello World"]
+    subsections: ["A React Example"]
   },
   {
     name: "API Reference",
