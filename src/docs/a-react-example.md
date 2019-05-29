@@ -65,8 +65,14 @@ export default class App extends React.Component {
 ```
 
 All this app does so far is display a button that says "Click Me", and
-when you click it, it displays the message "click!". It's a useful
-shell for experimenting with the Axiom API, because we can edit the
+when you click it, it displays the message "click!". To serve it on
+localhost, run:
+
+```bash
+npm start
+```
+
+It's a useful shell for experimenting with the Axiom API, because we can edit the
 `onClick` function to do different things.
 
 If you're familiar with React, this app should look pretty
@@ -84,3 +90,6 @@ create one of them at a time, and it's a good idea to only create one
 because it will automatically cache some things for you. We can create it
 in the constructor of `App` here because the `App` component only gets
 rendered once.
+
+The following sections will show you different things you can do with
+this `axiom` object.
