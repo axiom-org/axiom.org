@@ -28,13 +28,13 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="/#XXX">
+              <a href="https://twitter.com/axiomorg">
                 <div>Twitter</div>
               </a>
             </li>
             <li>
-              <a href="/#section-contact">
-                <div>Contact</div>
+              <a href="https://github.com/axiom-org/axiom/issues">
+                <div>Report a Bug</div>
               </a>
             </li>
           </ul>
