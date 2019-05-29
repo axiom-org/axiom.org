@@ -7,7 +7,7 @@ title: bucket.getJSON
 async bucket.getJSON(path)
 ```
 
-`getJSON` returns the result of JSON-parsing the file stored at `path`. It will throw an error if that file doesn't contain valid JSON.
+`getJSON` returns the result of JSON-parsing the file stored at `path`. It will throw an error if that file doesn't contain valid JSON. It will return null if that file does not exist.
 
 This is often more useful for accessing application data than using [getFile](#docs-bucket-getfile) to access a file directly. But it's just a simple wrapper around `getFile`.
 

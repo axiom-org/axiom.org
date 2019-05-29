@@ -18,8 +18,8 @@ counter for each user. We'll name it `counter`, and have each user
 store their data in a bucket with the `counter` application tag, and a
 bucket name of their own public key.
 
-We can use the `axiom.getBucket` method to check if a bucket exists
-already, and we can use the `axiom.createBucket` method to create a bucket on
+We can use the [axiom.getBucket](#docs-api-axiom-getbucket) method to check if a bucket exists
+already, and we can use the [axiom.createBucket](#docs-api-axiom-createbucket) method to create a bucket on
 behalf of the user. Try replacing the
 `onClick` logic in our application with this:
 
@@ -51,13 +51,13 @@ exists.
 While buckets are often created by individual applications, the user
 maintains control. For example, you can delete this bucket from the
 CLI when you are done with this sample application. To list all
-buckets you are using, run:
+buckets you are using, run [axiom get-buckets](#docs-cli-axiom-get-buckets):
 
 ```bash
 axiom get-buckets
 ```
 
-Then you can delete any you are not using with:
+Then you can delete any you are not using with [axiom delete-bucket](#docs-cli-axiom-delete-bucket):
 
 ```bash
 axiom delete-bucket <full-name>

@@ -6,7 +6,7 @@ title: Logging In
 The first thing we can get from the Axiom API is an identity. This is useful so that we
 can store information specific to the person who is currently using the application.
 
-We can use the `axiom.getPublicKey()` method to access the current
+We can use the [axiom.getPublicKey](#docs-api-axiom-getpublickey) method to access the current
 user. Try replacing the `onClick` logic with this:
 
 ```javascript
@@ -26,7 +26,7 @@ Chrome extension](
 https://chrome.google.com/webstore/detail/axiom-authenticator/gpogeambflkelepdkgnpaicifglhlgbb)
 installed. You should see a popup asking for permission. If you
 haven't configured the extension yet, you will need to enter your
-private key, which you can get by running:
+private key, which you can get by running [axiom get-private-key](#docs-cli-axiom-get-private-key):
 
 ```bash
 axiom get-private-key
