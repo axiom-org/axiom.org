@@ -317,7 +317,7 @@ export default () => (
             <div className="col_one_fourth">
               <div className="feature-box fbox-center fbox-bg fbox-plain">
                 <div className="fbox-icon">
-                  <a href="/#XXX">
+                  <a href="https://twitter.com/axiomorg">
                     <i className="icon-twitter2" />
                   </a>
                 </div>
@@ -333,7 +333,7 @@ export default () => (
             <div className="col_one_fourth">
               <div className="feature-box fbox-center fbox-bg fbox-plain">
                 <div className="fbox-icon">
-                  <a href="/#XXX">
+                  <a href="https://twitter.com/axiomorg">
                     <i className="icon-github2" />
                   </a>
                 </div>
