@@ -166,6 +166,16 @@ function lineJoin(divs) {
 const DocSectionContent = ({ section, docs }) => {
   return (
     <div id={"docs-" + section.id}>
+      <h1
+        style={{
+          marginLeft: "-20px",
+          fontSize: "48px",
+          paddingTop: "30px",
+          paddingBottom: "50px"
+        }}
+      >
+        {section.name}
+      </h1>
       {lineJoin(
         section.subsections.map(title => {
           if (!docs[title]) {
