@@ -9,7 +9,7 @@ export default () => (
         <div className="col_half col_last tright">
           <div className="fright clearfix">
             <a
-              href="/#XXX"
+              href="/newsletter"
               className="social-icon si-small si-borderless si-twitter"
             >
               <i className="icon-envelope2" />
@@ -17,7 +17,7 @@ export default () => (
             </a>
 
             <a
-              href="/#XXX"
+              href="https://twitter.com/axiomorg"
               className="social-icon si-small si-borderless si-twitter"
             >
               <i className="icon-twitter" />
@@ -25,7 +25,7 @@ export default () => (
             </a>
 
             <a
-              href="/#XXX"
+              href="https://github.com/axiom-org/axiom"
               className="social-icon si-small si-borderless si-github"
             >
               <i className="icon-github" />

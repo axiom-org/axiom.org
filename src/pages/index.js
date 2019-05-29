@@ -333,7 +333,7 @@ export default () => (
             <div className="col_one_fourth">
               <div className="feature-box fbox-center fbox-bg fbox-plain">
                 <div className="fbox-icon">
-                  <a href="https://twitter.com/axiomorg">
+                  <a href="https://github.com/axiom-org/axiom">
                     <i className="icon-github2" />
                   </a>
                 </div>
