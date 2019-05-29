@@ -25,13 +25,39 @@ let SECTIONS = [
       "Installing the CLI",
       "Signing Up",
       "Creating a Bucket",
-      "Storing Files"
+      "Storing Files",
+      "Decentralized Websites"
     ]
   },
   {
     name: "Building an Application",
     id: "build",
-    subsections: ["Hello World"]
+    subsections: ["React Hello World"]
+  },
+  {
+    name: "API Reference",
+    id: "api",
+    subsections: [
+      "API Overview",
+      "new Axiom()",
+      "axiom.createBucket",
+      "axiom.getAccount",
+      "axiom.getBucket",
+      "axiom.getPublicKey",
+      "bucket.download",
+      "bucket.getFile",
+      "bucket.getJSON",
+      "bucket.getPaths",
+      "bucket.getText",
+      "bucket.magnet",
+      "bucket.name",
+      "bucket.owner",
+      "bucket.setFile",
+      "bucket.setJSON",
+      "bucket.setText",
+      "bucket.size",
+      "bucket.upload"
+    ]
   },
   {
     name: "CLI Reference",
@@ -64,31 +90,6 @@ let SECTIONS = [
       "axiom upload",
       "axiom version",
       "axiom which"
-    ]
-  },
-  {
-    name: "API Reference",
-    id: "api",
-    subsections: [
-      "API Overview",
-      "new Axiom()",
-      "axiom.createBucket",
-      "axiom.getAccount",
-      "axiom.getBucket",
-      "axiom.getPublicKey",
-      "bucket.download",
-      "bucket.getFile",
-      "bucket.getJSON",
-      "bucket.getPaths",
-      "bucket.getText",
-      "bucket.magnet",
-      "bucket.name",
-      "bucket.owner",
-      "bucket.setFile",
-      "bucket.setJSON",
-      "bucket.setText",
-      "bucket.size",
-      "bucket.upload"
     ]
   }
 ];

@@ -22,7 +22,7 @@ of bucket storage.
 Let's make a bucket. Pick a unique name like
 "my-cool-example". Names are unique, so if you pick this exact one it
 probably won't work because someone else will have gone through the
-example.
+example. Bucket names also have to be at least six letters long.
 
 First, we have to create a new bucket. Let's pick a size of 1 megabyte
 because we're just using this as an example:
