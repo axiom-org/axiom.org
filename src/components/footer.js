@@ -1,5 +1,7 @@
 import React from "react";
 
+import { slackURL } from "./urls";
+
 export default () => (
   <footer id="footer" className="dark">
     <div id="copyrights">
@@ -33,11 +35,11 @@ export default () => (
             </a>
 
             <a
-              href="/#XXX"
+              href={slackURL}
               className="social-icon si-small si-borderless si-twitter"
             >
-              <i className="icon-discord" />
-              <i className="icon-discord" />
+              <i className="icon-slack" />
+              <i className="icon-slack" />
             </a>
           </div>
         </div>

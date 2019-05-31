@@ -12,7 +12,7 @@ import "../styles/style.css";
 
 import Footer from "../components/footer";
 import Header from "../components/header";
-import { newsletterURL } from "../components/urls";
+import { newsletterURL, slackURL } from "../components/urls";
 
 export default () => (
   <div id="wrapper" className="clearfix">
@@ -349,12 +349,12 @@ export default () => (
             <div className="col_one_fourth col_last">
               <div className="feature-box fbox-center fbox-bg fbox-plain">
                 <div className="fbox-icon">
-                  <a href="/#XXX">
-                    <i className="icon-discord" />
+                  <a href={slackURL}>
+                    <i className="icon-slack" />
                   </a>
                 </div>
                 <h3>
-                  Discord
+                  Slack
                   <span className="subtitle">Chat with the developers</span>
                 </h3>
               </div>
