@@ -88,7 +88,7 @@ export default () => (
 
           <div className="col_right_snap topmargin nobottommargin col_last">
             <img
-              src="/images/icons/macbook.png"
+              src="/images/icons/macbook-terminal.png"
               alt="Macbook With Code"
               style={{ position: "absolute", top: 0, left: 0 }}
             />
