@@ -117,9 +117,9 @@ export default () => (
                 <p>
                   The core Axiom blockchain is replicated many times, but stores
                   only the most critical data. Storage buckets are replicated
-                  fewer times and store general application data. So in most
-                  cases, users can interact with your decentralized application
-                  without paying for expensive transactions.
+                  fewer times and store general application data. This design
+                  makes it far more cost-effective to run a decentralized
+                  application.
                 </p>
               </div>
             </div>
@@ -139,9 +139,9 @@ export default () => (
                 <h3>Open Distribution</h3>
                 <p>
                   Both the static application bundle and user data are available
-                  via JavaScript API. A decentralized application can be run
-                  with a Chrome extension, or through a static mirror. So you
-                  can't censor an application by blocking a single URL.
+                  via JavaScript API, as well as through the WebTorrent
+                  protocol. So you can't censor applications or application
+                  content by blocking a single URL.
                 </p>
               </div>
             </div>
@@ -160,11 +160,10 @@ export default () => (
                 </div>
                 <h3>Authentication</h3>
                 <p>
-                  No authentication is required to read data from an
-                  application. When a user is writing data, they delegate
-                  control to allow the application to write to a single storage
-                  bucket. At any time, the user can revoke control and delegate
-                  to a different application.
+                  Anyone can read data from an application. When a user is
+                  writing data, they delegate control to allow the application
+                  to write to a single storage bucket. At any time, the user can
+                  let a different application use their data.
                 </p>
               </div>
             </div>
@@ -277,6 +276,26 @@ export default () => (
               less censorship-resistant. We think this is the right tradeoff to
               make, because blockchain efficiency is a requirement to make
               decentralized applications cheap enough to be usable.
+            </p>
+
+            <div className="line" />
+
+            <h4>
+              <strong>Q.</strong> Won't this get taken over by pornography and
+              Nazis?
+            </h4>
+            <p>
+              We don't think so. The Axiom system doesn't force application
+              developers to permit all content. Popular applications can still
+              ban users and decline to display any content they want. Since data
+              is owned by the end user rather than an application, users who are
+              banned from one application can then use their data in other
+              applications. We think that is a reasonable tradeoff to make.
+            </p>
+            <p>
+              The Axiom system also does not force hosting providers to store
+              any particular content. If a hosting provider gets a takedown
+              request, it is simple to stop hosting that content.
             </p>
           </div>
 
