@@ -188,6 +188,33 @@ export default () => (
 
           <div className="col_three_fifth nobottommargin">
             <h4>
+              <strong>Q.</strong> Who works on Axiom?
+            </h4>
+            <p>
+              Axiom is built by{" "}
+              <a href="https://twitter.com/lacker">Kevin Lacker</a> and a number
+              of open source contributors.
+            </p>
+
+            <p>
+              Kevin was previously a cofounder of{" "}
+              <a href="https://parseplatform.org/">Parse</a>, a mobile
+              infrastructure service which was acquired by Facebook. Parse aimed
+              to help mobile developers by providing a simple API that in many
+              cases could abstract away backend server logic. Similarly, Axiom
+              aims to provide developers a simple API to abstract away the
+              complexity of building a decentralized application.
+            </p>
+
+            <p>
+              If you'd like to help build the platform, or to build
+              decentralized applications, join our <a href={slackURL}>Slack</a>{" "}
+              and tell us what you're interested in.
+            </p>
+
+            <div className="line" />
+
+            <h4>
               <strong>Q.</strong> How do I build an Axiom app?
             </h4>
             <p>
@@ -236,6 +263,26 @@ export default () => (
             <div className="line" />
 
             <h4>
+              <strong>Q.</strong> Won't this get taken over by pornography and
+              Nazis?
+            </h4>
+            <p>
+              We don't think so. The Axiom system doesn't force application
+              developers to permit all content. Popular applications can still
+              ban users and decline to display any content they want. Since data
+              is owned by the end user rather than an application, users who are
+              banned from one application can then use their data in other
+              applications. We think that is a reasonable tradeoff to make.
+            </p>
+            <p>
+              The Axiom system also does not force hosting providers to store
+              any particular content. If a hosting provider gets a takedown
+              request, it is simple to stop hosting that content.
+            </p>
+
+            <div className="line" />
+
+            <h4>
               <strong>Q.</strong> How much money can I make?
             </h4>
             <p>
@@ -276,26 +323,6 @@ export default () => (
               less censorship-resistant. We think this is the right tradeoff to
               make, because blockchain efficiency is a requirement to make
               decentralized applications cheap enough to be usable.
-            </p>
-
-            <div className="line" />
-
-            <h4>
-              <strong>Q.</strong> Won't this get taken over by pornography and
-              Nazis?
-            </h4>
-            <p>
-              We don't think so. The Axiom system doesn't force application
-              developers to permit all content. Popular applications can still
-              ban users and decline to display any content they want. Since data
-              is owned by the end user rather than an application, users who are
-              banned from one application can then use their data in other
-              applications. We think that is a reasonable tradeoff to make.
-            </p>
-            <p>
-              The Axiom system also does not force hosting providers to store
-              any particular content. If a hosting provider gets a takedown
-              request, it is simple to stop hosting that content.
             </p>
           </div>
 
