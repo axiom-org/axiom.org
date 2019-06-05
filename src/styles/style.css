@@ -543,6 +543,14 @@ body.stretched .container-fullwidth {
 	width: 100%;
 }
 
+body.device-sm .col_one_fourth {
+    width: 100%;
+}
+
+body.device-xs .col_one_fourth {
+    width: 100%;
+}
+
 .col_left_snap { width: 30.62%; }
 .col_right_snap { width: 65.32%; }
 

@@ -408,7 +408,10 @@ export default () => (
           </div>
         </div>
 
-        <div id="section-buy" className="section page-section footer-stick">
+        <div
+          id="section-enough-reading"
+          className="section page-section footer-stick"
+        >
           <div className="container clearfix">
             <div className="heading-block title-center nobottomborder">
               <h2>Enough reading. Let's write some code</h2>
