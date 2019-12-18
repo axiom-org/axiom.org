@@ -27,7 +27,7 @@ export default () => (
             id="section-home"
             className="heading-block title-center nobottomborder page-section"
           >
-            <h1>A Blockchain Designed for Decentralized Applications</h1>
+            <h1>Build Unstoppable Applications</h1>
             <span>
               Build, distribute, and run JavaScript-based applications,
               uncensored by any central authority.
@@ -60,8 +60,8 @@ export default () => (
 
             <p>
               Build your application in any standard frontend JavaScript
-              framework. Store user data via the blockchain, no backend server
-              needed.
+              framework. Store user data in a peer-to-peer network, no backend
+              server needed.
             </p>
 
             <ul className="iconlist iconlist-large iconlist-color">
@@ -76,12 +76,6 @@ export default () => (
               <li>
                 <i className="icon-ok-sign" /> Access a single app in multiple
                 ways, to avoid censorship
-              </li>
-              <li>
-                <i className="icon-ok-sign" /> Get paid for hosting applications
-              </li>
-              <li>
-                <i className="icon-ok-sign" /> Get paid for making a popular app
               </li>
             </ul>
           </div>
