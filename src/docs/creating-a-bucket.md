@@ -35,10 +35,11 @@ You should see output that looks like:
 
 ```
 created bucket: www:my-cool-example
-allocated bucket to 1 provider
-allocated bucket to 2 providers
-allocated bucket to 3 providers
-allocated bucket to 4 providers
+Bucket: www:my-cool-example
+  owner: 0x32bbd7e6ffc293bd586953bc2d66aa4f30269e4ab7a084d29f94d2a1fdab9858fe19
+  size: 1
+  magnet: magnet:?xt=urn:btih:4185e95e9f147f2f245da786f79a6e7ca3e5455b&dn=.&tr=ws%3A%2F
+  4 providers
 ```
 
 The `www` is the application tag for this bucket. It defaults to `www`
