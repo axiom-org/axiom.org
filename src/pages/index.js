@@ -104,16 +104,15 @@ export default () => (
                 <div className="fbox-icon" data-animate="bounceIn">
                   <img
                     src="/images/icons/features/tools.png"
-                    alt="Scalable Storage"
+                    alt="P2P Storage"
                   />
                 </div>
-                <h3>Scalable Storage</h3>
+                <h3>P2P Storage</h3>
                 <p>
-                  The core Axiom blockchain is replicated many times, but stores
-                  only the most critical data. Storage buckets are replicated
-                  fewer times and store general application data. This design
-                  makes it far more cost-effective to run a decentralized
-                  application.
+                  Every browser running an Axiom application becomes a node in a
+                  peer-to-peer network, using the WebRTC protocol to communicate
+                  between browsers without sending application data to any
+                  backend server.
                 </p>
               </div>
             </div>
